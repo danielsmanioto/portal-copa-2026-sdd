@@ -1,0 +1,1 @@
+# portal-copa-2026-sdd
