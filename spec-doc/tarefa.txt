@@ -1,0 +1,70 @@
+Título: Página Estática da Copa do Mundo — Listagem de Seleções e Páginas de Seleção
+
+Resumo (User Story):
+- Como usuário interessado na Copa do Mundo,
+- Quero acessar um site estático que liste todas as seleções participantes e, ao clicar em uma seleção, navegar para a página estática dessa seleção,
+- Para ver a lista de jogadores convocados com foto, idade e clube atual, além da foto da seleção.
+
+Observação importante: NÃO haverá API própria. O site será estático (HTML/CSS/JS) e os dados serão obtidos de fontes públicas na internet e incorporados como JSON estático no build (ou carregados diretamente no cliente quando apropriado).
+
+Critérios de Aceite (estático):
+1. Existe uma página principal "Seleções" (página estática) que mostra todas as seleções participantes em grade ou lista, cada uma exibindo nome e foto da seleção.
+2. Ao clicar em uma seleção da lista, o usuário é levado para uma página estática da seleção (`/selecao/{slug}.html`).
+3. A página da seleção mostra
+	 - Nome da seleção e foto (bandeira ou escudo),
+	 - Lista completa de jogadores convocados,
+	 - Para cada jogador: nome completo, idade (calculada a partir da data de nascimento), clube atual, posição e foto.
+4. As imagens (foto da seleção e foto dos jogadores) devem ser exibidas com placeholders se a imagem não estiver disponível.
+5. O layout deve ser responsivo e apresentar correta organização em dispositivos móveis e desktop.
+6. Os dados devem vir de fontes públicas (ex.: endpoints públicos de federações, CSV/JSON hospedados, ou repositórios públicos) e ser incorporados ao site como arquivos JSON estáticos durante o build; como fallback, o cliente pode tentar buscar diretamente a URL pública se o JSON local não existir.
+
+Regras de Negócio / Observações:
+- Idade do jogador é exibida em anos inteiros (ex.: 27 anos).
+- Ordem padrão da lista de jogadores: por posição (Goleiro, Defesa, Meio, Ataque) e depois por sobrenome.
+- Fotos devem aceitar URLs externas; o build pode copiar/Cachear imagens externas opcionalmente para o diretório `assets/`.
+
+Tarefas Técnicas (Sub-tasks) — abordagem estática:
+1. Identificar fontes públicas de dados (URLs JSON/CSV) e mapear campo por campo (nome, data de nascimento, clube, posição, foto, seleção).
+2. Escrever um script de build (Node.js, Python ou shell) que baixa os dados das fontes públicas e gera JSON estático em `data/` (ex.: `data/teams.json` e `data/teams/{slug}.json`).
+3. Criar páginas estáticas:
+	 - `index.html` (TeamsList) — consome `data/teams.json` e apresenta as seleções;
+	 - `selecao/{slug}.html` (TeamPage) — consome `data/teams/{slug}.json` com os jogadores.
+4. Implementar componentes/client-side JS leves (`TeamCard`, `PlayerCard`) para renderização e cálculos (ex.: idade a partir de `birthdate`).
+5. Implementar placeholders de imagem e tratamento de erros de carregamento (onerror -> placeholder).
+6. Incluir instruções de build no README para executar o script de fetch e gerar os arquivos estáticos.
+7. Opcional: gerar páginas HTML no momento do build (template engine) para melhor performance e SEO; caso contrário, carregar `data/*.json` via JS no cliente.
+
+Definição de Pronto (DoD):
+- Site estático gerado com `index.html` e páginas de `selecao/{slug}.html` para pelo menos 1 seleção de exemplo.
+- Critérios de aceite 1 a 6 satisfeitos usando JSON estático gerado a partir de fontes públicas.
+- Placeholders de imagem e responsividade implementados.
+- Documentação com instruções de build e fontes de dados.
+
+Exemplo de Estrutura mínima em `data/` (após build):
+data/teams.json
+data/teams/brasil.json
+
+Exemplo de JSON (MVP) — `data/teams/brasil.json`:
+{
+	"id": "bra",
+	"name": "Brasil",
+	"slug": "brasil",
+	"photo": "https://example.com/images/selecoes/brasil.png",
+	"players": [
+		{
+			"id": "player1",
+			"name": "Alisson Becker",
+			"birthdate": "1992-10-02",
+			"club": "Liverpool",
+			"position": "Goleiro",
+			"photo": "https://example.com/images/players/alisson.jpg"
+		}
+	]
+}
+
+Notas/Próximos passos sugeridos:
+- Criar um script simples de build (`scripts/fetch-data.js` ou `scripts/fetch-data.py`) que baixa e normaliza os dados nas fontes públicas.
+- Gerar um exemplo mínimo de `index.html` e `selecao/brasil.html` usando os JSON gerados.
+- Planejar como lidar com atualizações de dados (rebuild manual, CI job, cron no servidor de hospedagem estática).
+
+
