@@ -1,10 +1,10 @@
 # Título
-Página Estática da Copa do Mundo — Listagem de Seleções e Páginas de Seleção
+Site com Página Estática da Copa do Mundo — Listagem de Seleções e Páginas de Seleção
 
 ## Resumo (User Story)
 Como usuário interessado na Copa do Mundo, quero acessar um site estático que liste todas as seleções participantes e, ao clicar em uma seleção, navegar para a página estática dessa seleção para ver a lista de jogadores convocados com foto, idade e clube atual.
 
-> Observação: NÃO haverá API própria. Os dados serão obtidos de fontes públicas e incorporados ao build como JSON estático (ou carregados pelo cliente como fallback).
+> Observação: NÃO haverá API própria. Os dados serão obtidos de fontes públicas e adicionadas direfo a este repisitorio de forma estatica. 
 
 ## Critérios de Aceite
 - Existe uma página principal `index.html` que lista todas as seleções com nome e foto.
