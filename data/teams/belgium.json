@@ -1,8 +1,8 @@
 {
-  "id": "esp",
-  "name": "Spain",
-  "slug": "espanha",
-  "photo": "https://example.com/images/selecoes/espanha.png",
+  "id": "bel",
+  "name": "Belgium",
+  "slug": "belgium",
+  "photo": "https://example.com/images/selecoes/belgium.png",
   "players": [
     {
       "id": "player_a_definir",
@@ -15,5 +15,5 @@
     }
   ],
   "confederation": "UEFA",
-  "coachName": "Luis de la Fuente"
+  "coachName": "Domenico Tedesco"
 }

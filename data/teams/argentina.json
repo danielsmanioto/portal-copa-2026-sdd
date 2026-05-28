@@ -5,43 +5,13 @@
   "photo": "https://example.com/images/selecoes/argentina.png",
   "players": [
     {
-      "id": "emiliano_martinez",
-      "name": "Damián Emiliano Martínez",
-      "birthdate": "1992-09-02",
-      "position": "Goleiro",
-      "number": 23,
-      "photo": "https://example.com/images/jogadores/emiliano-martinez.jpg",
-      "club": "Aston Villa FC",
-      "height": 195,
-      "weight": 88,
-      "caps": 52,
-      "goals": 0
-    },
-    {
-      "id": "lionel_messi",
-      "name": "Lionel Andrés Messi",
-      "birthdate": "1987-06-24",
-      "position": "Ataque",
-      "number": 10,
-      "photo": "https://example.com/images/jogadores/lionel-messi.jpg",
-      "club": "Inter Miami CF",
-      "height": 170,
-      "weight": 72,
-      "caps": 180,
-      "goals": 106
-    },
-    {
-      "id": "julian_alvarez",
-      "name": "Julián Álvarez",
-      "birthdate": "2000-01-31",
-      "position": "Ataque",
-      "number": 9,
-      "photo": "https://example.com/images/jogadores/julian-alvarez.jpg",
-      "club": "Atlético de Madrid",
-      "height": 170,
-      "weight": 71,
-      "caps": 39,
-      "goals": 9
+      "id": "player_a_definir",
+      "name": "A definir",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 1,
+      "photo": "https://example.com/images/placeholder-player.png",
+      "club": "A confirmar"
     }
   ],
   "confederation": "CONMEBOL",

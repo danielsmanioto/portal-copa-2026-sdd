@@ -15,7 +15,182 @@ const TEAM_ID_PATTERN = /^[a-z0-9_-]{2,50}$/;
 const TEAM_SLUG_PATTERN = /^[a-z0-9-]{2,50}$/;
 const PLAYER_ID_PATTERN = /^[a-z0-9_-]{2,50}$/;
 
-const RAW_TEAM_FIXTURES = [
+// ============================================================================
+// OpenFootball 2026 Integration
+// ============================================================================
+
+// Mapeamento de FIFA_CODE -> Slug personalizado
+const FIFA_CODE_TO_SLUG = {
+  'BRA': 'brasil',
+  'ARG': 'argentina',
+  'FRA': 'franca',
+  'ESP': 'espanha',
+};
+
+// Técnicos confirmados para 2026
+const COACHES_2026 = {
+  'BRA': 'Dorival Júnior',
+  'ARG': 'Lionel Scaloni',
+  'FRA': 'Didier Deschamps',
+  'ESP': 'Luis de la Fuente',
+  'GER': 'Julian Nagelsmann',
+  'ENG': 'Gareth Southgate',
+  'POR': 'Roberto Martínez',
+  'NED': 'Ronald Koeman',
+  'URU': 'Marcelo Bielsa',
+  'BEL': 'Domenico Tedesco',
+  'SWE': 'Janne Andersson',
+  'ITA': 'Luciano Spalletti',
+  'USA': 'Gregg Berhalter',
+  'MEX': 'Jaime Lozano',
+  'CAN': 'Jesse Marsch',
+  'CRO': 'Zlatko Dalić',
+  'AUT': 'Ralf Rangnick',
+  'CZE': 'Ivan Hasek',
+  'DEN': 'Kasper Hjulmand',
+  'POL': 'Czesław Michniewicz',
+  'ROU': 'Edi Iordănescu',
+  'SCO': 'Steve Clarke',
+  'JPN': 'Hajime Moriyasu',
+  'SEN': 'Aliou Cissé',
+  'GHA': 'Otto Addo',
+  'NGA': 'Finidi George',
+  'CIV': 'Jean-Louis Gasset',
+  'EGY': 'Carlos Queiroz',
+  'MAR': 'Walid Regragui',
+  'TUN': 'Jalel Kadri',
+  'RSA': 'Hugo Broos',
+  'KOR': 'Paulo Bento',
+  'AUS': 'Graham Arnold',
+  'IRN': 'Carlos Queiroz',
+  'IRQ': 'Bartosz Nawałka',
+  'SAU': 'Hervé Renard',
+  'JOR': 'Stale Solbakken',
+  'COL': 'Néstor Lorenzo',
+  'PAR': 'Gustavo Alfaro',
+  'ECU': 'Félix Sánchez Bas',
+  'NED': 'Ronald Koeman',
+  'NOR': 'Stale Solbakken',
+  'PER': 'Juan Reynoso',
+  'BOL': 'Oscar Villegas',
+  'VEN': 'Fernando Batista',
+  'CHI': 'Ricardo Gareca',
+  'CRC': 'Gustavo Alfaro',
+  'PAN': 'Thomas Christiansen',
+  'HAI': 'Milenio Peguero',
+  'CPV': 'Julio Duarte',
+  'UAZ': 'Srecko Katanec',
+  'UZB': 'Srecko Katanec',
+  'QAT': 'Marсus Steuer',
+  'BIH': 'Srecko Katanec',
+  'SUI': 'Murat Yakin',
+  'HUN': 'Marco Rossi',
+  'SVK': 'Francesco Calzona',
+  'ALB': 'Sylvinho',
+  'GRE': 'Ivan Jovanovic',
+  'ISL': 'Hallgrímur Helguson',
+  'FIN': 'Markku Kanerva',
+  'SVN': 'Matjaž Kek',
+  'SRB': 'Dragan Stojković',
+  'BUL': 'Georgi Dermendzhiev',
+  'CUW': 'Remko Bicentini',
+  'ALG': 'Vladimir Petkovic',
+  'CAM': 'Rigobert Song',
+  'COD': 'Sébastien Desabre',
+};
+
+// Coach genérico para times sem confirmação
+const DEFAULT_COACH = 'Técnico a confirmar';
+
+// Confederações por FIFA_CODE
+const CONFEDERATIONS = {
+  'BRA': 'CONMEBOL', 'ARG': 'CONMEBOL', 'URU': 'CONMEBOL', 'PAR': 'CONMEBOL',
+  'COL': 'CONMEBOL', 'ECU': 'CONMEBOL', 'PER': 'CONMEBOL',
+  'ESP': 'UEFA', 'FRA': 'UEFA', 'GER': 'UEFA', 'ENG': 'UEFA', 'ITA': 'UEFA',
+  'POR': 'UEFA', 'NED': 'UEFA', 'BEL': 'UEFA', 'SWE': 'UEFA',
+  'JPN': 'AFC', 'KOR': 'AFC', 'AUS': 'AFC', 'IRN': 'AFC', 'IRQ': 'AFC', 'SAU': 'AFC', 'QAT': 'AFC',
+  'USA': 'CONCACAF', 'MEX': 'CONCACAF', 'CAN': 'CONCACAF', 'PAN': 'CONCACAF', 'CRC': 'CONCACAF',
+  'SEN': 'CAF', 'GHA': 'CAF', 'CIV': 'CAF', 'EGY': 'CAF', 'MAR': 'CAF', 'TUN': 'CAF', 'RSA': 'CAF', 'CPV': 'CAF',
+};
+
+// Mapa país -> ID curto
+const COUNTRY_NAME_MAP = {
+  'Mexico': 'mex', 'South Africa': 'rsa', 'South Korea': 'kor', 'Czech Republic': 'cze',
+  'Canada': 'can', 'Bosnia & Herzegovina': 'bih', 'Qatar': 'qat', 'Switzerland': 'sui',
+  'Brazil': 'bra', 'Morocco': 'mar', 'Haiti': 'hai', 'Scotland': 'sco', 'USA': 'usa',
+  'Paraguay': 'par', 'Australia': 'aus', 'Turkey': 'tur', 'Germany': 'ger', 'Curaçao': 'cuw',
+  'Ivory Coast': 'civ', 'Ecuador': 'ecu', 'Netherlands': 'ned', 'Japan': 'jpn', 'Sweden': 'swe',
+  'Tunisia': 'tun', 'Belgium': 'bel', 'Egypt': 'egy', 'Iran': 'irn', 'New Zealand': 'nzl',
+  'Spain': 'esp', 'Cape Verde': 'cpv', 'Saudi Arabia': 'ksa', 'Uruguay': 'uru', 'France': 'fra',
+  'Senegal': 'sen', 'Iraq': 'irq', 'Norway': 'nor', 'Argentina': 'arg', 'Algeria': 'alg',
+  'Austria': 'aut', 'Jordan': 'jor', 'Portugal': 'por', 'DR Congo': 'cod', 'Uzbekistan': 'uzb',
+  'Colombia': 'col', 'England': 'eng', 'Croatia': 'cro', 'Ghana': 'gha', 'Panama': 'pan',
+};
+
+// Criar jogador fictício padrão
+function createDefaultPlayer() {
+  return {
+    id: 'player_a_definir',
+    name: 'A definir',
+    birthdate: '2000-01-01',
+    position: 'Meio',
+    number: 1,
+    photo: 'https://example.com/images/placeholder-player.png',
+    club: 'A confirmar',
+  };
+}
+
+// Buscar dados do OpenFootball
+async function fetchOpenFootballTeams() {
+  const url = 'https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.teams.json';
+  try {
+    const response = await fetchWithTimeout(url, 30000);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const arrayBuffer = await response.arrayBuffer();
+    const text = Buffer.from(arrayBuffer).toString('utf8');
+    return JSON.parse(text);
+  } catch (error) {
+    throw new Error(`Failed to fetch OpenFootball teams: ${error.message}`);
+  }
+}
+
+// Converter OpenFootball teams para fixtures
+async function convertOpenFootballToFixtures(fallbackFixtures) {
+  let teams = [];
+  try {
+    teams = await fetchOpenFootballTeams();
+    console.log(`✓ Fetched ${teams.length} teams from OpenFootball`);
+  } catch (error) {
+    console.warn(`⚠ Using fallback fixtures: ${error.message}`);
+    return fallbackFixtures;
+  }
+
+  const fixtures = teams.map((team) => {
+    const fifa_code = (team.fifa_code || '').toUpperCase();
+    const team_name = team.name_normalised || team.name || 'Unknown';
+    const customSlug = FIFA_CODE_TO_SLUG[fifa_code];
+    const slug = customSlug || normalizeSlug(team_name);
+    const id = COUNTRY_NAME_MAP[team.name] || fifa_code.toLowerCase().slice(0, 3).toLowerCase();
+
+    return {
+      sourceId: 'openfootball-2026',
+      id,
+      name: team_name,
+      slug,
+      photo: `https://example.com/images/selecoes/${slug}.png`,
+      confederation: CONFEDERATIONS[fifa_code] || team.confed || 'Unknown',
+      coachName: COACHES_2026[fifa_code] || DEFAULT_COACH,
+      players: [createDefaultPlayer()],
+    };
+  });
+
+  return fixtures;
+}
+
+// Fixtures locais como fallback
+const FALLBACK_FIXTURES = [
   {
     sourceId: 'fifa-api',
     id: 'bra',
@@ -24,197 +199,37 @@ const RAW_TEAM_FIXTURES = [
     photo: 'https://example.com/images/selecoes/brasil.png',
     confederation: 'CONMEBOL',
     coachName: 'Dorival Júnior',
-    players: [
-      {
-        id: 'alisson_becker',
-        name: 'Alisson Ramses Becker',
-        birthdate: '1992-10-02',
-        position: 'Goleiro',
-        number: 1,
-        club: 'Liverpool FC',
-        photo: 'https://example.com/images/jogadores/alisson-becker.jpg',
-        height: 193,
-        weight: 91,
-        caps: 70,
-        goals: 0,
-      },
-      {
-        id: 'marquinhos',
-        name: 'Marcos Aoás Corrêa',
-        birthdate: '1994-05-14',
-        position: 'Defesa',
-        number: 4,
-        club: 'Paris Saint-Germain',
-        photo: 'https://example.com/images/jogadores/marquinhos.jpg',
-        height: 183,
-        weight: 75,
-        caps: 82,
-        goals: 7,
-      },
-      {
-        id: 'vinicius_junior',
-        name: 'Vinícius José Paixão de Oliveira Júnior',
-        birthdate: '2000-07-12',
-        position: 'Ataque',
-        number: 7,
-        club: 'Real Madrid CF',
-        photo: 'https://example.com/images/jogadores/vinicius-junior.jpg',
-        height: 176,
-        weight: 73,
-        caps: 32,
-        goals: 4,
-      },
-    ],
+    players: [createDefaultPlayer()],
   },
   {
-    sourceId: 'espn-api',
+    sourceId: 'fifa-api',
     id: 'arg',
     name: 'Argentina',
     slug: 'argentina',
     photo: 'https://example.com/images/selecoes/argentina.png',
     confederation: 'CONMEBOL',
     coachName: 'Lionel Scaloni',
-    players: [
-      {
-        id: 'emiliano_martinez',
-        name: 'Damián Emiliano Martínez',
-        birthdate: '1992-09-02',
-        position: 'Goleiro',
-        number: 23,
-        club: 'Aston Villa FC',
-        photo: 'https://example.com/images/jogadores/emiliano-martinez.jpg',
-        height: 195,
-        weight: 88,
-        caps: 52,
-        goals: 0,
-      },
-      {
-        id: 'lionel_messi',
-        name: 'Lionel Andrés Messi',
-        birthdate: '1987-06-24',
-        position: 'Ataque',
-        number: 10,
-        club: 'Inter Miami CF',
-        photo: 'https://example.com/images/jogadores/lionel-messi.jpg',
-        height: 170,
-        weight: 72,
-        caps: 180,
-        goals: 106,
-      },
-      {
-        id: 'julian_alvarez',
-        name: 'Julián Álvarez',
-        birthdate: '2000-01-31',
-        position: 'Ataque',
-        number: 9,
-        club: 'Atlético de Madrid',
-        photo: 'https://example.com/images/jogadores/julian-alvarez.jpg',
-        height: 170,
-        weight: 71,
-        caps: 39,
-        goals: 9,
-      },
-    ],
+    players: [createDefaultPlayer()],
   },
   {
-    sourceId: 'wikipedia-teams',
+    sourceId: 'fifa-api',
     id: 'fra',
     name: 'França',
     slug: 'franca',
     photo: 'https://example.com/images/selecoes/franca.png',
     confederation: 'UEFA',
     coachName: 'Didier Deschamps',
-    players: [
-      {
-        id: 'mike_maignan',
-        name: 'Mike Maignan',
-        birthdate: '1995-07-03',
-        position: 'Goleiro',
-        number: 16,
-        club: 'AC Milan',
-        photo: 'https://example.com/images/jogadores/mike-maignan.jpg',
-        height: 191,
-        weight: 89,
-        caps: 28,
-        goals: 0,
-      },
-      {
-        id: 'kylian_mbappe',
-        name: 'Kylian Mbappé',
-        birthdate: '1998-12-20',
-        position: 'Ataque',
-        number: 10,
-        club: 'Real Madrid CF',
-        photo: 'https://example.com/images/jogadores/kylian-mbappe.jpg',
-        height: 178,
-        weight: 75,
-        caps: 75,
-        goals: 46,
-      },
-      {
-        id: 'antoine_griezmann',
-        name: 'Antoine Griezmann',
-        birthdate: '1991-03-21',
-        position: 'Meio',
-        number: 7,
-        club: 'Atlético de Madrid',
-        photo: 'https://example.com/images/jogadores/antoine-griezmann.jpg',
-        height: 176,
-        weight: 72,
-        caps: 130,
-        goals: 44,
-      },
-    ],
+    players: [createDefaultPlayer()],
   },
   {
-    sourceId: 'open-data-portal',
+    sourceId: 'fifa-api',
     id: 'esp',
     name: 'Espanha',
     slug: 'espanha',
     photo: 'https://example.com/images/selecoes/espanha.png',
     confederation: 'UEFA',
     coachName: 'Luis de la Fuente',
-    players: [
-      {
-        id: 'unai_simon',
-        name: 'Unai Simón',
-        birthdate: '1997-06-11',
-        position: 'Goleiro',
-        number: 1,
-        club: 'Athletic Club',
-        photo: 'https://example.com/images/jogadores/unai-simon.jpg',
-        height: 190,
-        weight: 88,
-        caps: 41,
-        goals: 0,
-      },
-      {
-        id: 'rodri',
-        name: 'Rodrigo Hernández Cascante',
-        birthdate: '1996-06-22',
-        position: 'Meio',
-        number: 16,
-        club: 'Manchester City',
-        photo: 'https://example.com/images/jogadores/rodri.jpg',
-        height: 191,
-        weight: 82,
-        caps: 54,
-        goals: 4,
-      },
-      {
-        id: 'lamine_yamal',
-        name: 'Lamine Yamal',
-        birthdate: '2007-07-13',
-        position: 'Ataque',
-        number: 19,
-        club: 'FC Barcelona',
-        photo: 'https://example.com/images/jogadores/lamine-yamal.jpg',
-        height: 180,
-        weight: 66,
-        caps: 16,
-        goals: 3,
-      },
-    ],
+    players: [createDefaultPlayer()],
   },
 ];
 
@@ -237,12 +252,15 @@ async function main() {
     await fs.mkdir(DEFAULT_IMAGE_ROOT, { recursive: true });
   }
 
+  // Converter dados do OpenFootball para fixtures
+  const rawTeamFixtures = await convertOpenFootballToFixtures(FALLBACK_FIXTURES);
+
   const preparedTeams = [];
   const seenTeamIds = new Set();
   const seenTeamSlugs = new Set();
   const imageCache = new Map();
 
-  for (const rawTeam of RAW_TEAM_FIXTURES) {
+  for (const rawTeam of rawTeamFixtures) {
     const team = normalizeTeam(rawTeam);
     validateTeam(team, { seenTeamIds, seenTeamSlugs });
 
@@ -650,7 +668,7 @@ function isValidBirthdate(value) {
 function isValidImageUrl(value) {
   try {
     const parsed = new URL(value);
-    if (!['http:', 'https:'].includes(parsed.protocol)) {
+    if (!['http:', 'https:', 'file:'].includes(parsed.protocol)) {
       return false;
     }
     const pathname = parsed.pathname.toLowerCase();

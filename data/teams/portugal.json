@@ -1,8 +1,8 @@
 {
-  "id": "esp",
-  "name": "Spain",
-  "slug": "espanha",
-  "photo": "https://example.com/images/selecoes/espanha.png",
+  "id": "por",
+  "name": "Portugal",
+  "slug": "portugal",
+  "photo": "https://example.com/images/selecoes/portugal.png",
   "players": [
     {
       "id": "player_a_definir",
@@ -15,5 +15,5 @@
     }
   ],
   "confederation": "UEFA",
-  "coachName": "Luis de la Fuente"
+  "coachName": "Roberto Martínez"
 }

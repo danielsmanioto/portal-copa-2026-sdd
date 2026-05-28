@@ -1,12 +1,292 @@
 {
   "teams": [
     {
+      "id": "mex",
+      "name": "Mexico",
+      "slug": "mexico",
+      "photo": "https://example.com/images/selecoes/mexico.png",
+      "confederation": "CONCACAF",
+      "coachName": "Jaime Lozano"
+    },
+    {
+      "id": "rsa",
+      "name": "South Africa",
+      "slug": "south-africa",
+      "photo": "https://example.com/images/selecoes/south-africa.png",
+      "confederation": "CAF",
+      "coachName": "Hugo Broos"
+    },
+    {
+      "id": "kor",
+      "name": "Korea Republic",
+      "slug": "korea-republic",
+      "photo": "https://example.com/images/selecoes/korea-republic.png",
+      "confederation": "AFC",
+      "coachName": "Paulo Bento"
+    },
+    {
+      "id": "cze",
+      "name": "Czechia",
+      "slug": "czechia",
+      "photo": "https://example.com/images/selecoes/czechia.png",
+      "confederation": "UEFA",
+      "coachName": "Ivan Hasek"
+    },
+    {
+      "id": "can",
+      "name": "Canada",
+      "slug": "canada",
+      "photo": "https://example.com/images/selecoes/canada.png",
+      "confederation": "CONCACAF",
+      "coachName": "Jesse Marsch"
+    },
+    {
+      "id": "bih",
+      "name": "Bosnia & Herzegovina",
+      "slug": "bosnia-herzegovina",
+      "photo": "https://example.com/images/selecoes/bosnia-herzegovina.png",
+      "confederation": "UEFA",
+      "coachName": "Srecko Katanec"
+    },
+    {
+      "id": "qat",
+      "name": "Qatar",
+      "slug": "qatar",
+      "photo": "https://example.com/images/selecoes/qatar.png",
+      "confederation": "AFC",
+      "coachName": "Marсus Steuer"
+    },
+    {
+      "id": "sui",
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "photo": "https://example.com/images/selecoes/switzerland.png",
+      "confederation": "UEFA",
+      "coachName": "Murat Yakin"
+    },
+    {
       "id": "bra",
-      "name": "Brasil",
+      "name": "Brazil",
       "slug": "brasil",
       "photo": "https://example.com/images/selecoes/brasil.png",
       "confederation": "CONMEBOL",
       "coachName": "Dorival Júnior"
+    },
+    {
+      "id": "mar",
+      "name": "Morocco",
+      "slug": "morocco",
+      "photo": "https://example.com/images/selecoes/morocco.png",
+      "confederation": "CAF",
+      "coachName": "Walid Regragui"
+    },
+    {
+      "id": "hai",
+      "name": "Haiti",
+      "slug": "haiti",
+      "photo": "https://example.com/images/selecoes/haiti.png",
+      "confederation": "CONCACAF",
+      "coachName": "Milenio Peguero"
+    },
+    {
+      "id": "sco",
+      "name": "Scotland",
+      "slug": "scotland",
+      "photo": "https://example.com/images/selecoes/scotland.png",
+      "confederation": "UEFA",
+      "coachName": "Steve Clarke"
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "slug": "united-states",
+      "photo": "https://example.com/images/selecoes/united-states.png",
+      "confederation": "CONCACAF",
+      "coachName": "Gregg Berhalter"
+    },
+    {
+      "id": "par",
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "photo": "https://example.com/images/selecoes/paraguay.png",
+      "confederation": "CONMEBOL",
+      "coachName": "Gustavo Alfaro"
+    },
+    {
+      "id": "aus",
+      "name": "Australia",
+      "slug": "australia",
+      "photo": "https://example.com/images/selecoes/australia.png",
+      "confederation": "AFC",
+      "coachName": "Graham Arnold"
+    },
+    {
+      "id": "tur",
+      "name": "Türkiye",
+      "slug": "turkiye",
+      "photo": "https://example.com/images/selecoes/turkiye.png",
+      "confederation": "UEFA",
+      "coachName": "Técnico a confirmar"
+    },
+    {
+      "id": "ger",
+      "name": "Germany",
+      "slug": "germany",
+      "photo": "https://example.com/images/selecoes/germany.png",
+      "confederation": "UEFA",
+      "coachName": "Julian Nagelsmann"
+    },
+    {
+      "id": "cuw",
+      "name": "Curaçao",
+      "slug": "curacao",
+      "photo": "https://example.com/images/selecoes/curacao.png",
+      "confederation": "CONCACAF",
+      "coachName": "Remko Bicentini"
+    },
+    {
+      "id": "civ",
+      "name": "Cote d'Ivoire",
+      "slug": "cote-d-ivoire",
+      "photo": "https://example.com/images/selecoes/cote-d-ivoire.png",
+      "confederation": "CAF",
+      "coachName": "Jean-Louis Gasset"
+    },
+    {
+      "id": "ecu",
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "photo": "https://example.com/images/selecoes/ecuador.png",
+      "confederation": "CONMEBOL",
+      "coachName": "Félix Sánchez Bas"
+    },
+    {
+      "id": "ned",
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "photo": "https://example.com/images/selecoes/netherlands.png",
+      "confederation": "UEFA",
+      "coachName": "Ronald Koeman"
+    },
+    {
+      "id": "jpn",
+      "name": "Japan",
+      "slug": "japan",
+      "photo": "https://example.com/images/selecoes/japan.png",
+      "confederation": "AFC",
+      "coachName": "Hajime Moriyasu"
+    },
+    {
+      "id": "swe",
+      "name": "Sweden",
+      "slug": "sweden",
+      "photo": "https://example.com/images/selecoes/sweden.png",
+      "confederation": "UEFA",
+      "coachName": "Janne Andersson"
+    },
+    {
+      "id": "tun",
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "photo": "https://example.com/images/selecoes/tunisia.png",
+      "confederation": "CAF",
+      "coachName": "Jalel Kadri"
+    },
+    {
+      "id": "bel",
+      "name": "Belgium",
+      "slug": "belgium",
+      "photo": "https://example.com/images/selecoes/belgium.png",
+      "confederation": "UEFA",
+      "coachName": "Domenico Tedesco"
+    },
+    {
+      "id": "egy",
+      "name": "Egypt",
+      "slug": "egypt",
+      "photo": "https://example.com/images/selecoes/egypt.png",
+      "confederation": "CAF",
+      "coachName": "Carlos Queiroz"
+    },
+    {
+      "id": "irn",
+      "name": "IR Iran",
+      "slug": "ir-iran",
+      "photo": "https://example.com/images/selecoes/ir-iran.png",
+      "confederation": "AFC",
+      "coachName": "Carlos Queiroz"
+    },
+    {
+      "id": "nzl",
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "photo": "https://example.com/images/selecoes/new-zealand.png",
+      "confederation": "OFC",
+      "coachName": "Técnico a confirmar"
+    },
+    {
+      "id": "esp",
+      "name": "Spain",
+      "slug": "espanha",
+      "photo": "https://example.com/images/selecoes/espanha.png",
+      "confederation": "UEFA",
+      "coachName": "Luis de la Fuente"
+    },
+    {
+      "id": "cpv",
+      "name": "Cabo Verde",
+      "slug": "cabo-verde",
+      "photo": "https://example.com/images/selecoes/cabo-verde.png",
+      "confederation": "CAF",
+      "coachName": "Julio Duarte"
+    },
+    {
+      "id": "ksa",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "photo": "https://example.com/images/selecoes/saudi-arabia.png",
+      "confederation": "AFC",
+      "coachName": "Técnico a confirmar"
+    },
+    {
+      "id": "uru",
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "photo": "https://example.com/images/selecoes/uruguay.png",
+      "confederation": "CONMEBOL",
+      "coachName": "Marcelo Bielsa"
+    },
+    {
+      "id": "fra",
+      "name": "France",
+      "slug": "franca",
+      "photo": "https://example.com/images/selecoes/franca.png",
+      "confederation": "UEFA",
+      "coachName": "Didier Deschamps"
+    },
+    {
+      "id": "sen",
+      "name": "Senegal",
+      "slug": "senegal",
+      "photo": "https://example.com/images/selecoes/senegal.png",
+      "confederation": "CAF",
+      "coachName": "Aliou Cissé"
+    },
+    {
+      "id": "irq",
+      "name": "Iraq",
+      "slug": "iraq",
+      "photo": "https://example.com/images/selecoes/iraq.png",
+      "confederation": "AFC",
+      "coachName": "Bartosz Nawałka"
+    },
+    {
+      "id": "nor",
+      "name": "Norway",
+      "slug": "norway",
+      "photo": "https://example.com/images/selecoes/norway.png",
+      "confederation": "UEFA",
+      "coachName": "Stale Solbakken"
     },
     {
       "id": "arg",
@@ -17,20 +297,92 @@
       "coachName": "Lionel Scaloni"
     },
     {
-      "id": "fra",
-      "name": "França",
-      "slug": "franca",
-      "photo": "https://example.com/images/selecoes/franca.png",
-      "confederation": "UEFA",
-      "coachName": "Didier Deschamps"
+      "id": "alg",
+      "name": "Algeria",
+      "slug": "algeria",
+      "photo": "https://example.com/images/selecoes/algeria.png",
+      "confederation": "CAF",
+      "coachName": "Vladimir Petkovic"
     },
     {
-      "id": "esp",
-      "name": "Espanha",
-      "slug": "espanha",
-      "photo": "https://example.com/images/selecoes/espanha.png",
+      "id": "aut",
+      "name": "Austria",
+      "slug": "austria",
+      "photo": "https://example.com/images/selecoes/austria.png",
       "confederation": "UEFA",
-      "coachName": "Luis de la Fuente"
+      "coachName": "Ralf Rangnick"
+    },
+    {
+      "id": "jor",
+      "name": "Jordan",
+      "slug": "jordan",
+      "photo": "https://example.com/images/selecoes/jordan.png",
+      "confederation": "AFC",
+      "coachName": "Stale Solbakken"
+    },
+    {
+      "id": "por",
+      "name": "Portugal",
+      "slug": "portugal",
+      "photo": "https://example.com/images/selecoes/portugal.png",
+      "confederation": "UEFA",
+      "coachName": "Roberto Martínez"
+    },
+    {
+      "id": "cod",
+      "name": "Congo DR",
+      "slug": "congo-dr",
+      "photo": "https://example.com/images/selecoes/congo-dr.png",
+      "confederation": "CAF",
+      "coachName": "Sébastien Desabre"
+    },
+    {
+      "id": "uzb",
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "photo": "https://example.com/images/selecoes/uzbekistan.png",
+      "confederation": "AFC",
+      "coachName": "Srecko Katanec"
+    },
+    {
+      "id": "col",
+      "name": "Colombia",
+      "slug": "colombia",
+      "photo": "https://example.com/images/selecoes/colombia.png",
+      "confederation": "CONMEBOL",
+      "coachName": "Néstor Lorenzo"
+    },
+    {
+      "id": "eng",
+      "name": "England",
+      "slug": "england",
+      "photo": "https://example.com/images/selecoes/england.png",
+      "confederation": "UEFA",
+      "coachName": "Gareth Southgate"
+    },
+    {
+      "id": "cro",
+      "name": "Croatia",
+      "slug": "croatia",
+      "photo": "https://example.com/images/selecoes/croatia.png",
+      "confederation": "UEFA",
+      "coachName": "Zlatko Dalić"
+    },
+    {
+      "id": "gha",
+      "name": "Ghana",
+      "slug": "ghana",
+      "photo": "https://example.com/images/selecoes/ghana.png",
+      "confederation": "CAF",
+      "coachName": "Otto Addo"
+    },
+    {
+      "id": "pan",
+      "name": "Panama",
+      "slug": "panama",
+      "photo": "https://example.com/images/selecoes/panama.png",
+      "confederation": "CONCACAF",
+      "coachName": "Thomas Christiansen"
     }
   ]
 }

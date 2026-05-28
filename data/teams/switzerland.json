@@ -1,8 +1,8 @@
 {
-  "id": "esp",
-  "name": "Spain",
-  "slug": "espanha",
-  "photo": "https://example.com/images/selecoes/espanha.png",
+  "id": "sui",
+  "name": "Switzerland",
+  "slug": "switzerland",
+  "photo": "https://example.com/images/selecoes/switzerland.png",
   "players": [
     {
       "id": "player_a_definir",
@@ -15,5 +15,5 @@
     }
   ],
   "confederation": "UEFA",
-  "coachName": "Luis de la Fuente"
+  "coachName": "Murat Yakin"
 }

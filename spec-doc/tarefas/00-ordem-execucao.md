@@ -31,3 +31,8 @@ Base: `spec-doc/spec.md`.
    - **Status:** CONCLUÍDO em 2026-05-28
    - **Artefatos:** `scripts/validate-json.js`, `.github/workflows/ci.yml`, `spec-doc/tarefas/07-checklist.md`
    - **Observações:** Adicionado validador Node.js para `data/teams.json` e `data/teams/*.json`, checklist manual de testes desktop/mobile e workflow de GitHub Actions para validação e publicação do site estático via GitHub Pages.
+
+8. ✅ [08] Capturar dados de OpenFootball 2026
+   - **Status:** CONCLUÍDO em 2026-05-28
+   - **Artefatos:** `scripts/fetch-data.js` (atualizado), `data/teams.json` (48 times), `data/teams/*.json`
+   - **Observações:** Script `fetch-data.js` integrado com OpenFootball público. Mapeamento fifa_code → slug + técnicos confirmados (BRA, ARG, FRA, ESP, GER, ENG, POR, etc.). Fallback automático para fixtures locais se rede falhar. Jogador fictício padrão ("A definir") para times sem elenco real. Validação passou: 48 times do OpenFootball, todas as confederações, grupos e técnicos confirmados onde disponível. Executável: `node scripts/fetch-data.js && node scripts/validate-json.js`.

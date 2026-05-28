@@ -1,47 +1,17 @@
 {
   "id": "fra",
-  "name": "França",
+  "name": "France",
   "slug": "franca",
   "photo": "https://example.com/images/selecoes/franca.png",
   "players": [
     {
-      "id": "mike_maignan",
-      "name": "Mike Maignan",
-      "birthdate": "1995-07-03",
-      "position": "Goleiro",
-      "number": 16,
-      "photo": "https://example.com/images/jogadores/mike-maignan.jpg",
-      "club": "AC Milan",
-      "height": 191,
-      "weight": 89,
-      "caps": 28,
-      "goals": 0
-    },
-    {
-      "id": "kylian_mbappe",
-      "name": "Kylian Mbappé",
-      "birthdate": "1998-12-20",
-      "position": "Ataque",
-      "number": 10,
-      "photo": "https://example.com/images/jogadores/kylian-mbappe.jpg",
-      "club": "Real Madrid CF",
-      "height": 178,
-      "weight": 75,
-      "caps": 75,
-      "goals": 46
-    },
-    {
-      "id": "antoine_griezmann",
-      "name": "Antoine Griezmann",
-      "birthdate": "1991-03-21",
+      "id": "player_a_definir",
+      "name": "A definir",
+      "birthdate": "2000-01-01",
       "position": "Meio",
-      "number": 7,
-      "photo": "https://example.com/images/jogadores/antoine-griezmann.jpg",
-      "club": "Atlético de Madrid",
-      "height": 176,
-      "weight": 72,
-      "caps": 130,
-      "goals": 44
+      "number": 1,
+      "photo": "https://example.com/images/placeholder-player.png",
+      "club": "A confirmar"
     }
   ],
   "confederation": "UEFA",

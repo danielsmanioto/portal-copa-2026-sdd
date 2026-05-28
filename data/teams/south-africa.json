@@ -1,8 +1,8 @@
 {
-  "id": "esp",
-  "name": "Spain",
-  "slug": "espanha",
-  "photo": "https://example.com/images/selecoes/espanha.png",
+  "id": "rsa",
+  "name": "South Africa",
+  "slug": "south-africa",
+  "photo": "https://example.com/images/selecoes/south-africa.png",
   "players": [
     {
       "id": "player_a_definir",
@@ -14,6 +14,6 @@
       "club": "A confirmar"
     }
   ],
-  "confederation": "UEFA",
-  "coachName": "Luis de la Fuente"
+  "confederation": "CAF",
+  "coachName": "Hugo Broos"
 }

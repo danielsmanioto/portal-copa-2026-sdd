@@ -1,8 +1,8 @@
 {
-  "id": "esp",
-  "name": "Spain",
-  "slug": "espanha",
-  "photo": "https://example.com/images/selecoes/espanha.png",
+  "id": "par",
+  "name": "Paraguay",
+  "slug": "paraguay",
+  "photo": "https://example.com/images/selecoes/paraguay.png",
   "players": [
     {
       "id": "player_a_definir",
@@ -14,6 +14,6 @@
       "club": "A confirmar"
     }
   ],
-  "confederation": "UEFA",
-  "coachName": "Luis de la Fuente"
+  "confederation": "CONMEBOL",
+  "coachName": "Gustavo Alfaro"
 }

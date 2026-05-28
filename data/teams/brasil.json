@@ -1,47 +1,17 @@
 {
   "id": "bra",
-  "name": "Brasil",
+  "name": "Brazil",
   "slug": "brasil",
   "photo": "https://example.com/images/selecoes/brasil.png",
   "players": [
     {
-      "id": "alisson_becker",
-      "name": "Alisson Ramses Becker",
-      "birthdate": "1992-10-02",
-      "position": "Goleiro",
+      "id": "player_a_definir",
+      "name": "A definir",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
       "number": 1,
-      "photo": "https://example.com/images/jogadores/alisson-becker.jpg",
-      "club": "Liverpool FC",
-      "height": 193,
-      "weight": 91,
-      "caps": 70,
-      "goals": 0
-    },
-    {
-      "id": "marquinhos",
-      "name": "Marcos Aoás Corrêa",
-      "birthdate": "1994-05-14",
-      "position": "Defesa",
-      "number": 4,
-      "photo": "https://example.com/images/jogadores/marquinhos.jpg",
-      "club": "Paris Saint-Germain",
-      "height": 183,
-      "weight": 75,
-      "caps": 82,
-      "goals": 7
-    },
-    {
-      "id": "vinicius_junior",
-      "name": "Vinícius José Paixão de Oliveira Júnior",
-      "birthdate": "2000-07-12",
-      "position": "Ataque",
-      "number": 7,
-      "photo": "https://example.com/images/jogadores/vinicius-junior.jpg",
-      "club": "Real Madrid CF",
-      "height": 176,
-      "weight": 73,
-      "caps": 32,
-      "goals": 4
+      "photo": "https://example.com/images/placeholder-player.png",
+      "club": "A confirmar"
     }
   ],
   "confederation": "CONMEBOL",

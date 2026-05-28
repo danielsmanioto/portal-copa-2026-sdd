@@ -1,8 +1,8 @@
 {
-  "id": "esp",
-  "name": "Spain",
-  "slug": "espanha",
-  "photo": "https://example.com/images/selecoes/espanha.png",
+  "id": "hai",
+  "name": "Haiti",
+  "slug": "haiti",
+  "photo": "https://example.com/images/selecoes/haiti.png",
   "players": [
     {
       "id": "player_a_definir",
@@ -14,6 +14,6 @@
       "club": "A confirmar"
     }
   ],
-  "confederation": "UEFA",
-  "coachName": "Luis de la Fuente"
+  "confederation": "CONCACAF",
+  "coachName": "Milenio Peguero"
 }
