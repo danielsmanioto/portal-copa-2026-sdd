@@ -27,4 +27,7 @@ Base: `spec-doc/spec.md`.
    - **Status:** CONCLUÍDO em 2026-05-28
    - **Artefatos:** `index.html`, `selecao/argentina.html`, `selecao/brasil.html`, `selecao/espanha.html`, `selecao/franca.html`, `assets/css/styles.css`, `assets/js/app.js`, `assets/js/selecao.js`
    - **Observações:** Foram adicionados meta tags essenciais, canonical/OG/Twitter cards, skip links, landmarks e headings acessíveis, `aria-live`/`aria-busy` para estados dinâmicos, `loading`/`decoding` nas imagens e preloads de recursos críticos. Também foi reforçada a navegação por teclado e o tratamento visual para movimento reduzido.
-7. [07] Validar qualidade e preparar deploy/CI
+7. ✅ [07] Validar qualidade e preparar deploy/CI
+   - **Status:** CONCLUÍDO em 2026-05-28
+   - **Artefatos:** `scripts/validate-json.js`, `.github/workflows/ci.yml`, `spec-doc/tarefas/07-checklist.md`
+   - **Observações:** Adicionado validador Node.js para `data/teams.json` e `data/teams/*.json`, checklist manual de testes desktop/mobile e workflow de GitHub Actions para validação e publicação do site estático via GitHub Pages.

@@ -332,6 +332,19 @@ node scripts/fetch-data.js
 - `--no-download-images`: Pula download de imagens (mais rápido, menos storage)
 - `--output-dir /caminho`: Especifica diretório de saída (default: `./data`)
 
+### 4️⃣ Validação e CI
+
+- Validar os JSONs localmente:
+
+```bash
+node scripts/validate-json.js
+```
+
+- O pipeline automático está em [`.github/workflows/ci.yml`](.github/workflows/ci.yml) e executa:
+  - validação dos JSONs em todo push e pull request;
+  - empacotamento do site estático;
+  - publicação no GitHub Pages em `main`.
+
 ---
 
 ## ⚙️ Configuração
