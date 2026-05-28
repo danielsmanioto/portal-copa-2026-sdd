@@ -1,0 +1,20 @@
+{
+  "name": "portal-copa-2026-sdd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal estático da Copa do Mundo 2026 com pipeline de geração de datasets.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "worldcup:download": "node scripts/download-data.js",
+    "worldcup:normalize": "node scripts/normalize-data.js",
+    "worldcup:merge": "node scripts/merge-data.js",
+    "worldcup:generate": "node scripts/generate-worldcup-json.js",
+    "selecao:generate": "node scripts/generate-selecao-pages.js"
+  },
+  "bin": {
+    "worldcup-json": "./scripts/generate-worldcup-json.js"
+  }
+}

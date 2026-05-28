@@ -1,0 +1,659 @@
+{
+  "generatedAt": "2026-05-28T04:25:10.818Z",
+  "teams": [
+    {
+      "fifaCode": "MEX",
+      "name": "Mexico",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/mexico.txt",
+      "sourceName": "Mexico",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/mexico.txt"
+    },
+    {
+      "fifaCode": "RSA",
+      "name": "South Africa",
+      "squadFound": true,
+      "sourceKey": "wc2010",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2010/sthafr.txt",
+      "sourceName": "South Africa",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/south-africa.txt"
+    },
+    {
+      "fifaCode": "KOR",
+      "name": "Korea Republic",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/sthkorea.txt",
+      "sourceName": "South Korea",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/korea-republic.txt"
+    },
+    {
+      "fifaCode": "CZE",
+      "name": "Czechia",
+      "squadFound": true,
+      "sourceKey": "wc2006",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2006/czech.txt",
+      "sourceName": "Czech Republic",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/czechia.txt"
+    },
+    {
+      "fifaCode": "CAN",
+      "name": "Canada",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/canada.txt",
+      "sourceName": "Canada",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/canada.txt"
+    },
+    {
+      "fifaCode": "BIH",
+      "name": "Bosnia & Herzegovina",
+      "squadFound": false,
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/bosnia-herzegovina.txt"
+    },
+    {
+      "fifaCode": "QAT",
+      "name": "Qatar",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/qatar.txt",
+      "sourceName": "Qatar",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/qatar.txt"
+    },
+    {
+      "fifaCode": "SUI",
+      "name": "Switzerland",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/switz.txt",
+      "sourceName": "Switzerland",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/switzerland.txt"
+    },
+    {
+      "fifaCode": "BRA",
+      "name": "Brazil",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/brazil.txt",
+      "sourceName": "Brazil",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/brazil.txt"
+    },
+    {
+      "fifaCode": "MAR",
+      "name": "Morocco",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/morocco.txt",
+      "sourceName": "Morocco",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/morocco.txt"
+    },
+    {
+      "fifaCode": "HAI",
+      "name": "Haiti",
+      "squadFound": true,
+      "sourceKey": "wc1974",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1974/haiti.txt",
+      "sourceName": "Haiti",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/haiti.txt"
+    },
+    {
+      "fifaCode": "SCO",
+      "name": "Scotland",
+      "squadFound": true,
+      "sourceKey": "wc1998",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1998/scotland.txt",
+      "sourceName": "Scotland",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/scotland.txt"
+    },
+    {
+      "fifaCode": "USA",
+      "name": "United States",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/usa.txt",
+      "sourceName": "USA",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/united-states.txt"
+    },
+    {
+      "fifaCode": "PAR",
+      "name": "Paraguay",
+      "squadFound": true,
+      "sourceKey": "wc2010",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2010/paraguay.txt",
+      "sourceName": "Paraguay",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/paraguay.txt"
+    },
+    {
+      "fifaCode": "AUS",
+      "name": "Australia",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/australia.txt",
+      "sourceName": "Australia",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/australia.txt"
+    },
+    {
+      "fifaCode": "TUR",
+      "name": "Türkiye",
+      "squadFound": true,
+      "sourceKey": "wc2002",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2002/turkey.txt",
+      "sourceName": "Turkey",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/turkiye.txt"
+    },
+    {
+      "fifaCode": "GER",
+      "name": "Germany",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/germany.txt",
+      "sourceName": "Germany",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/germany.txt"
+    },
+    {
+      "fifaCode": "CUW",
+      "name": "Curaçao",
+      "squadFound": false,
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/curacao.txt"
+    },
+    {
+      "fifaCode": "CIV",
+      "name": "Cote d'Ivoire",
+      "squadFound": true,
+      "sourceKey": "wc2014",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2014/cotediv.txt",
+      "sourceName": "Côte D'Ivoire",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/cote-d-ivoire.txt"
+    },
+    {
+      "fifaCode": "ECU",
+      "name": "Ecuador",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/ecuador.txt",
+      "sourceName": "Ecuador",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/ecuador.txt"
+    },
+    {
+      "fifaCode": "NED",
+      "name": "Netherlands",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/netherl.txt",
+      "sourceName": "Netherlands",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/netherlands.txt"
+    },
+    {
+      "fifaCode": "JPN",
+      "name": "Japan",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/japan.txt",
+      "sourceName": "Japan",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/japan.txt"
+    },
+    {
+      "fifaCode": "SWE",
+      "name": "Sweden",
+      "squadFound": true,
+      "sourceKey": "wc2018",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2018/sweden.txt",
+      "sourceName": "Sweden",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/sweden.txt"
+    },
+    {
+      "fifaCode": "TUN",
+      "name": "Tunisia",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/tunisia.txt",
+      "sourceName": "Tunisia",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/tunisia.txt"
+    },
+    {
+      "fifaCode": "BEL",
+      "name": "Belgium",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/belgium.txt",
+      "sourceName": "Belgium",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/belgium.txt"
+    },
+    {
+      "fifaCode": "EGY",
+      "name": "Egypt",
+      "squadFound": true,
+      "sourceKey": "wc2018",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2018/egypt.txt",
+      "sourceName": "Egypt",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/egypt.txt"
+    },
+    {
+      "fifaCode": "IRN",
+      "name": "IR Iran",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/iran.txt",
+      "sourceName": "Iran",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/ir-iran.txt"
+    },
+    {
+      "fifaCode": "NZL",
+      "name": "New Zealand",
+      "squadFound": true,
+      "sourceKey": "wc2010",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2010/newzeal.txt",
+      "sourceName": "New Zealand",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/new-zealand.txt"
+    },
+    {
+      "fifaCode": "ESP",
+      "name": "Spain",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/spain.txt",
+      "sourceName": "Spain",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/spain.txt"
+    },
+    {
+      "fifaCode": "CPV",
+      "name": "Cabo Verde",
+      "squadFound": false,
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/cabo-verde.txt"
+    },
+    {
+      "fifaCode": "KSA",
+      "name": "Saudi Arabia",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/saudi.txt",
+      "sourceName": "Saudi Arabia",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/saudi-arabia.txt"
+    },
+    {
+      "fifaCode": "URU",
+      "name": "Uruguay",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/uruguay.txt",
+      "sourceName": "Uruguay",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/uruguay.txt"
+    },
+    {
+      "fifaCode": "FRA",
+      "name": "France",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/france.txt",
+      "sourceName": "France",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/france.txt"
+    },
+    {
+      "fifaCode": "SEN",
+      "name": "Senegal",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/senegal.txt",
+      "sourceName": "Senegal",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/senegal.txt"
+    },
+    {
+      "fifaCode": "IRQ",
+      "name": "Iraq",
+      "squadFound": true,
+      "sourceKey": "wc1986",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1986/iraq.txt",
+      "sourceName": "Iraq",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/iraq.txt"
+    },
+    {
+      "fifaCode": "NOR",
+      "name": "Norway",
+      "squadFound": true,
+      "sourceKey": "wc1998",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1998/norway.txt",
+      "sourceName": "Norway",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/norway.txt"
+    },
+    {
+      "fifaCode": "ARG",
+      "name": "Argentina",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/argent.txt",
+      "sourceName": "Argentina",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/argentina.txt"
+    },
+    {
+      "fifaCode": "ALG",
+      "name": "Algeria",
+      "squadFound": true,
+      "sourceKey": "wc2014",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2014/algeria.txt",
+      "sourceName": "Algeria",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/algeria.txt"
+    },
+    {
+      "fifaCode": "AUT",
+      "name": "Austria",
+      "squadFound": true,
+      "sourceKey": "wc1998",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1998/austria.txt",
+      "sourceName": "Austria",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/austria.txt"
+    },
+    {
+      "fifaCode": "JOR",
+      "name": "Jordan",
+      "squadFound": false,
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/jordan.txt"
+    },
+    {
+      "fifaCode": "POR",
+      "name": "Portugal",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/portugal.txt",
+      "sourceName": "Portugal",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/portugal.txt"
+    },
+    {
+      "fifaCode": "COD",
+      "name": "Congo DR",
+      "squadFound": true,
+      "sourceKey": "acn2019",
+      "sourceType": "national",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/africacn/acn2019/drcongo.txt",
+      "sourceName": "DR Congo",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/congo-dr.txt"
+    },
+    {
+      "fifaCode": "UZB",
+      "name": "Uzbekistan",
+      "squadFound": false,
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/uzbekistan.txt"
+    },
+    {
+      "fifaCode": "COL",
+      "name": "Colombia",
+      "squadFound": true,
+      "sourceKey": "wc2018",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2018/colombia.txt",
+      "sourceName": "Colombia",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/colombia.txt"
+    },
+    {
+      "fifaCode": "ENG",
+      "name": "England",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/england.txt",
+      "sourceName": "England",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/england.txt"
+    },
+    {
+      "fifaCode": "CRO",
+      "name": "Croatia",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/croatia.txt",
+      "sourceName": "Croatia",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/croatia.txt"
+    },
+    {
+      "fifaCode": "GHA",
+      "name": "Ghana",
+      "squadFound": true,
+      "sourceKey": "wc2022",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/ghana.txt",
+      "sourceName": "Ghana",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/ghana.txt"
+    },
+    {
+      "fifaCode": "PAN",
+      "name": "Panama",
+      "squadFound": true,
+      "sourceKey": "wc2018",
+      "sourceType": "worldcup",
+      "sourceUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2018/panama.txt",
+      "sourceName": "Panama",
+      "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/panama.txt"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wc2022",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2022/",
+      "entryCount": 32,
+      "error": null
+    },
+    {
+      "key": "wc2018",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2018/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2018/",
+      "entryCount": 32,
+      "error": null
+    },
+    {
+      "key": "wc2014",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2014/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2014/",
+      "entryCount": 32,
+      "error": null
+    },
+    {
+      "key": "wc2010",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2010/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2010/",
+      "entryCount": 32,
+      "error": null
+    },
+    {
+      "key": "wc2006",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2006/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2006/",
+      "entryCount": 32,
+      "error": null
+    },
+    {
+      "key": "wc2002",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2002/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc2002/",
+      "entryCount": 32,
+      "error": null
+    },
+    {
+      "key": "wc1998",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1998/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1998/",
+      "entryCount": 32,
+      "error": null
+    },
+    {
+      "key": "wc1994",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1994/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1994/",
+      "entryCount": 24,
+      "error": null
+    },
+    {
+      "key": "wc1990",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1990/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1990/",
+      "entryCount": 24,
+      "error": null
+    },
+    {
+      "key": "wc1986",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1986/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1986/",
+      "entryCount": 24,
+      "error": null
+    },
+    {
+      "key": "wc1982",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1982/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1982/",
+      "entryCount": 24,
+      "error": null
+    },
+    {
+      "key": "wc1978",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1978/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1978/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "wc1974",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1974/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1974/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "wc1970",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1970/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1970/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "wc1966",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1966/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1966/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "wc1962",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1962/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1962/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "wc1958",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1958/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1958/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "wc1954",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1954/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1954/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "wc1950",
+      "type": "worldcup",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1950/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/worldcup/wc1950/",
+      "entryCount": 13,
+      "error": null
+    },
+    {
+      "key": "euro2020",
+      "type": "national",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/eurocham/euro2020/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/eurocham/euro2020/",
+      "entryCount": 24,
+      "error": null
+    },
+    {
+      "key": "euro2012",
+      "type": "national",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/eurocham/euro2012/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/eurocham/euro2012/",
+      "entryCount": 16,
+      "error": null
+    },
+    {
+      "key": "conf2017",
+      "type": "national",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/confed/conf2017/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/confed/conf2017/",
+      "entryCount": 8,
+      "error": null
+    },
+    {
+      "key": "conf2009",
+      "type": "national",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/confed/conf2009/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/confed/conf2009/",
+      "entryCount": 8,
+      "error": null
+    },
+    {
+      "key": "acn2019",
+      "type": "national",
+      "readmeUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/africacn/acn2019/README.md",
+      "baseUrl": "https://raw.githubusercontent.com/footballcsv/cache.footballsquads/master/national/africacn/acn2019/",
+      "entryCount": 24,
+      "error": null
+    }
+  ]
+}

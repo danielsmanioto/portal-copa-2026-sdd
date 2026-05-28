@@ -1,0 +1,16 @@
+{
+  "id": "CPV",
+  "name": "Cabo Verde",
+  "code": "cv",
+  "group": "H",
+  "flag": "https://flagcdn.com/cv.svg",
+  "coach": "Julio Duarte",
+  "fifaRank": null,
+  "players": [],
+  "source": {
+    "fifaCode": "CPV",
+    "name": "Cabo Verde",
+    "squadFound": false,
+    "cachePath": "/Users/danielsmanioto/Documents/projects/projets_senior/portal-copa-2026-sdd/data/raw/footballcsv-squads/cabo-verde.txt"
+  }
+}

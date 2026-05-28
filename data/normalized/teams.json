@@ -1,0 +1,482 @@
+[
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "code": "mx",
+    "group": "A",
+    "flag": "https://flagcdn.com/mx.svg",
+    "coach": "Jaime Lozano",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "RSA",
+    "name": "South Africa",
+    "code": "za",
+    "group": "A",
+    "flag": "https://flagcdn.com/za.svg",
+    "coach": "Hugo Broos",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "KOR",
+    "name": "Korea Republic",
+    "code": "kr",
+    "group": "A",
+    "flag": "https://flagcdn.com/kr.svg",
+    "coach": "Paulo Bento",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "code": "cz",
+    "group": "A",
+    "flag": "https://flagcdn.com/cz.svg",
+    "coach": "Ivan Hasek",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "code": "ca",
+    "group": "B",
+    "flag": "https://flagcdn.com/ca.svg",
+    "coach": "Jesse Marsch",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia & Herzegovina",
+    "code": "ba",
+    "group": "B",
+    "flag": "https://flagcdn.com/ba.svg",
+    "coach": "Srecko Katanec",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "code": "qa",
+    "group": "B",
+    "flag": "https://flagcdn.com/qa.svg",
+    "coach": "Marсus Steuer",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "SUI",
+    "name": "Switzerland",
+    "code": "ch",
+    "group": "B",
+    "flag": "https://flagcdn.com/ch.svg",
+    "coach": "Murat Yakin",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "code": "br",
+    "group": "C",
+    "flag": "https://flagcdn.com/br.svg",
+    "coach": "Dorival Júnior",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "code": "ma",
+    "group": "C",
+    "flag": "https://flagcdn.com/ma.svg",
+    "coach": "Walid Regragui",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "HAI",
+    "name": "Haiti",
+    "code": "ht",
+    "group": "C",
+    "flag": "https://flagcdn.com/ht.svg",
+    "coach": "Milenio Peguero",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "SCO",
+    "name": "Scotland",
+    "code": "gb-sct",
+    "group": "C",
+    "flag": "https://flagcdn.com/gb-sct.svg",
+    "coach": "Steve Clarke",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "USA",
+    "name": "United States",
+    "code": "us",
+    "group": "D",
+    "flag": "https://flagcdn.com/us.svg",
+    "coach": "Gregg Berhalter",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "PAR",
+    "name": "Paraguay",
+    "code": "py",
+    "group": "D",
+    "flag": "https://flagcdn.com/py.svg",
+    "coach": "Gustavo Alfaro",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "code": "au",
+    "group": "D",
+    "flag": "https://flagcdn.com/au.svg",
+    "coach": "Graham Arnold",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "TUR",
+    "name": "Türkiye",
+    "code": "tr",
+    "group": "D",
+    "flag": "https://flagcdn.com/tr.svg",
+    "coach": "Técnico a confirmar",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "GER",
+    "name": "Germany",
+    "code": "de",
+    "group": "E",
+    "flag": "https://flagcdn.com/de.svg",
+    "coach": "Julian Nagelsmann",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "CUW",
+    "name": "Curaçao",
+    "code": "cw",
+    "group": "E",
+    "flag": "https://flagcdn.com/cw.svg",
+    "coach": "Remko Bicentini",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "CIV",
+    "name": "Cote d'Ivoire",
+    "code": "ci",
+    "group": "E",
+    "flag": "https://flagcdn.com/ci.svg",
+    "coach": "Jean-Louis Gasset",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "code": "ec",
+    "group": "E",
+    "flag": "https://flagcdn.com/ec.svg",
+    "coach": "Félix Sánchez Bas",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "NED",
+    "name": "Netherlands",
+    "code": "nl",
+    "group": "F",
+    "flag": "https://flagcdn.com/nl.svg",
+    "coach": "Ronald Koeman",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "code": "jp",
+    "group": "F",
+    "flag": "https://flagcdn.com/jp.svg",
+    "coach": "Hajime Moriyasu",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "code": "se",
+    "group": "F",
+    "flag": "https://flagcdn.com/se.svg",
+    "coach": "Janne Andersson",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "code": "tn",
+    "group": "F",
+    "flag": "https://flagcdn.com/tn.svg",
+    "coach": "Jalel Kadri",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "code": "be",
+    "group": "G",
+    "flag": "https://flagcdn.com/be.svg",
+    "coach": "Domenico Tedesco",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "code": "eg",
+    "group": "G",
+    "flag": "https://flagcdn.com/eg.svg",
+    "coach": "Carlos Queiroz",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "IRN",
+    "name": "IR Iran",
+    "code": "ir",
+    "group": "G",
+    "flag": "https://flagcdn.com/ir.svg",
+    "coach": "Carlos Queiroz",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "code": "nz",
+    "group": "G",
+    "flag": "https://flagcdn.com/nz.svg",
+    "coach": "Técnico a confirmar",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "code": "es",
+    "group": "H",
+    "flag": "https://flagcdn.com/es.svg",
+    "coach": "Luis de la Fuente",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "CPV",
+    "name": "Cabo Verde",
+    "code": "cv",
+    "group": "H",
+    "flag": "https://flagcdn.com/cv.svg",
+    "coach": "Julio Duarte",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "KSA",
+    "name": "Saudi Arabia",
+    "code": "sa",
+    "group": "H",
+    "flag": "https://flagcdn.com/sa.svg",
+    "coach": "Técnico a confirmar",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "URU",
+    "name": "Uruguay",
+    "code": "uy",
+    "group": "H",
+    "flag": "https://flagcdn.com/uy.svg",
+    "coach": "Marcelo Bielsa",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "code": "fr",
+    "group": "I",
+    "flag": "https://flagcdn.com/fr.svg",
+    "coach": "Didier Deschamps",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "code": "sn",
+    "group": "I",
+    "flag": "https://flagcdn.com/sn.svg",
+    "coach": "Aliou Cissé",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "code": "iq",
+    "group": "I",
+    "flag": "https://flagcdn.com/iq.svg",
+    "coach": "Bartosz Nawałka",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "code": "no",
+    "group": "I",
+    "flag": "https://flagcdn.com/no.svg",
+    "coach": "Stale Solbakken",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "code": "ar",
+    "group": "J",
+    "flag": "https://flagcdn.com/ar.svg",
+    "coach": "Lionel Scaloni",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "ALG",
+    "name": "Algeria",
+    "code": "dz",
+    "group": "J",
+    "flag": "https://flagcdn.com/dz.svg",
+    "coach": "Vladimir Petkovic",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "code": "at",
+    "group": "J",
+    "flag": "https://flagcdn.com/at.svg",
+    "coach": "Ralf Rangnick",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "code": "jo",
+    "group": "J",
+    "flag": "https://flagcdn.com/jo.svg",
+    "coach": "Stale Solbakken",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "POR",
+    "name": "Portugal",
+    "code": "pt",
+    "group": "K",
+    "flag": "https://flagcdn.com/pt.svg",
+    "coach": "Roberto Martínez",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "COD",
+    "name": "Congo DR",
+    "code": "cd",
+    "group": "K",
+    "flag": "https://flagcdn.com/cd.svg",
+    "coach": "Sébastien Desabre",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "code": "uz",
+    "group": "K",
+    "flag": "https://flagcdn.com/uz.svg",
+    "coach": "Srecko Katanec",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "code": "co",
+    "group": "K",
+    "flag": "https://flagcdn.com/co.svg",
+    "coach": "Néstor Lorenzo",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "ENG",
+    "name": "England",
+    "code": "gb-eng",
+    "group": "L",
+    "flag": "https://flagcdn.com/gb-eng.svg",
+    "coach": "Gareth Southgate",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "CRO",
+    "name": "Croatia",
+    "code": "hr",
+    "group": "L",
+    "flag": "https://flagcdn.com/hr.svg",
+    "coach": "Zlatko Dalić",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "code": "gh",
+    "group": "L",
+    "flag": "https://flagcdn.com/gh.svg",
+    "coach": "Otto Addo",
+    "fifaRank": null,
+    "players": []
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "code": "pa",
+    "group": "L",
+    "flag": "https://flagcdn.com/pa.svg",
+    "coach": "Thomas Christiansen",
+    "fifaRank": null,
+    "players": []
+  }
+]

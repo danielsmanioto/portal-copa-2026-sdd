@@ -16,6 +16,31 @@
 
 ---
 
+## 🌐 Generate the complete World Cup JSON
+
+The new ETL pipeline writes the final dataset to `world-cup-data/worldcup-complete.json` and also keeps intermediate cache files under `data/raw`, `data/normalized`, and `data/generated`.
+
+### Run
+
+```bash
+npm run worldcup:generate
+```
+
+### Helpful flags
+
+```bash
+npm run worldcup:generate -- --team Brazil
+npm run worldcup:generate -- --refresh
+```
+
+### Known limitations
+
+- FIFA ranking is written as `null` when there is no trusted public source already mapped in the pipeline.
+- Some teams may end up with `players: []` if the public squad cache does not contain a matching dataset.
+- When multiple historical squad sources exist, the pipeline prefers the newest public cache it can match.
+
+---
+
 ## ▶️ Como executar o projeto
 
 Se você abrir o `index.html` direto no navegador, o portal pode ficar em branco porque os dados são carregados com `fetch()` e isso exige um servidor local. Use um dos passos abaixo.
