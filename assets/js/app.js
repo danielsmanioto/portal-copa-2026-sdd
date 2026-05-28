@@ -16,6 +16,8 @@ class TeamManager {
     
     if (!this.container) {
       console.error(`Container with ID "${containerId}" not found`);
+    } else {
+      this.container.setAttribute('aria-live', 'polite');
     }
   }
 
@@ -54,6 +56,7 @@ class TeamManager {
     if (!this.container) return;
     
     if (this.teams.length === 0) {
+      this.container.setAttribute('aria-busy', 'false');
       this.container.innerHTML = '<p class="error">No teams found.</p>';
       return;
     }
@@ -68,6 +71,7 @@ class TeamManager {
     
     this.container.innerHTML = '';
     this.container.appendChild(grid);
+    this.container.setAttribute('aria-busy', 'false');
   }
 
   /**
@@ -80,6 +84,7 @@ class TeamManager {
     card.className = 'team-card';
     card.href = `/selecao/${team.slug}.html`;
     card.title = `View ${team.name} details`;
+    card.setAttribute('aria-label', `${team.name} — ver jogadores`);
     
     const imageContainer = document.createElement('div');
     imageContainer.className = 'team-card-image';
@@ -88,6 +93,7 @@ class TeamManager {
     img.src = team.photo;
     img.alt = `${team.name} team badge`;
     img.loading = 'lazy';
+    img.decoding = 'async';
     img.onerror = () => {
       img.src = '/assets/img/placeholder-player.png';
       img.alt = `${team.name} team badge (placeholder)`;
@@ -138,9 +144,11 @@ class TeamManager {
    */
   showLoading() {
     if (!this.container) return;
+    this.container.setAttribute('aria-busy', 'true');
     
     const loader = document.createElement('div');
     loader.className = 'loading';
+    loader.setAttribute('role', 'status');
     loader.innerHTML = `
       <div class="loading-spinner"></div>
       <p>Loading teams...</p>
@@ -156,9 +164,11 @@ class TeamManager {
    */
   showError(message) {
     if (!this.container) return;
+    this.container.setAttribute('aria-busy', 'false');
     
     const error = document.createElement('div');
     error.className = 'error';
+    error.setAttribute('role', 'alert');
     error.innerHTML = `
       <div class="error-title">Unable to load teams</div>
       <div class="error-message">${this.escapeHtml(message)}</div>

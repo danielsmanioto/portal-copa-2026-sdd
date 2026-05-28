@@ -16,6 +16,53 @@
 
 ---
 
+## ▶️ Como executar o projeto
+
+Se você abrir o `index.html` direto no navegador, o portal pode ficar em branco porque os dados são carregados com `fetch()` e isso exige um servidor local. Use um dos passos abaixo.
+
+### Passo a passo rápido
+
+1. Abra um terminal na pasta do projeto.
+2. Inicie um servidor local na raiz do repositório.
+3. Acesse o endereço do servidor no navegador.
+4. Aguarde o carregamento dos dados das seleções.
+
+### Opção 1: Python
+
+```bash
+python3 -m http.server 8080
+```
+
+Abra depois:
+
+```text
+http://localhost:8080
+```
+
+### Opção 2: Node.js
+
+Se você tiver `http-server` instalado:
+
+```bash
+npm install -g http-server
+http-server . -p 8080
+```
+
+### Opção 3: Live Server no VS Code
+
+1. Instale a extensão Live Server.
+2. Clique com o botão direito em `index.html`.
+3. Selecione Open with Live Server.
+
+### Se não aparecer nada
+
+- Confirme que você está acessando `http://localhost:8080`, não `file:///...`.
+- Abra o DevTools do navegador e veja se há erro de `fetch`.
+- Verifique se os arquivos `data/teams.json` e `data/teams/*.json` existem.
+- Se estiver usando um subcaminho diferente, ajuste o servidor para servir a raiz do projeto.
+
+---
+
 ## 🎯 Visão Geral
 
 **Portal Copa 2026** é um **site 100% estático** (HTML/CSS/JavaScript vanilla) que oferece uma experiência rápida e offline-friendly para explorar as seleções participantes da Copa do Mundo 2026 e consultar informações detalhadas sobre os jogadores convocados — nome, foto, idade, posição, clube e estatísticas.

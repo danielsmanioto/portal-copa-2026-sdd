@@ -19,6 +19,12 @@ Base: `spec-doc/spec.md`.
    - **Status:** CONCLUÍDO em 2026-05-27
    - **Artefatos:** `index.html`, `assets/css/styles.css`, `assets/js/app.js`
    - **Observações:** Página responsiva com grid dinâmico usando CSS Grid. JavaScript modular com classe `TeamManager` que carrega dados de `teams.json` e renderiza cards com tratamento de erros, lazy loading e fallback de imagem. Design mobile-first com breakpoints em 640px e 1024px. Acessibilidade: alt text em imagens, focus-visible para navegação por teclado, semantic HTML com header/main/footer. Meta tags SEO e preview social.
-5. [05] Construir páginas de seleção (`selecao/{slug}.html`)
-6. [06] Garantir acessibilidade, SEO e performance mínima
+5. ✅ [05] Construir páginas de seleção (`selecao/{slug}.html`)
+   - **Status:** CONCLUÍDO em 2026-05-28
+   - **Artefatos:** `selecao/argentina.html`, `selecao/brasil.html`, `selecao/espanha.html`, `selecao/franca.html`, `assets/js/selecao.js`, `assets/css/styles.css`
+   - **Observações:** Páginas estáticas que consomem `data/teams/{slug}.json`. `assets/js/selecao.js` calcula idade a partir de `birthdate`, trata erros de rede e usa placeholder de imagem. Mantido padrão visual e acessibilidade do projeto.
+6. ✅ [06] Garantir acessibilidade, SEO e performance mínima
+   - **Status:** CONCLUÍDO em 2026-05-28
+   - **Artefatos:** `index.html`, `selecao/argentina.html`, `selecao/brasil.html`, `selecao/espanha.html`, `selecao/franca.html`, `assets/css/styles.css`, `assets/js/app.js`, `assets/js/selecao.js`
+   - **Observações:** Foram adicionados meta tags essenciais, canonical/OG/Twitter cards, skip links, landmarks e headings acessíveis, `aria-live`/`aria-busy` para estados dinâmicos, `loading`/`decoding` nas imagens e preloads de recursos críticos. Também foi reforçada a navegação por teclado e o tratamento visual para movimento reduzido.
 7. [07] Validar qualidade e preparar deploy/CI

@@ -3,26 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore todas as seleções participantes da Copa do Mundo 2026. Visualize times, jogadores e informações detalhadas sobre cada confederação.">
+  <meta name="description" content="Explore todas as seleções participantes da Copa do Mundo 2026 e confira informações essenciais sobre cada time e seus jogadores.">
+  <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#1a73e8">
+  <meta property="og:site_name" content="Copa do Mundo 2026">
   <meta property="og:title" content="Copa do Mundo 2026 - Seleções e Jogadores">
   <meta property="og:description" content="Portal informativo com seleções e jogadores da Copa do Mundo 2026">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Copa do Mundo 2026 - Seleções e Jogadores">
+  <meta name="twitter:description" content="Portal informativo com seleções e jogadores da Copa do Mundo 2026">
   
   <title>Copa do Mundo 2026 - Seleções e Jogadores</title>
   
+  <link rel="canonical" href="/">
+  <link rel="preload" as="style" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="preload" as="image" href="/assets/img/placeholder-player.png">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
   <header>
     <h1>Copa do Mundo 2026</h1>
     <p>Explore as seleções e seus jogadores</p>
   </header>
 
-  <main class="container">
-    <section>
-      <h2 style="display: none;">Teams Section</h2>
+  <main id="main-content" class="container" tabindex="-1">
+    <section aria-labelledby="teams-heading">
+      <h2 id="teams-heading" class="sr-only">Seleções participantes</h2>
       <div id="teams-container"></div>
     </section>
   </main>
@@ -34,6 +44,6 @@
     </p>
   </footer>
 
-  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/app.js" defer></script>
 </body>
 </html>
