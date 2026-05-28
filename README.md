@@ -1,4 +1,3 @@
----
 # Guia: Gerar site estático da Copa do Mundo
 
 ![status](https://img.shields.io/badge/status-DRAFT-yellow) ![type](https://img.shields.io/badge/type-static--site-blue) ![audience](https://img.shields.io/badge/audience-fans%2C%20journalists-green) ![tech](https://img.shields.io/badge/tech-HTML%2FCSS%2FJS-lightgrey)
