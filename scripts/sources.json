@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "project": "Copa do Mundo 2026 - Portal",
+    "description": "Fontes públicas para dados de seleções e jogadores",
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-27",
+    "documentation": "scripts/SOURCES.md"
+  },
+  "sources": [
+    {
+      "id": "fifa-api",
+      "name": "FIFA World Cup API",
+      "description": "API oficial de dados da FIFA para Copa do Mundo",
+      "type": "api",
+      "baseUrl": "https://worldcup-api.p.rapidapi.com",
+      "endpoints": {
+        "teams": "/teams",
+        "teamDetails": "/teams/{id}",
+        "players": "/teams/{id}/players"
+      },
+      "authentication": "rapidapi-key",
+      "rateLimit": "100 requests per minute",
+      "reliability": "high",
+      "coverage": "all teams and confirmed squads",
+      "notes": "Requer chave API RapidAPI. Dados atualizados regularmente pela FIFA."
+    },
+    {
+      "id": "wikipedia-teams",
+      "name": "Wikipedia - Football Teams",
+      "description": "Dados públicos de seleções de futebol na Wikipedia",
+      "type": "web-scraping",
+      "baseUrl": "https://en.wikipedia.org/wiki/",
+      "pages": [
+        "2026_FIFA_World_Cup_squads",
+        "Football_at_the_2026_Summer_Olympics"
+      ],
+      "rateLimit": "No official rate limit, requer User-Agent responsável",
+      "reliability": "medium",
+      "coverage": "squads and player info",
+      "notes": "Dados públicos. Web scraping deve respeitar robots.txt. Dados podem estar incompletos ou desatualizados."
+    },
+    {
+      "id": "transfermarkt",
+      "name": "Transfermarkt",
+      "description": "Base de dados com informações de jogadores e clubes",
+      "type": "web-scraping",
+      "baseUrl": "https://www.transfermarkt.com",
+      "pages": [
+        "/copa-mundial/",
+        "/teams/{countryCode}/"
+      ],
+      "rateLimit": "Respeitar robots.txt, máximo 10 requisições por minuto",
+      "reliability": "high",
+      "coverage": "detailed player info, club, market value",
+      "notes": "Popular entre fãs de futebol. Requer User-Agent válido. Imagens com restrições de copyright."
+    },
+    {
+      "id": "espn-api",
+      "name": "ESPN API",
+      "description": "API pública do ESPN com dados de competições",
+      "type": "api",
+      "baseUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/",
+      "endpoints": {
+        "leagues": "/leagues",
+        "teams": "/leagues/{id}/teams",
+        "athletes": "/leagues/{id}/athletes"
+      },
+      "rateLimit": "Rate limit aplicado automaticamente",
+      "reliability": "high",
+      "coverage": "World Cup info and statistics",
+      "notes": "API pública sem autenticação obrigatória. Dados em tempo real."
+    },
+    {
+      "id": "open-data-portal",
+      "name": "Open Data Public Repositories",
+      "description": "Repositórios de dados abertos (GitHub, Kaggle)",
+      "type": "data-repository",
+      "baseUrl": "https://github.com/search?q=fifa+world+cup+2026",
+      "alternatives": [
+        "https://www.kaggle.com/search?q=fifa+world+cup",
+        "https://data.world/search"
+      ],
+      "reliability": "medium",
+      "coverage": "historical data, statistics",
+      "notes": "Licenças variam. Verificar CC0 ou CC-BY antes de usar. Dados podem estar desatualizados."
+    }
+  ],
+  "imageProviders": [
+    {
+      "id": "fifa-official",
+      "name": "FIFA Official Images",
+      "baseUrl": "https://img.fifa.com/image/upload/t_l1_mobile/",
+      "type": "official",
+      "license": "restricted",
+      "notes": "Imagens oficiais da FIFA. Verificar termos de uso antes de publicar."
+    },
+    {
+      "id": "wikimedia-commons",
+      "name": "Wikimedia Commons",
+      "baseUrl": "https://commons.wikimedia.org/wiki/File:",
+      "type": "open-commons",
+      "license": "CC-BY-SA 3.0",
+      "notes": "Imagens com licença Creative Commons. Sempre creditar a fonte."
+    },
+    {
+      "id": "player-images-fallback",
+      "name": "Placeholder Service",
+      "baseUrl": "/assets/img/placeholder-",
+      "type": "local-fallback",
+      "license": "project-owned",
+      "notes": "Usar quando imagem oficial não estiver disponível."
+    }
+  ],
+  "recommendations": {
+    "primary": [
+      "fifa-api",
+      "espn-api"
+    ],
+    "fallback": [
+      "transfermarkt",
+      "wikipedia-teams"
+    ],
+    "caching": {
+      "ttl": 86400,
+      "description": "Cache dados por 24 horas. Atualizar manualmente ou via CI job agendado."
+    },
+    "errorHandling": {
+      "rateLimitExceeded": "Usar cache e retry com backoff exponencial",
+      "dataIncomplete": "Usar fallback sources. Log de dados faltantes.",
+      "imageNotAvailable": "Usar placeholder local com alt text descritivo"
+    }
+  },
+  "legalConsiderations": {
+    "copyright": "Respeitar direitos autorais de imagens e nomes de jogadores.",
+    "termsOfService": "Verificar ToS de cada API antes de integração.",
+    "dataPrivacy": "Não armazenar dados pessoais de jogadores além de nome e estatísticas públicas.",
+    "attribution": "Creditar fontes quando necessário (ex: 'Dados fornecidos por FIFA', 'Powered by ESPN')."
+  }
+}
