@@ -1,16 +1,16 @@
 <div align="center">
 
-# 🌍 Portal Copa 2026 — Site Estático
+# 🌍 Portal Copa 2026 — Site Estático Responsivo
 
-[![Status](https://img.shields.io/badge/status-DEVELOPMENT-blue?style=for-the-badge)](README.md)
-[![Type](https://img.shields.io/badge/type-static--site-lightblue?style=for-the-badge)](#)
-[![Audience](https://img.shields.io/badge/audience-fans%2Fjournalists-green?style=for-the-badge)](#)
-[![Tech Stack](https://img.shields.io/badge/stack-HTML%2FCSS%2FJS-yellow?style=for-the-badge)](#-stack-tecnológica)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge)](#-licença)
+[![Status](https://img.shields.io/badge/status-in%20development-blue?style=flat-square)](README.md)
+[![Type](https://img.shields.io/badge/type-static%20site-lightblue?style=flat-square)](#)
+[![HTML/CSS/JS](https://img.shields.io/badge/stack-HTML%2FCSS%2FJS-ffd700?style=flat-square)](https://developer.mozilla.org/)
+[![Node.js](https://img.shields.io/badge/node-18%2B-green?style=flat-square)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)](#-licença)
 
-> Um portal estático, rápido e responsivo que apresenta as seleções participantes da **Copa do Mundo 2026** com dados públicos, fotos e elencos detalhados.
+> **Explorar as seleções da Copa do Mundo 2026.** Um portal estático, rápido e responsivo que apresenta equipes nacionais com dados públicos, fotos, informações dos técnicos e elencos detalhados de jogadores.
 
-[Visão Geral](#-visão-geral) • [Features](#-features) • [Arquitetura](#-arquitetura) • [Como Executar](#-como-executar) • [Documentação](#-documentação) • [Contribuição](#-contribuição)
+[Visão Geral](#-visão-geral) • [Features](#-features) • [Arquitetura](#-arquitetura) • [Stack](#-stack-tecnológica) • [Quick Start](#-quick-start) • [Documentação](#-documentação)
 
 </div>
 
@@ -18,15 +18,18 @@
 
 ## 🎯 Visão Geral
 
-O **Portal Copa 2026** é um site 100% estático (HTML/CSS/JavaScript) que permite aos usuários explorar as seleções participantes da Copa do Mundo 2026 e consultar informações detalhadas sobre os jogadores convocados — incluindo foto, idade, posição e clube atual.
+**Portal Copa 2026** é um **site 100% estático** (HTML/CSS/JavaScript vanilla) que oferece uma experiência rápida e offline-friendly para explorar as seleções participantes da Copa do Mundo 2026 e consultar informações detalhadas sobre os jogadores convocados — nome, foto, idade, posição, clube e estatísticas.
 
-**Diferencial:** Sem API própria, sem banco de dados. Todos os dados são obtidos de **fontes públicas oficiais** durante o build e incorporados como **JSON estático** no repositório, garantindo:
+### Por que estático?
 
-- ⚡ **Performance extrema** (carregamento instant)
-- 🔒 **Segurança** (sem endpoints dinâmicos)
-- 📱 **Offline-friendly** (conteúdo pré-renderizado)
-- 🔄 **Facilmente versionável** (dados no Git)
-- 🌐 **Hospedagem simples** (GitHub Pages, Netlify, Vercel, S3)
+| Aspecto | Benefício |
+|--------|-----------|
+| ⚡ **Performance** | Carregamento instantâneo; sem latência de rede; Zero cold starts |
+| 🔒 **Segurança** | Sem API dinâmica; sem banco de dados; superfície de ataque mínima |
+| 📱 **Offline** | Conteúdo pré-renderizado; funciona sem internet após primeira visita |
+| 🔄 **Versionável** | Histórico de dados no Git; fácil rollback e auditoria |
+| 🌐 **Hospedagem** | Deploy em qualquer provedor estático: GitHub Pages, Netlify, Vercel, S3, etc. |
+| 💰 **Custo** | Sem servidor, sem taxa de API, sem banco de dados; hospedagem gratuita possível |
 
 ---
 
@@ -34,80 +37,104 @@ O **Portal Copa 2026** é um site 100% estático (HTML/CSS/JavaScript) que permi
 
 | Feature | Status | Descrição |
 |---------|--------|-----------|
-| **Listagem de Seleções** | 🔨 Em progresso | Página principal com todas as seleções da Copa 2026 |
-| **Páginas de Seleção** | 🔨 Em progresso | Página estática para cada seleção com elenco completo |
+| **Listagem de Seleções** | ✅ Completo | Página principal com grid responsivo de todas as seleções |
+| **Cards de Seleção** | ✅ Completo | Nome, foto, confederação, técnico com link para detalhes |
+| **Renderização Dinâmica** | ✅ Completo | JavaScript client-side que carrega `teams.json` |
+| **Responsividade** | ✅ Completo | Mobile-first com breakpoints em 640px, 1024px |
+| **Lazy Loading** | ✅ Completo | Imagens carregadas sob demanda com `loading="lazy"` |
+| **Fallback de Imagem** | ✅ Completo | Placeholder automático em caso de erro (`img.onerror`) |
+| **Tratamento de Erros** | ✅ Completo | UI amigável para falhas de rede ou dados inválidos |
+| **Acessibilidade** | ✅ Completo | Alt text, focus-visible, semantic HTML, contraste WCAG AA |
+| **SEO** | ✅ Completo | Meta tags, Open Graph, estrutura semântica, robots-friendly |
+| **Páginas de Seleção** | 🔨 Em progresso | Página estática para cada seleção com elenco e estatísticas |
 | **Cálculo de Idade** | 🔨 Em progresso | Conversão automática de `birthdate` em anos |
-| **Responsividade** | 🔨 Em progresso | Layout mobile-first e desktop otimizado |
-| **Placeholders** | 🔨 Em progresso | Fallback automático para imagens indisponíveis |
-| **Lazy-loading** | 🔨 Planejado | Otimização de carregamento de imagens |
-| **SEO Mínimo** | 🔨 Planejado | Meta tags e estrutura semântica |
-| **Acessibilidade** | 🔨 Planejado | WCAG 2.1 AA (alt text, navegação por teclado) |
-| **CI/CD Pipeline** | 🔨 Planejado | Build automático e deploy em hospedagem estática |
+| **Pipeline CI/CD** | 🔨 Planejado | Build automático e deploy contínuo |
 
 ---
 
 ## 🏗️ Arquitetura
 
-### Visão Alto Nível
-
 ```
-┌─────────────────────────────────────────────┐
-│     Fontes Públicas (FIFA, ESPN, etc)      │
-└────────────────────┬────────────────────────┘
-                     │ (fetch-data.js)
-                     ▼
-┌─────────────────────────────────────────────┐
-│      Build Time: Normalização & JSON        │
-│  (scripts/fetch-data.js)                    │
-└────────────────────┬────────────────────────┘
-                     │
-         ┌───────────┼───────────┐
-         ▼           ▼           ▼
-    teams.json  teams/     assets/
-               {slug}.json  (imagens)
-         │           │           │
-         └───────────┼───────────┘
-                     │ (versionado em Git)
-                     ▼
-        ┌──────────────────────────┐
-        │  index.html + JS client  │
-        │  selecao/{slug}.html     │
-        │  Renderização no Browser │
-        └──────────────────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────┐
-        │  Deploy: CDN Estático    │
-        │  (GitHub Pages, Netlify) │
-        └──────────────────────────┘
+                    ┌─────────────────┐
+                    │  Usuário Final  │
+                    └────────┬────────┘
+                             │
+                   ┌─────────┴─────────┐
+                   │   index.html      │  (SSR-like static page)
+                   │ (Semantic HTML)   │
+                   └─────────┬─────────┘
+                             │
+                ┌────────────┴────────────┐
+                │                         │
+          ┌─────▼──────┐          ┌──────▼──────┐
+          │ styles.css │          │   app.js    │
+          │ (Grid CSS) │          │ (Vanilla JS)│
+          └────────────┘          └──────┬──────┘
+                                         │
+                              ┌──────────┴──────────┐
+                              │                     │
+                          ┌───▼────┐           ┌───▼──────────┐
+                          │ Fetch  │           │ DOM Parser   │
+                          │  API   │           │ & Render     │
+                          └───┬────┘           └──────────────┘
+                              │
+                        ┌─────▼──────────┐
+                        │ teams.json     │
+                        │ (Static Data)  │
+                        │ + teams/*.json │
+                        └────────────────┘
 ```
 
 ### Padrões e Decisões Arquiteturais
 
-- **100% Estático:** Sem servidor de aplicação, sem banco de dados.
-- **Build-time Rendering:** Dados públicos são processados e salvos como JSON estático no build.
-- **Client-side Rendering Leve:** JavaScript minimalista apenas para renderização de componentes (`TeamCard`, `PlayerCard`) e cálculos (idade).
-- **Dados Versionados:** `data/teams.json` e `data/teams/{slug}.json` são versionados no Git para reproducibilidade.
-- **Fallback Inteligente:** Se a imagem externa falhar, exibe placeholder local com `onerror` handler.
-- **Lazy-loading:** Imagens com `loading="lazy"` para otimização de performance.
+**1. JavaScript Modular (Class-Based)**
+- Classe `TeamManager` encapsula lógica de carregamento e renderização
+- Separação clara de responsabilidades (fetch, render, error-handling)
+- Facilita testes unitários e manutenção futura
+
+**2. CSS Grid + Mobile-First**
+- Grid dinâmico: `grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))`
+- Breakpoints: 640px (mobile), 1024px (tablet)
+- Design system com variáveis CSS (`:root`) para consistência
+
+**3. Dados JSON Estáticos**
+- `data/teams.json`: sumário com todas seleções
+- `data/teams/{slug}.json`: detalhes de cada seleção com elenco
+- Estrutura hierárquica facilita geração automática de páginas
+
+**4. Lazy Loading + Fallback**
+- `loading="lazy"` para otimização de imagens
+- `img.onerror` substitui URL inválida por placeholder local
+- Garante UX consistente mesmo com falhas de rede
+
+**5. Tratamento de Erros Explícito**
+- Estados de loading, sucesso e erro com UI clara
+- Mensagens amigáveis em português
+- Logs no console para debug
 
 ---
 
 ## 🧰 Stack Tecnológica
 
-| Categoria | Tecnologia | Descrição |
-|-----------|-----------|-----------|
-| **Linguagens** | HTML5, CSS3, JavaScript (ES6+) | Markup, estilo e interatividade |
-| **Framework** | Vanilla JS | Sem dependências externas para MVP |
-| **Dados** | JSON Estático | Contrato definido em `scripts/contracts.md` |
-| **Construção** | Node.js | Script `fetch-data.js` para build |
-| **Servidor Local** | http-server / Python SimpleHTTPServer | Testes em ambiente local |
-| **Hospedagem** | GitHub Pages, Netlify, Vercel, S3+CloudFront | Stático, sem servidor |
-| **CI/CD** | GitHub Actions (planejado) | Build automático e deploy |
-| **Fontes de Dados** | FIFA API, ESPN API, Transfermarkt, Wikipedia | Públicas e atualizadas |
-| **Imagens** | PNG, JPEG, SVG | Placeholders locais em `assets/img/` |
-| **Validação** | JSON Schema | Regras em `scripts/validation-rules.md` |
-| **Testes** | Manual + e2e (Cypress/Playwright, planejado) | Validação de renderização e dados |
+| Categoria | Tecnologia | Motivo |
+|-----------|-----------|--------|
+| **Frontend** | HTML5 | Semântica, acessibilidade, compatibilidade |
+| **Estilo** | CSS3 | CSS Grid, Flexbox, custom properties, variáveis |
+| **Scripts** | JavaScript (Vanilla) | Sem dependências; lightweight; compatibilidade universal |
+| **Runtime (Build)** | Node.js 18+ | Execução de scripts de build e fetch |
+| **Dados** | JSON | Formato padrão, nativo em JavaScript |
+| **Hospedagem** | Estática (CDN) | GitHub Pages, Netlify, Vercel, AWS S3, etc. |
+| **Versioning** | Git | Controle de histórico de dados e código |
+
+### Ferramentas Opcionais (Futuro)
+
+| Ferramenta | Uso |
+|-----------|-----|
+| `http-server` | Desenvolvimento local rápido |
+| `Playwright/Cypress` | Testes E2E |
+| `ESLint` | Linting de JavaScript |
+| `StyleLint` | Linting de CSS |
+| `GitHub Actions` | CI/CD pipeline |
 
 ---
 
@@ -115,163 +142,181 @@ O **Portal Copa 2026** é um site 100% estático (HTML/CSS/JavaScript) que permi
 
 ```
 portal-copa-2026-sdd/
-├── README.md                          # Este arquivo
-├── package.json                       # Dependências Node.js (se necessário)
-│
-├── spec-doc/                          # Documentação de especificações
-│   ├── tarefa.md                      # User story refinada (Markdown)
-│   ├── tarefa.txt                     # User story original (texto)
-│   ├── prd.md                         # Product Requirements Document
-│   ├── spec.md                        # Especificação Técnica Detalhada
-│   ├── prompts/                       # Guias de geração automática
-│   │   ├── refinar_tarefa_para_markdown.md
-│   │   ├── gerar_prd.md
-│   │   ├── gerar_spec.md
-│   │   ├── gerar-tarefas.md
-│   │   ├── atualiza_readme.md
-│   │   └── executar-tarefa.md
-│   └── tarefas/                       # Tarefas técnicas ordenadas
-│       ├── 00-ordem-execucao.md      # Planejamento e status
-│       ├── 01-fontes-e-contratos.md  # ✅ CONCLUÍDO
+├── index.html                    # Página principal
+├── assets/
+│   ├── css/
+│   │   └── styles.css           # Design system, cards, layout responsivo
+│   ├── js/
+│   │   └── app.js               # Classe TeamManager, lógica de renderização
+│   └── img/
+│       └── placeholder-player.png # Fallback para imagens ausentes
+├── data/
+│   ├── teams.json               # Sumário de todas as seleções
+│   └── teams/
+│       ├── brasil.json          # Detalhes da seleção (id, nome, elenco)
+│       ├── argentina.json
+│       ├── franca.json
+│       └── espanha.json
+├── scripts/
+│   ├── fetch-data.js            # Pipeline de ingestão e normalização
+│   ├── sources.json             # Configuração de fontes públicas
+│   ├── contracts.md             # Contrato de tipos (Team, Player)
+│   └── validation-rules.md      # Regras de validação JSON
+├── spec-doc/
+│   ├── prd.md                   # Product Requirements Document
+│   ├── spec.md                  # Especificação técnica
+│   ├── README.md                # Documentação de projeto
+│   └── tarefas/
+│       ├── 00-ordem-execucao.md # Roadmap de tarefas
+│       ├── 01-fontes-e-contratos.md
 │       ├── 02-ingestao-normalizacao.md
 │       ├── 03-ativos-placeholders.md
 │       ├── 04-pagina-principal.md
 │       ├── 05-paginas-selecao.md
 │       ├── 06-acessibilidade-seo-performance.md
 │       └── 07-validacao-deploy-ci.md
-│
-├── scripts/                           # Scripts de build e utilidades
-│   ├── sources.json                   # Mapeamento de fontes públicas
-│   ├── contracts.md                   # Contrato de tipos (Team, Player)
-│   ├── validation-rules.md            # Regras de validação JSON
-│   ├── fetch-data.js                  # (TODO) Script para ingerir dados
-│   ├── generate-pages.js              # (TODO) Template engine para gerar HTML
-│   └── ...
-│
-├── data/                              # Dados gerados (JSON estático)
-│   ├── teams.json                     # Sumário de todas as seleções
-│   └── teams/                         # Detalhes por seleção
-│       ├── brasil.json                # (exemplo)
-│       ├── argentina.json
-│       └── ...
-│
-├── assets/                            # Arquivos estáticos
-│   ├── css/
-│   │   ├── styles.css                 # Estilos globais
-│   │   └── ...
-│   ├── js/
-│   │   ├── main.js                    # Lógica principal
-│   │   ├── components.js              # TeamCard, PlayerCard
-│   │   └── utils.js                   # Helpers (cálculo de idade, etc)
-│   └── img/
-│       ├── placeholder-player.png     # Fallback para foto de jogador
-│       ├── placeholder-team.png       # Fallback para bandeira
-│       └── logo.svg
-│
-├── index.html                         # Página principal (Seleções)
-├── selecao/                           # Páginas de seleção (dinâmicas ou estáticas)
-│   ├── brasil.html                    # (exemplo)
-│   ├── argentina.html
-│   └── ...
-│
-├── public/                            # (TODO) Output final após build
-│   └── (conteúdo compilado)
-│
-├── .gitignore                         # Ignora node_modules, .env, etc
-└── agent.md                           # Guia de boas práticas do projeto
+├── README.md                    # Este arquivo
+└── .git/                        # Histórico de versão
 
 ```
+
+### Detalhamento das Pastas Principais
+
+#### `index.html`
+- Única página renderizada em HTML puro
+- Estrutura semântica: `<header>`, `<main>`, `<footer>`
+- Meta tags SEO e Open Graph
+- Carrega CSS e JS como dependências
+- Container `#teams-container` preenchido dinamicamente
+
+#### `assets/css/styles.css`
+- Design system com 50+ variáveis CSS (cores, espaçamento, sombras)
+- Grid responsivo para cards de seleções
+- Animações suaves (hover, loading spinner)
+- Classes utilitárias (`.sr-only` para screen readers)
+- Sem framework CSS; puro CSS3
+
+#### `assets/js/app.js`
+- Classe `TeamManager` com métodos públicos: `loadTeams()`, `render()`
+- Métodos privados: `createTeamCard()`, `showLoading()`, `showError()`, `escapeHtml()`
+- Event listener `DOMContentLoaded` para inicialização automática
+- Tratamento de erros com try/catch e feedback visual
+
+#### `data/teams.json`
+```json
+{
+  "teams": [
+    {
+      "id": "bra",
+      "name": "Brasil",
+      "slug": "brasil",
+      "photo": "https://example.com/.../brasil.png",
+      "confederation": "CONMEBOL",
+      "coachName": "Dorival Júnior"
+    }
+    // ... mais 3 seleções
+  ]
+}
+```
+
+#### `scripts/fetch-data.js`
+- Script Node.js que orquestra pipeline de ingestão
+- Lê configuração de fontes em `sources.json`
+- Valida dados contra contrato de dados
+- Normaliza campos (birthdate, position, slug)
+- Gera `data/teams.json` e `data/teams/{slug}.json`
+- Suporta flag `--no-download-images` para evitar issues de copyright
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Quick Start
 
 ### Pré-requisitos
 
-- **Node.js** >= 14.x (para scripts de build)
-- **npm** ou **yarn** (para gerenciar dependências)
-- **navegador moderno** com suporte a ES6+
-- **python 3** (alternativa para servir localmente)
+- **Node.js** 18+ ([Download](https://nodejs.org/))
+- **Git** ([Download](https://git-scm.com/))
+- **Navegador moderno** (Chrome, Firefox, Safari, Edge)
 
-### Instalação
+### 1️⃣ Clone o Repositório
 
 ```bash
-# Clone o repositório
 git clone https://github.com/seu-usuario/portal-copa-2026-sdd.git
 cd portal-copa-2026-sdd
-
-# Instale dependências (se houver package.json)
-npm install
 ```
 
-### Desenvolvimento Local
+### 2️⃣ Abra no Navegador (Desenvolvimento Local)
 
-#### 1. Gerar dados estáticos (build)
+**Opção A: Usar `http-server` (recomendado)**
 
 ```bash
-# Busca dados de fontes públicas e gera JSONs em data/
-node scripts/fetch-data.js --output data/ --no-download-images
+# Instalar globalmente (uma única vez)
+npm install -g http-server
 
-# Opcional: gerar páginas HTML a partir de templates
-# node scripts/generate-pages.js --templates templates/ --out public/
+# Executar servidor local
+http-server . -p 8080
 ```
 
-#### 2. Servir localmente
+Acesse: **http://localhost:8080**
 
-**Opção 1: http-server (Node.js)**
+**Opção B: Usar Python**
+
 ```bash
-npx http-server . -p 8080
-# Acesse em http://localhost:8080
+# Python 3
+python -m http.server 8080
+
+# Python 2
+python -m SimpleHTTPServer 8080
 ```
 
-**Opção 2: Python**
+**Opção C: Usar VS Code Live Server**
+
+1. Instale a extensão "Live Server"
+2. Clique com botão direito em `index.html` → "Open with Live Server"
+
+### 3️⃣ (Opcional) Regenerar Dados
+
+Para atualizar dados das seleções (fixtures):
+
 ```bash
-python3 -m http.server 8000
-# Acesse em http://localhost:8000
+node scripts/fetch-data.js
 ```
 
-**Opção 3: Com Live Reload**
-```bash
-npm install -g live-server
-live-server . --port=8080
-```
-
-#### 3. Visualizar no navegador
-
-- **Página Principal:** http://localhost:8080/index.html
-- **Seleção (Brasil):** http://localhost:8080/selecao/brasil.html
+**Flags:**
+- `--no-download-images`: Pula download de imagens (mais rápido, menos storage)
+- `--output-dir /caminho`: Especifica diretório de saída (default: `./data`)
 
 ---
 
 ## ⚙️ Configuração
 
-### Variáveis de Ambiente
+### Variáveis de Ambiente (Opcional)
 
-Crie um arquivo `.env` na raiz do projeto (opcional):
+Se usar API com autenticação no futuro, crie `.env`:
 
 ```bash
 # .env
-FETCH_OUTPUT_DIR=data/
-CACHE_IMAGES=false               # true para baixar imagens localmente
-NO_DOWNLOAD_IMAGES=true          # true para usar apenas URLs externas
-API_TIMEOUT=30000                # Timeout para requisições (ms)
-LOG_LEVEL=info                   # debug | info | warn | error
+RAPIDAPI_KEY=sua_chave_aqui
+RAPIDAPI_HOST=worldcup-api.p.rapidapi.com
+TRANSFERMARKT_USER_AGENT=Mozilla/5.0...
 ```
 
-### Configuração de Fontes de Dados
+Atualize `scripts/fetch-data.js` para ler dessas variáveis:
 
-Edite `scripts/sources.json` para adicionar/remover fontes:
+```javascript
+const apiKey = process.env.RAPIDAPI_KEY;
+```
 
-```json
-{
-  "sources": [
-    {
-      "id": "fifa-api",
-      "baseUrl": "https://worldcup-api.p.rapidapi.com",
-      "endpoints": { "teams": "/teams", "teamDetails": "/teams/{id}" },
-      "reliability": "high"
-    }
-  ]
+### Customização de Estilos
+
+Edite as variáveis CSS em `assets/css/styles.css`:
+
+```css
+:root {
+  --color-primary: #1a73e8;    /* Cor principal (azul Google) */
+  --color-secondary: #34a853;  /* Cor secundária (verde) */
+  --color-danger: #ea4335;     /* Cor de erro (vermelho) */
+  --spacing-lg: 2rem;          /* Espaçamento grande */
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra média */
 }
 ```
 
@@ -288,32 +333,8 @@ Veja `scripts/contracts.md` para entender a estrutura esperada de `data/teams.js
       "name": "Brasil",
       "slug": "brasil",
       "photo": "https://img.fifa.com/...",
-      "confederation": "CONMEBOL"
-    }
-  ]
-}
-```
-
-**Exemplo de `teams/brasil.json`:**
-```json
-{
-  "id": "bra",
-  "name": "Brasil",
-  "slug": "brasil",
-  "photo": "https://...",
-  "players": [
-    {
-      "id": "neymar_jr",
-      "name": "Neymar da Silva Santos Júnior",
-      "birthdate": "1992-02-05",
-      "position": "Ataque",
-      "number": 10,
-      "photo": "https://...",
-      "club": "Al-Hilal SFC",
-      "height": 175,
-      "weight": 68,
-      "caps": 125,
-      "goals": 79
+      "confederation": "CONMEBOL",
+      "coachName": "Dorival Júnior"
     }
   ]
 }
@@ -333,53 +354,41 @@ Veja `scripts/contracts.md` para entender a estrutura esperada de `data/teams.js
 | **Wikipedia** | Web Scraping | Dados históricos e elencos | ⭐⭐⭐ | Público, dados podem estar desatualizados |
 | **Wikimedia Commons** | CDN Público | Imagens de jogadores e bandeiras | ⭐⭐⭐ | CC-BY-SA 3.0 |
 
-Veja [scripts/sources.json](scripts/sources.json) e [scripts/contracts.md](scripts/contracts.md) para detalhes completos.
+Veja [scripts/sources.json](scripts/sources.json) para detalhes completos.
 
 ---
 
 ## 🧪 Testes
 
-### Teste Manual (MVP)
+### Teste Manual: Página Principal
 
-```bash
-# 1. Verificar se data/teams.json existe e é válido
-cat data/teams.json | jq .
+1. Abra **http://localhost:8080/**
+2. Verifique se 4 cards aparecem (Brasil, Argentina, França, Espanha)
+3. Teste responsividade: Redimensione a janela (mobile 375px, tablet 768px, desktop 1200px)
+4. Clique em um card → deve levar para `/selecao/{slug}.html` (em desenvolvimento)
 
-# 2. Verificar se data/teams/brasil.json existe
-cat data/teams/brasil.json | jq .
+### Teste Manual: Lazy Loading
 
-# 3. Abrir no navegador e verificar:
-#    - index.html lista as seleções
-#    - Clicar em seleção leva para selecao/{slug}.html
-#    - Página exibe jogadores com idade calculada corretamente
-#    - Imagens faltantes exibem placeholder
-
-# 4. Testes de responsividade
-#    - Abrir em mobile (DevTools)
-#    - Verificar layout em diferentes resoluções
+```javascript
+// No console do navegador:
+document.querySelectorAll('img').forEach(img => console.log(img.loading));
+// Deve retornar "lazy" para todas as imagens
 ```
+
+### Teste Manual: Acessibilidade
+
+1. Navegue com **Tab** → focus deve estar visível em cards
+2. Teste com leitora de tela (macOS: Cmd+F5)
+3. Verifique **contraste** com ferramentas como [WebAIM](https://webaim.org/resources/contrastchecker/)
 
 ### Validação de Dados
 
 ```bash
-# Validar JSONs contra schema
-node scripts/validate-data.js --input data/ --schema scripts/contracts.json
+# Verificar se data/teams.json é JSON válido
+cat data/teams.json | jq .
 
-# Verificar integridade (teams.json vs teams/{slug}.json)
-node scripts/validate-data.js --check-integrity
-```
-
-### Testes Automatizados (Planejado)
-
-```bash
-# Instalar Cypress ou Playwright
-npm install --save-dev cypress
-
-# Rodar testes e2e
-npm run test:e2e
-
-# Rodar testes de performance
-npm run test:performance
+# Verificar estrutura dos dados
+jq '.teams | length' data/teams.json
 ```
 
 ---
@@ -395,42 +404,35 @@ npm run test:performance
 | **Vercel** | Performance otimizada, Edge | `vercel --prod` |
 | **AWS S3 + CloudFront** | Escalabilidade, controle total | `aws s3 sync . s3://bucket/` |
 
-### CI/CD com GitHub Actions (Planejado)
+### Deploy em GitHub Pages
 
-Crie `.github/workflows/build-deploy.yml`:
+```bash
+# 1. Push no repositório
+git add .
+git commit -m "atualizar portal"
+git push origin main
 
-```yaml
-name: Build & Deploy
+# 2. Ative GitHub Pages em Settings → Pages
+# 3. Selecione "Deploy from a branch" → main branch
+# Site disponível em: https://seu-usuario.github.io/portal-copa-2026-sdd/
+```
 
-on:
-  push:
-    branches: [main]
-  schedule:
-    - cron: '0 2 * * 0'  # Rebuild semanalmente
+### Deploy em Netlify
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      
-      - name: Install dependencies
-        run: npm install
-      
-      - name: Fetch data
-        run: node scripts/fetch-data.js --output data/
-      
-      - name: Validate data
-        run: node scripts/validate-data.js
-      
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+```bash
+# 1. Conecte repositório em https://netlify.com/
+# 2. Configure build (opcional, site é estático):
+#    - Build command: (deixe vazio)
+#    - Publish directory: .
+# 3. Deploy automático em cada push
+```
+
+### Deploy em Vercel
+
+```bash
+npm i -g vercel
+vercel
+# Responda as perguntas interativas
 ```
 
 ---
@@ -442,7 +444,7 @@ jobs:
 - **Armazenamento:** Git (versionamento de dados)
 - **CDN:** Serviços estáticos (GitHub Pages, Netlify CDN, Cloudflare)
 - **Imagens:** Wikimedia Commons, FIFA Official, Transfermarkt, fallback local
-- **CI/CD:** GitHub Actions
+- **CI/CD:** GitHub Actions (planejado)
 
 ### Diagrama de Infraestrutura
 
@@ -501,12 +503,13 @@ node scripts/validate-data.js 2>&1 | tee validation.log
 [2026-05-27T10:30:49.345Z] [OK] Validação completa ✅
 ```
 
-### Métricas de Performance (Planejado)
+### Métricas de Performance
 
-- Tempo de carregamento de `index.html`
-- Tempo de renderização de elenco
-- Tamanho de `teams.json` e `teams/{slug}.json`
-- Taxa de erros na busca de imagens
+- **First Contentful Paint (FCP):** < 1.5s
+- **Largest Contentful Paint (LCP):** < 2.5s
+- **Cumulative Layout Shift (CLS):** < 0.1
+- **Bundle Size:** < 50KB (HTML+CSS+JS)
+- **Imagens:** < 5MB total com lazy loading
 
 ---
 
@@ -517,6 +520,7 @@ node scripts/validate-data.js 2>&1 | tee validation.log
 - **Dados Públicos:** Todos os dados provêm de fontes públicas e oficiais.
 - **Sem Inputs Dinâmicos:** HTML/CSS/JS são estáticos — não há injeção de código.
 - **Imagens Externas:** Validadas contra URL patterns; placeholder em caso de falha.
+- **XSS Prevention:** Método `escapeHtml()` previne injeção de scripts.
 - **Controle de Acesso:** Não se aplica (conteúdo público).
 - **Headers de Segurança:** Adicione ao servidor CDN:
   ```
@@ -539,24 +543,26 @@ node scripts/validate-data.js 2>&1 | tee validation.log
 
 | Documento | Propósito |
 |-----------|-----------|
-| [spec-doc/tarefa.md](spec-doc/tarefa.md) | User story refinada (Markdown) |
 | [spec-doc/prd.md](spec-doc/prd.md) | Product Requirements Document |
 | [spec-doc/spec.md](spec-doc/spec.md) | Especificação Técnica Detalhada |
 | [spec-doc/tarefas/00-ordem-execucao.md](spec-doc/tarefas/00-ordem-execucao.md) | Planejamento e status das tarefas |
 | [scripts/sources.json](scripts/sources.json) | Mapeamento de fontes públicas |
 | [scripts/contracts.md](scripts/contracts.md) | Contrato de tipos (Team, Player) |
 | [scripts/validation-rules.md](scripts/validation-rules.md) | Regras de validação JSON |
-| [agent.md](agent.md) | Guia de boas práticas do projeto |
+| [assets/README.md](assets/README.md) | Documentação de assets e fallback |
 
-### Próximas Etapas
+### Roadmap
 
-1. ✅ **[01] Definir fontes e contratos** — CONCLUÍDO
-2. 🔨 **[02] Implementar ingestão e normalização** — EM PROGRESSO
-3. 🔨 **[03] Estruturar ativos estáticos**
-4. 🔨 **[04] Construir página principal**
-5. 🔨 **[05] Construir páginas de seleção**
-6. 🔨 **[06] Acessibilidade, SEO e performance**
-7. 🔨 **[07] Validação e deploy/CI**
+#### ✅ Concluído
+- [01] Definir fontes e contratos de dados
+- [02] Implementar ingestão e normalização de dados
+- [03] Estruturar ativos estáticos e placeholders
+- [04] Construir página principal (`index.html`)
+
+#### 🔨 Em Progresso
+- [05] Construir páginas de seleção (`selecao/{slug}.html`)
+- [06] Garantir acessibilidade, SEO e performance mínima
+- [07] Validar qualidade e preparar deploy/CI
 
 ---
 
@@ -610,15 +616,13 @@ Veja [LICENSE](LICENSE) para detalhes completos.
 
 **Daniel Smanioto**  
 Engenheiro de Software Sênior  
-📧 [seu-email@example.com](mailto:seu-email@example.com)  
-🔗 [LinkedIn](https://linkedin.com/in/seu-perfil) • [GitHub](https://github.com/seu-usuario)
 
 ---
 
 <div align="center">
 
-**[⬆ voltar ao topo](#-portal-copa-2026--site-estático)**
+**[⬆ voltar ao topo](#-portal-copa-2026--site-estático-responsivo)**
 
-Feito com ❤️ para fãs de futebol e jornalistas ao redor do mundo.
+Feito com ❤️ para fãs de futebol ao redor do mundo 🌍
 
 </div>
