@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-05-28",
+  "notes": "Fontes públicas iniciais para ingestão do MVP. Priorizar dados oficiais quando disponíveis.",
+  "sources": [
+    {
+      "id": "fifa-teams",
+      "name": "FIFA",
+      "type": "official",
+      "url": "https://www.fifa.com",
+      "usage": "Referência institucional para nomes oficiais das seleções."
+    },
+    {
+      "id": "wikipedia-world-cup",
+      "name": "Wikipedia",
+      "type": "community",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "usage": "Lista inicial de seleções para bootstrap de dados."
+    },
+    {
+      "id": "wikidata-teams",
+      "name": "Wikidata Query Service",
+      "type": "community-structured",
+      "url": "https://query.wikidata.org/",
+      "usage": "Dados estruturados de seleções e jogadores para normalização."
+    }
+  ]
+}
