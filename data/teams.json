@@ -1,0 +1,36 @@
+{
+  "teams": [
+    {
+      "id": "bra",
+      "name": "Brasil",
+      "slug": "brasil",
+      "photo": "https://example.com/images/selecoes/brasil.png",
+      "confederation": "CONMEBOL",
+      "coachName": "Dorival Júnior"
+    },
+    {
+      "id": "arg",
+      "name": "Argentina",
+      "slug": "argentina",
+      "photo": "https://example.com/images/selecoes/argentina.png",
+      "confederation": "CONMEBOL",
+      "coachName": "Lionel Scaloni"
+    },
+    {
+      "id": "fra",
+      "name": "França",
+      "slug": "franca",
+      "photo": "https://example.com/images/selecoes/franca.png",
+      "confederation": "UEFA",
+      "coachName": "Didier Deschamps"
+    },
+    {
+      "id": "esp",
+      "name": "Espanha",
+      "slug": "espanha",
+      "photo": "https://example.com/images/selecoes/espanha.png",
+      "confederation": "UEFA",
+      "coachName": "Luis de la Fuente"
+    }
+  ]
+}

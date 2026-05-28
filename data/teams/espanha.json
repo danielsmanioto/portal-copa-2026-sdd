@@ -1,0 +1,49 @@
+{
+  "id": "esp",
+  "name": "Espanha",
+  "slug": "espanha",
+  "photo": "https://example.com/images/selecoes/espanha.png",
+  "players": [
+    {
+      "id": "unai_simon",
+      "name": "Unai Simón",
+      "birthdate": "1997-06-11",
+      "position": "Goleiro",
+      "number": 1,
+      "photo": "https://example.com/images/jogadores/unai-simon.jpg",
+      "club": "Athletic Club",
+      "height": 190,
+      "weight": 88,
+      "caps": 41,
+      "goals": 0
+    },
+    {
+      "id": "rodri",
+      "name": "Rodrigo Hernández Cascante",
+      "birthdate": "1996-06-22",
+      "position": "Meio",
+      "number": 16,
+      "photo": "https://example.com/images/jogadores/rodri.jpg",
+      "club": "Manchester City",
+      "height": 191,
+      "weight": 82,
+      "caps": 54,
+      "goals": 4
+    },
+    {
+      "id": "lamine_yamal",
+      "name": "Lamine Yamal",
+      "birthdate": "2007-07-13",
+      "position": "Ataque",
+      "number": 19,
+      "photo": "https://example.com/images/jogadores/lamine-yamal.jpg",
+      "club": "FC Barcelona",
+      "height": 180,
+      "weight": 66,
+      "caps": 16,
+      "goals": 3
+    }
+  ],
+  "confederation": "UEFA",
+  "coachName": "Luis de la Fuente"
+}
