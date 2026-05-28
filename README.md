@@ -6,16 +6,6 @@
 
 **Tags:** `status:draft` • `type:static-site` • `audience:fans,journalists` • `scope:build-time`
 
-| Passo | Descrição | Comando (exemplo) | Executado |
-|---|---|---:|:--|
-| 1 | Refinar a tarefa para Markdown (`tarefa.md`) | `node scripts/refinar_tarefa_para_markdown.js` ou `bash scripts/refinar_tarefa_para_markdown.sh` | Não |
-| 2 | Gerar PRD a partir da tarefa | `node scripts/gerar_prd_from_tarefa.js` (ou executar o prompt em `spec-doc/prompts/generate_prd_from_tarefa/README.md`) | Não |
-| 3 | Gerar especificação técnica (spec) a partir da tarefa e PRD | `node scripts/gerar_spec_from_docs.js` (ou usar `spec-doc/prompts/gerar_spec_from_tarefa_prd/README.md`) | Não |
-| 4 | Buscar/normalizar dados públicos e gerar JSON em `data/` | `node scripts/fetch-data.js --output data/ --no-download-images` | Não |
-| 5 | Gerar páginas estáticas (opcional — build-time) | `node scripts/generate-pages.js --templates templates/ --out public/` | Não |
-| 6 | Testar localmente (servir `public/`) | `npx http-server public -p 8080` ou `python3 -m http.server 8000` | Não |
-| 7 | Deploy (GitHub Pages / Netlify / Vercel / S3) | Configurar CI para rodar fetch + generate antes do deploy | Não |
-
 ---
 
 ## Notas rápidas sobre os scripts
