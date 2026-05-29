@@ -32,6 +32,8 @@ Gerar um arquivo:
 /world-cup-data/worldcup-complete.json
 ```
 
+Além disso, o pipeline deve manter cache e arquivos intermediários em `data/raw`, `data/normalized` e `data/generated`, e poder ser executado novamente sem duplicar dados.
+
 Formato esperado do JSON:
 
 ```json
@@ -106,6 +108,7 @@ Extras desejáveis:
 * script CLI executável
 * suporte a cache local
 * opção de atualizar apenas uma seleção
+* argumentos `--team` e `--refresh`
 * fallback para dados ausentes
 * gerar estatísticas finais:
 
