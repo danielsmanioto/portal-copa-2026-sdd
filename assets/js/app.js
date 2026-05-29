@@ -21,6 +21,70 @@ class TeamManager {
     }
   }
 
+  resolveTeamImage(team) {
+    const flagCodeBySlug = {
+      'mexico': 'mx',
+      'south-africa': 'za',
+      'korea-republic': 'kr',
+      'czechia': 'cz',
+      'canada': 'ca',
+      'bosnia-herzegovina': 'ba',
+      'qatar': 'qa',
+      'switzerland': 'ch',
+      'brasil': 'br',
+      'morocco': 'ma',
+      'haiti': 'ht',
+      'scotland': 'sc',
+      'united-states': 'us',
+      'paraguay': 'py',
+      'australia': 'au',
+      'turkiye': 'tr',
+      'germany': 'de',
+      'curacao': 'cw',
+      'cote-d-ivoire': 'ci',
+      'ecuador': 'ec',
+      'netherlands': 'nl',
+      'japan': 'jp',
+      'sweden': 'se',
+      'tunisia': 'tn',
+      'belgium': 'be',
+      'egypt': 'eg',
+      'ir-iran': 'ir',
+      'new-zealand': 'nz',
+      'espanha': 'es',
+      'cabo-verde': 'cv',
+      'saudi-arabia': 'sa',
+      'uruguay': 'uy',
+      'franca': 'fr',
+      'senegal': 'sn',
+      'iraq': 'iq',
+      'norway': 'no',
+      'argentina': 'ar',
+      'algeria': 'dz',
+      'austria': 'at',
+      'jordan': 'jo',
+      'portugal': 'pt',
+      'congo-dr': 'cd',
+      'uzbekistan': 'uz',
+      'colombia': 'co',
+      'england': 'gb-eng',
+      'croatia': 'hr',
+      'ghana': 'gh',
+      'panama': 'pa'
+    };
+
+    const flagCode = flagCodeBySlug[team.slug];
+    if (flagCode) {
+      return `https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${flagCode}.svg`;
+    }
+
+    if (team.photo && !team.photo.includes('example.com')) {
+      return team.photo;
+    }
+
+    return '/assets/img/placeholder-player.png';
+  }
+
   /**
    * Fetch teams data from JSON
    */
@@ -90,13 +154,13 @@ class TeamManager {
     imageContainer.className = 'team-card-image';
     
     const img = document.createElement('img');
-    img.src = team.photo;
-    img.alt = `${team.name} team badge`;
+    img.src = this.resolveTeamImage(team);
+    img.alt = `${team.name} flag`;
     img.loading = 'lazy';
     img.decoding = 'async';
     img.onerror = () => {
       img.src = '/assets/img/placeholder-player.png';
-      img.alt = `${team.name} team badge (placeholder)`;
+      img.alt = `${team.name} flag (placeholder)`;
     };
     
     imageContainer.appendChild(img);

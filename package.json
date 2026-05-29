@@ -12,7 +12,8 @@
     "worldcup:normalize": "node scripts/normalize-data.js",
     "worldcup:merge": "node scripts/merge-data.js",
     "worldcup:generate": "node scripts/generate-worldcup-json.js",
-    "selecao:generate": "node scripts/generate-selecao-pages.js"
+    "selecao:generate": "node scripts/generate-selecao-pages.js",
+    "serve": "sh -c 'pids=$(lsof -ti tcp:8080 || true); if [ -n \"$pids\" ]; then kill -9 $pids; fi; python3 -m http.server 8080'"
   },
   "bin": {
     "worldcup-json": "./scripts/generate-worldcup-json.js"

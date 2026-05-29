@@ -16,31 +16,6 @@
 
 ---
 
-## 🌐 Generate the complete World Cup JSON
-
-The new ETL pipeline writes the final dataset to `world-cup-data/worldcup-complete.json` and also keeps intermediate cache files under `data/raw`, `data/normalized`, and `data/generated`.
-
-### Run
-
-```bash
-npm run worldcup:generate
-```
-
-### Helpful flags
-
-```bash
-npm run worldcup:generate -- --team Brazil
-npm run worldcup:generate -- --refresh
-```
-
-### Known limitations
-
-- FIFA ranking is written as `null` when there is no trusted public source already mapped in the pipeline.
-- Some teams may end up with `players: []` if the public squad cache does not contain a matching dataset.
-- When multiple historical squad sources exist, the pipeline prefers the newest public cache it can match.
-
----
-
 ## ▶️ Como executar o projeto
 
 Se você abrir o `index.html` direto no navegador, o portal pode ficar em branco porque os dados são carregados com `fetch()` e isso exige um servidor local. Use um dos passos abaixo.
@@ -66,12 +41,13 @@ http://localhost:8080
 
 ### Opção 2: Node.js
 
-Se você tiver `http-server` instalado:
+Se quiser matar qualquer processo preso na porta 8080 e subir o servidor automaticamente:
 
 ```bash
-npm install -g http-server
-http-server . -p 8080
+npm run serve
 ```
+
+Esse comando encerra processos na porta 8080 e sobe `python3 -m http.server 8080` na raiz do projeto.
 
 ### Opção 3: Live Server no VS Code
 

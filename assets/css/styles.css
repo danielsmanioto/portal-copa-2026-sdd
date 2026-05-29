@@ -152,7 +152,7 @@ header p {
   width: 100%;
   height: 200px;
   overflow: hidden;
-  background: var(--color-border);
+  background: linear-gradient(180deg, #ffffff 0%, #eef3fb 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,8 +161,9 @@ header p {
 .team-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  padding: var(--spacing-md);
 }
 
 .team-card-content {
