@@ -7,17 +7,8 @@ on:
   pull_request:
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
-  validate-json:
+  e2e:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,37 +19,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Validate JSON data
-        run: node scripts/validate-json.js
+      - name: Install dependencies
+        run: npm ci
 
-  build:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: validate-json
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
 
-      - name: Prepare site artifact
-        run: |
-          rm -rf dist
-          mkdir -p dist
-          cp index.html README.md dist/
-          cp -R assets data selecao dist/
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Run E2E tests
+        run: npm run test:e2e -- --reporter=line
