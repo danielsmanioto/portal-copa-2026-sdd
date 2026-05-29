@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/netherlands.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "remko-pasveer-1",
+      "name": "Remko Pasveer",
+      "birthdate": "1983-11-18",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jurrien-timber-2",
+      "name": "Jurrien Timber",
+      "birthdate": "2001-06-17",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "matthijs-de-ligt-3",
+      "name": "Matthijs de Ligt",
+      "birthdate": "1999-08-12",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "virgil-van-dijk-4",
+      "name": "Virgil van Dijk",
+      "birthdate": "1991-07-08",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Liverpool",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nathan-ake-5",
+      "name": "Nathan Aké",
+      "birthdate": "1995-02-18",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "stefan-de-vrij-6",
+      "name": "Stefan de Vrij",
+      "birthdate": "1992-02-05",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Internazionale",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "steven-bergwijn-7",
+      "name": "Steven Bergwijn",
+      "birthdate": "1997-10-08",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cody-gakpo-8",
+      "name": "Cody Gakpo",
+      "birthdate": "1999-05-07",
+      "position": "Ataque",
+      "number": 8,
+      "club": "PSV Eindhoven",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luuk-de-jong-9",
+      "name": "Luuk de Jong",
+      "birthdate": "1990-08-27",
+      "position": "Ataque",
+      "number": 9,
+      "club": "PSV Eindhoven",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "memphis-depay-10",
+      "name": "Memphis Depay",
+      "birthdate": "1994-02-13",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Barcelona",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "steven-berghuis-11",
+      "name": "Steven Berghuis",
+      "birthdate": "1991-12-19",
+      "position": "Meio",
+      "number": 11,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "noa-lang-12",
+      "name": "Noa Lang",
+      "birthdate": "1999-06-17",
+      "position": "Meio",
+      "number": 12,
+      "club": "Club Brugge",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "justin-bijlow-13",
+      "name": "Justin Bijlow",
+      "birthdate": "1998-01-22",
+      "position": "Goleiro",
+      "number": 13,
+      "club": "Feyenoord",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "davy-klaassen-14",
+      "name": "Davy Klaassen",
+      "birthdate": "1993-02-21",
+      "position": "Meio",
+      "number": 14,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marten-de-roon-15",
+      "name": "Marten de Roon",
+      "birthdate": "1991-03-29",
+      "position": "Meio",
+      "number": 15,
+      "club": "Atalanta",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tyrell-malacia-16",
+      "name": "Tyrell Malacia",
+      "birthdate": "1999-08-17",
+      "position": "Defesa",
+      "number": 16,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "daley-blind-17",
+      "name": "Daley Blind",
+      "birthdate": "1990-03-09",
+      "position": "Defesa",
+      "number": 17,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "vincent-janssen-18",
+      "name": "Vincent Janssen",
+      "birthdate": "1994-06-15",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Royal Antwerp",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "wout-weghorst-19",
+      "name": "Wout Weghorst",
+      "birthdate": "1992-08-07",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Beşiktaş (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "teun-koopmeiners-20",
+      "name": "Teun Koopmeiners",
+      "birthdate": "1998-02-28",
+      "position": "Meio",
+      "number": 20,
+      "club": "Atalanta",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "frenkie-de-jong-21",
+      "name": "Frenkie de Jong",
+      "birthdate": "1997-05-12",
+      "position": "Meio",
+      "number": 21,
+      "club": "Barcelona",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "denzel-dumfries-22",
+      "name": "Denzel Dumfries",
+      "birthdate": "1996-04-18",
+      "position": "Defesa",
+      "number": 22,
+      "club": "Internazionale",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "andries-noppert-23",
+      "name": "Andries Noppert",
+      "birthdate": "1994-04-07",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "SC Heerenveen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kenneth-taylor-24",
+      "name": "Kenneth Taylor",
+      "birthdate": "2002-05-16",
+      "position": "Meio",
+      "number": 24,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "xavi-simons-25",
+      "name": "Xavi Simons",
+      "birthdate": "2003-04-21",
+      "position": "Meio",
+      "number": 25,
+      "club": "PSV Eindhoven",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jeremie-frimpong-26",
+      "name": "Jeremie Frimpong",
+      "birthdate": "2000-12-10",
+      "position": "Defesa",
+      "number": 26,
+      "club": "Bayer Leverkusen",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

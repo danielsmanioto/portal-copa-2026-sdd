@@ -5,13 +5,202 @@
   "photo": "https://example.com/images/selecoes/norway.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
+      "id": "frode-grodas-1",
+      "name": "Frode Grodås",
       "birthdate": "2000-01-01",
       "position": "Meio",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "gunnar-halle-2",
+      "name": "Gunnar Halle",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 2,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ronny-johnsen-3",
+      "name": "Ronny Johnsen",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 3,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "henning-berg-4",
+      "name": "Henning Berg",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 4,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "stig-inge-bj-rnebye-5",
+      "name": "Stig Inge Bjørnebye",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 5,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "stale-solbakken-6",
+      "name": "Ståle Solbakken",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 6,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "erik-mykland-7",
+      "name": "Erik Mykland",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 7,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "yvind-leonhardsen-8",
+      "name": "Øyvind Leonhardsen",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 8,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "tore-andre-flo-9",
+      "name": "Tore André Flo",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 9,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "kjetil-rekdal-10",
+      "name": "Kjetil Rekdal",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 10,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "mini-jakobsen-11",
+      "name": "Mini Jakobsen",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 11,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "thomas-myhre-12",
+      "name": "Thomas Myhre",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 12,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "espen-baardsen-13",
+      "name": "Espen Baardsen",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 13,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "vegard-heggem-14",
+      "name": "Vegard Heggem",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 14,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "dan-eggen-15",
+      "name": "Dan Eggen",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 15,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jostein-flo-16",
+      "name": "Jostein Flo",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 16,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "havard-flo-17",
+      "name": "Håvard Flo",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 17,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "egil-stenstad-18",
+      "name": "Egil Østenstad",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 18,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "erik-hoftun-19",
+      "name": "Erik Hoftun",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 19,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ole-gunnar-solskj-r-20",
+      "name": "Ole Gunnar Solskjær",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 20,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "vidar-riseth-21",
+      "name": "Vidar Riseth",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 21,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "roar-strand-22",
+      "name": "Roar Strand",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 22,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
     }
   ],
   "confederation": "UEFA",

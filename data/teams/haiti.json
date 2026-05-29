@@ -5,13 +5,202 @@
   "photo": "https://example.com/images/selecoes/haiti.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
+      "id": "henri-francillon-1",
+      "name": "Henri Francillon",
       "birthdate": "2000-01-01",
       "position": "Meio",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "wilner-piquant-2",
+      "name": "Wilner Piquant",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 2,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "arsene-august-3",
+      "name": "Arsene August",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 3,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "fritz-andre-4",
+      "name": "Fritz Andre",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 4,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "serge-ducoste-5",
+      "name": "Serge Ducoste",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 5,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "pierre-bayonne-6",
+      "name": "Pierre Bayonne",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 6,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "philippe-vorbe-7",
+      "name": "Philippe Vorbe",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 7,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jean-claude-desir-8",
+      "name": "Jean-Claude Desir",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 8,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "eddy-antoine-9",
+      "name": "Eddy Antoine",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 9,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "guy-francois-10",
+      "name": "Guy François",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 10,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "guy-saint-vil-11",
+      "name": "Guy Saint-Vil",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 11,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ernst-jean-joseph-12",
+      "name": "Ernst Jean-Joseph",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 12,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "serge-racine-13",
+      "name": "Serge Racine",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 13,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "wilner-nazaire-14",
+      "name": "Wilner Nazaire",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 14,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "roger-saint-vil-15",
+      "name": "Roger Saint-Vil",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 15,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "fritz-leandre-16",
+      "name": "Fritz Leandre",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 16,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "joseph-marion-leandre-17",
+      "name": "Joseph-Marion Leandre",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 17,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "claude-barthelemy-18",
+      "name": "Claude Barthelemy",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 18,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jean-hubert-austin-19",
+      "name": "Jean-Hubert Austin",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 19,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "emmanuel-sanon-20",
+      "name": "Emmanuel Sanon",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 20,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "wilfried-louis-21",
+      "name": "Wilfried Louis",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 21,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "gerard-joseph-22",
+      "name": "Gerard Joseph",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 22,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
     }
   ],
   "confederation": "CONCACAF",

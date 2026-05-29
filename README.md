@@ -16,6 +16,12 @@
 
 ---
 
+## 🖼️ Preview do site
+
+![Preview do Portal Copa 2026](assets/img/readme-site-preview.svg)
+
+_Imagem de preview da página inicial, baseada no layout atual do projeto._
+
 ## ▶️ Como executar o projeto
 
 Se você abrir o `index.html` direto no navegador, o portal pode ficar em branco porque os dados são carregados com `fetch()` e isso exige um servidor local. Use um dos passos abaixo.

@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/belgium.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "thibaut-courtois-1",
+      "name": "Thibaut Courtois",
+      "birthdate": "1992-05-11",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Real Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "toby-alderweireld-2",
+      "name": "Toby Alderweireld",
+      "birthdate": "1989-03-02",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Royal Antwerp",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "arthur-theate-3",
+      "name": "Arthur Theate",
+      "birthdate": "2000-05-25",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Rennes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "wout-faes-4",
+      "name": "Wout Faes",
+      "birthdate": "1998-04-03",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Leicester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jan-vertonghen-5",
+      "name": "Jan Vertonghen",
+      "birthdate": "1987-04-24",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Anderlecht",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "axel-witsel-6",
+      "name": "Axel Witsel",
+      "birthdate": "1989-01-12",
+      "position": "Meio",
+      "number": 6,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kevin-de-bruyne-7",
+      "name": "Kevin De Bruyne",
+      "birthdate": "1991-06-28",
+      "position": "Meio",
+      "number": 7,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "youri-tielemans-8",
+      "name": "Youri Tielemans",
+      "birthdate": "1997-05-07",
+      "position": "Meio",
+      "number": 8,
+      "club": "Leicester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "romelu-lukaku-9",
+      "name": "Romelu Lukaku",
+      "birthdate": "1993-05-13",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Internazionale (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "eden-hazard-10",
+      "name": "Eden Hazard",
+      "birthdate": "1991-01-07",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Real Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yannick-ferreira-carrasco-11",
+      "name": "Yannick Ferreira Carrasco",
+      "birthdate": "1993-09-04",
+      "position": "Meio",
+      "number": 11,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "simon-mignolet-12",
+      "name": "Simon Mignolet",
+      "birthdate": "1988-03-06",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Club Brugge",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "koen-casteels-13",
+      "name": "Koen Casteels",
+      "birthdate": "1992-06-25",
+      "position": "Goleiro",
+      "number": 13,
+      "club": "Wolfsburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "dries-mertens-14",
+      "name": "Dries Mertens",
+      "birthdate": "1987-05-06",
+      "position": "Ataque",
+      "number": 14,
+      "club": "Galatasaray",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thomas-meunier-15",
+      "name": "Thomas Meunier",
+      "birthdate": "1991-09-12",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thorgan-hazard-16",
+      "name": "Thorgan Hazard",
+      "birthdate": "1993-03-29",
+      "position": "Meio",
+      "number": 16,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "leandro-trossard-17",
+      "name": "Leandro Trossard",
+      "birthdate": "1994-12-04",
+      "position": "Meio",
+      "number": 17,
+      "club": "Brighton & HA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "amadou-onana-18",
+      "name": "Amadou Onana",
+      "birthdate": "2001-08-16",
+      "position": "Meio",
+      "number": 18,
+      "club": "Everton",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "leander-dendoncker-19",
+      "name": "Leander Dendoncker",
+      "birthdate": "1995-04-15",
+      "position": "Meio",
+      "number": 19,
+      "club": "Aston Villa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hans-vanaken-20",
+      "name": "Hans Vanaken",
+      "birthdate": "1992-08-24",
+      "position": "Meio",
+      "number": 20,
+      "club": "Club Brugge",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "timothy-castagne-21",
+      "name": "Timothy Castagne",
+      "birthdate": "1995-12-05",
+      "position": "Defesa",
+      "number": 21,
+      "club": "Leicester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "charles-de-ketelaere-22",
+      "name": "Charles De Ketelaere",
+      "birthdate": "2001-03-10",
+      "position": "Ataque",
+      "number": 22,
+      "club": "Milan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "michy-batshuayi-23",
+      "name": "Michy Batshuayi",
+      "birthdate": "1993-10-02",
+      "position": "Ataque",
+      "number": 23,
+      "club": "Fenerbahçe",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lois-openda-24",
+      "name": "Loïs Openda",
+      "birthdate": "2000-02-16",
+      "position": "Ataque",
+      "number": 24,
+      "club": "Lens",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jeremy-doku-25",
+      "name": "Jérémy Doku",
+      "birthdate": "2002-05-27",
+      "position": "Ataque",
+      "number": 25,
+      "club": "Rennes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "zeno-debast-26",
+      "name": "Zeno Debast",
+      "birthdate": "2003-10-24",
+      "position": "Defesa",
+      "number": 26,
+      "club": "Anderlecht",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

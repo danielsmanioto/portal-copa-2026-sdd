@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/cote-d-ivoire.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "barry-copa-boubacar-1",
+      "name": "Barry \"Copa\" Boubacar",
+      "birthdate": "1979-12-30",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Lokeren",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ousmane-viera-2",
+      "name": "Ousmane Viera",
+      "birthdate": "1986-12-21",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Rizespor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "arthur-boka-3",
+      "name": "Arthur Boka",
+      "birthdate": "1983-04-02",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Stuttgart",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kolo-toure-4",
+      "name": "Kolo Touré",
+      "birthdate": "1981-03-19",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Liverpool",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "didier-zokora-5",
+      "name": "Didier Zokora",
+      "birthdate": "1980-12-14",
+      "position": "Meio",
+      "number": 5,
+      "club": "Trabzonspor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mathis-bolly-6",
+      "name": "Mathis Bolly",
+      "birthdate": "1990-11-14",
+      "position": "Meio",
+      "number": 6,
+      "club": "Fortuna Düsseldorf",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jean-daniel-akpa-akpro-7",
+      "name": "Jean-Daniel Akpa Akpro",
+      "birthdate": "1992-10-11",
+      "position": "Meio",
+      "number": 7,
+      "club": "Toulouse",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "salomon-kalou-8",
+      "name": "Salomon Kalou",
+      "birthdate": "1985-08-05",
+      "position": "Ataque",
+      "number": 8,
+      "club": "Lille",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cheik-ismael-tiote-9",
+      "name": "Cheik Ismael Tioté",
+      "birthdate": "1986-06-21",
+      "position": "Meio",
+      "number": 9,
+      "club": "Newcastle U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kouassi-gervais-gervinho-yao-10",
+      "name": "Kouassi Gervais \"Gervinho\" Yao",
+      "birthdate": "1987-05-27",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Roma",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "didier-drogba-11",
+      "name": "Didier Drogba",
+      "birthdate": "1978-03-11",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Galatasaray",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "wilfried-bony-12",
+      "name": "Wilfried Bony",
+      "birthdate": "1988-12-10",
+      "position": "Ataque",
+      "number": 12,
+      "club": "Swansea C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "didier-ya-konan-13",
+      "name": "Didier Ya Konan",
+      "birthdate": "1984-05-22",
+      "position": "Meio",
+      "number": 13,
+      "club": "Hannover 96",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ismael-diomande-14",
+      "name": "Ismaël Diomande",
+      "birthdate": "1992-08-28",
+      "position": "Meio",
+      "number": 14,
+      "club": "St-Etienne",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "max-gradel-15",
+      "name": "Max Gradel",
+      "birthdate": "1987-11-30",
+      "position": "Meio",
+      "number": 15,
+      "club": "St-Etienne",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sylvain-gbohouo-16",
+      "name": "Sylvain Gbohouo",
+      "birthdate": "1988-10-29",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "Séwé Sports",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "serge-aurier-17",
+      "name": "Serge Aurier",
+      "birthdate": "1992-12-24",
+      "position": "Defesa",
+      "number": 17,
+      "club": "Toulouse",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "constant-djakpa-18",
+      "name": "Constant Djakpa",
+      "birthdate": "1986-10-17",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Eintracht Frankfurt",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yaya-toure-19",
+      "name": "Yaya Touré",
+      "birthdate": "1983-05-13",
+      "position": "Meio",
+      "number": 19,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "serey-die-20",
+      "name": "Serey Die",
+      "birthdate": "1984-11-07",
+      "position": "Meio",
+      "number": 20,
+      "club": "Basel",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "giovanni-sio-21",
+      "name": "Giovanni Sio",
+      "birthdate": "1989-03-31",
+      "position": "Ataque",
+      "number": 21,
+      "club": "Basel",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "souleymane-bamba-22",
+      "name": "Souleymane Bamba",
+      "birthdate": "1985-01-13",
+      "position": "Defesa",
+      "number": 22,
+      "club": "Trabzonspor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mande-sayouba-23",
+      "name": "Mandé Sayouba",
+      "birthdate": "1993-06-15",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Stabæk",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

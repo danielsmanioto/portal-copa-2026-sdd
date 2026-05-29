@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/saudi-arabia.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "mohammed-al-rubaie-1",
+      "name": "Mohammed Al-Rubaie",
+      "birthdate": "1997-08-14",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Al-Ahli Saudi",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sultan-al-ghanam-2",
+      "name": "Sultan Al-Ghanam",
+      "birthdate": "1994-05-06",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Al-Nassr",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdullah-madu-3",
+      "name": "Abdullah Madu",
+      "birthdate": "1993-07-15",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Al-Nassr",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdulelah-al-amri-4",
+      "name": "Abdulelah Al-Amri",
+      "birthdate": "1997-01-15",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Al-Nassr",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-al-bulaihi-5",
+      "name": "Ali Al-Bulaihi",
+      "birthdate": "1989-11-21",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohammed-al-breik-6",
+      "name": "Mohammed Al-Breik",
+      "birthdate": "1992-09-15",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "salman-al-faraj-7",
+      "name": "Salman Al-Faraj",
+      "birthdate": "1989-08-01",
+      "position": "Meio",
+      "number": 7,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdulellah-al-malki-8",
+      "name": "Abdulellah Al-Malki",
+      "birthdate": "1994-10-11",
+      "position": "Meio",
+      "number": 8,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "firas-al-buraikan-9",
+      "name": "Firas Al-Buraikan",
+      "birthdate": "2000-05-14",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Al-Fateh",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "salem-al-dawsari-10",
+      "name": "Salem Al-Dawsari",
+      "birthdate": "1991-08-19",
+      "position": "Meio",
+      "number": 10,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "saleh-al-shehri-11",
+      "name": "Saleh Al-Shehri",
+      "birthdate": "1993-11-01",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "saud-abdulhamid-12",
+      "name": "Saud Abdulhamid",
+      "birthdate": "1999-07-18",
+      "position": "Defesa",
+      "number": 12,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yasser-al-shahrani-13",
+      "name": "Yasser Al-Shahrani",
+      "birthdate": "1992-05-25",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdullah-otayf-14",
+      "name": "Abdullah Otayf",
+      "birthdate": "1992-08-03",
+      "position": "Meio",
+      "number": 14,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-al-hassan-15",
+      "name": "Ali Al-Hassan",
+      "birthdate": "1997-03-04",
+      "position": "Meio",
+      "number": 15,
+      "club": "Al-Nassr",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sami-al-najei-16",
+      "name": "Sami Al-Najei",
+      "birthdate": "1997-02-07",
+      "position": "Meio",
+      "number": 16,
+      "club": "Al-Nassr",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hassan-tambakti-17",
+      "name": "Hassan Tambakti",
+      "birthdate": "1999-02-09",
+      "position": "Defesa",
+      "number": 17,
+      "club": "Al-Shabab",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nawaf-al-abed-18",
+      "name": "Nawaf Al-Abed",
+      "birthdate": "1990-01-26",
+      "position": "Meio",
+      "number": 18,
+      "club": "Al-Shabab",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hattan-bahebri-19",
+      "name": "Hattan Bahebri",
+      "birthdate": "1992-07-16",
+      "position": "Meio",
+      "number": 19,
+      "club": "Al-Shabab",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdulrahman-al-aboud-20",
+      "name": "Abdulrahman Al-Aboud",
+      "birthdate": "1995-06-01",
+      "position": "Meio",
+      "number": 20,
+      "club": "Al-Ittihad [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohammed-al-owais-21",
+      "name": "Mohammed Al-Owais",
+      "birthdate": "1991-10-10",
+      "position": "Goleiro",
+      "number": 21,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nawaf-al-aqidi-22",
+      "name": "Nawaf Al-Aqidi",
+      "birthdate": "2000-05-10",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "Al-Nassr",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-kanno-23",
+      "name": "Mohamed Kanno",
+      "birthdate": "1994-09-22",
+      "position": "Meio",
+      "number": 23,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nasser-al-dawsari-24",
+      "name": "Nasser Al-Dawsari",
+      "birthdate": "1998-12-19",
+      "position": "Meio",
+      "number": 24,
+      "club": "Al-Hilal [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "haitham-asiri-25",
+      "name": "Haitham Asiri",
+      "birthdate": "2001-03-25",
+      "position": "Ataque",
+      "number": 25,
+      "club": "Al-Ahli Saudi",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "riyadh-sharahili-26",
+      "name": "Riyadh Sharahili",
+      "birthdate": "1993-04-28",
+      "position": "Meio",
+      "number": 26,
+      "club": "Abha Club",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "AFC",

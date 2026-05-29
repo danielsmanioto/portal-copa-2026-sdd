@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/ghana.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "lawrence-ati-zigi-1",
+      "name": "Lawrence Ati-Zigi",
+      "birthdate": "1996-11-29",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "St. Gallen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tariq-lamptey-2",
+      "name": "Tariq Lamptey",
+      "birthdate": "2000-09-30",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Brighton & HA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "denis-odoi-3",
+      "name": "Denis Odoi",
+      "birthdate": "1988-05-27",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Club Brugge",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohammed-salisu-4",
+      "name": "Mohammed Salisu",
+      "birthdate": "1999-04-17",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Southampton",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thomas-partey-5",
+      "name": "Thomas Partey",
+      "birthdate": "1993-06-13",
+      "position": "Meio",
+      "number": 5,
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "elisha-owusu-6",
+      "name": "Elisha Owusu",
+      "birthdate": "1997-11-07",
+      "position": "Meio",
+      "number": 6,
+      "club": "KAA Gent",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdul-fatawu-7",
+      "name": "Abdul Fatawu",
+      "birthdate": "2004-03-08",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Sporting CP",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "daniel-kofi-kyereh-8",
+      "name": "Daniel-Kofi Kyereh",
+      "birthdate": "1996-03-08",
+      "position": "Ataque",
+      "number": 8,
+      "club": "Freiburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jordan-ayew-9",
+      "name": "Jordan Ayew",
+      "birthdate": "1991-09-11",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Crystal Palace",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "andre-ayew-10",
+      "name": "André Ayew",
+      "birthdate": "1989-12-17",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "osman-bukari-11",
+      "name": "Osman Bukari",
+      "birthdate": "1998-12-13",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Crvena Zvezda",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ibrahim-danlad-12",
+      "name": "Ibrahim Danlad",
+      "birthdate": "2002-12-02",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Asante Kotoko",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "daniel-afriyie-13",
+      "name": "Daniel Afriyie",
+      "birthdate": "2001-06-26",
+      "position": "Meio",
+      "number": 13,
+      "club": "Hearts of Oak",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gideon-mensah-14",
+      "name": "Gideon Mensah",
+      "birthdate": "1998-07-18",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Auxerre",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joseph-aidoo-15",
+      "name": "Joseph Aidoo",
+      "birthdate": "1995-09-29",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Celta Vigo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdul-manaf-nurudeen-16",
+      "name": "Abdul Manaf Nurudeen",
+      "birthdate": "1999-02-08",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "Eupen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "baba-rahman-17",
+      "name": "Baba Rahman",
+      "birthdate": "1994-07-02",
+      "position": "Defesa",
+      "number": 17,
+      "club": "Reading (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "daniel-amartey-18",
+      "name": "Daniel Amartey",
+      "birthdate": "1994-12-01",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Leicester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "inaki-williams-19",
+      "name": "Iñaki Williams",
+      "birthdate": "1994-06-15",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Athletic Bilbao",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohammed-kudus-20",
+      "name": "Mohammed Kudus",
+      "birthdate": "2000-08-02",
+      "position": "Ataque",
+      "number": 20,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "salis-abdul-samed-21",
+      "name": "Salis Abdul Samed",
+      "birthdate": "2000-03-26",
+      "position": "Meio",
+      "number": 21,
+      "club": "Lens",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kamaldeen-sulemana-22",
+      "name": "Kamaldeen Sulemana",
+      "birthdate": "2002-02-15",
+      "position": "Ataque",
+      "number": 22,
+      "club": "Rennes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alexander-djiku-23",
+      "name": "Alexander Djiku",
+      "birthdate": "1994-08-09",
+      "position": "Defesa",
+      "number": 23,
+      "club": "Strasbourg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kamal-sowah-24",
+      "name": "Kamal Sowah",
+      "birthdate": "2000-01-09",
+      "position": "Meio",
+      "number": 24,
+      "club": "Club Brugge",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "antoine-semenyo-25",
+      "name": "Antoine Semenyo",
+      "birthdate": "2000-01-07",
+      "position": "Ataque",
+      "number": 25,
+      "club": "Bristol C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alidu-seidu-26",
+      "name": "Alidu Seidu",
+      "birthdate": "2000-06-04",
+      "position": "Defesa",
+      "number": 26,
+      "club": "Clermont",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

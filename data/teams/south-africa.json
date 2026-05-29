@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/south-africa.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "moeneeb-josephs-1",
+      "name": "Moeneeb Josephs",
+      "birthdate": "1980-05-19",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Orlando Pirates",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "siboniso-gaxa-2",
+      "name": "Siboniso Gaxa",
+      "birthdate": "1984-04-06",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Mamelodi Sundowns",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tsepo-masilela-3",
+      "name": "Tsepo Masilela",
+      "birthdate": "1985-05-05",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Maccabi Haifa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aaron-mokoena-4",
+      "name": "Aaron Mokoena",
+      "birthdate": "1980-11-25",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Portsmouth",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "anele-ngcongca-5",
+      "name": "Anele Ngcongca",
+      "birthdate": "1987-10-21",
+      "position": "Defesa",
+      "number": 5,
+      "club": "KRC Genk",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "macbeth-sibaya-6",
+      "name": "Macbeth Sibaya",
+      "birthdate": "1977-11-25",
+      "position": "Meio",
+      "number": 6,
+      "club": "Rubin Kazan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lance-davids-7",
+      "name": "Lance Davids",
+      "birthdate": "1985-04-11",
+      "position": "Meio",
+      "number": 7,
+      "club": "Ajax Cape Town",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "siphiwe-tshabalala-8",
+      "name": "Siphiwe Tshabalala",
+      "birthdate": "1984-09-25",
+      "position": "Meio",
+      "number": 8,
+      "club": "Kaizer Chiefs",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "katlego-mphela-9",
+      "name": "Katlego Mphela",
+      "birthdate": "1984-11-29",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Mamelodi Sundowns",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "steven-pienaar-10",
+      "name": "Steven Pienaar",
+      "birthdate": "1982-03-17",
+      "position": "Meio",
+      "number": 10,
+      "club": "Everton",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "teko-modise-11",
+      "name": "Teko Modise",
+      "birthdate": "1986-01-22",
+      "position": "Meio",
+      "number": 11,
+      "club": "Orlando Pirates",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "reneilwe-letsholonyane-12",
+      "name": "Reneilwe Letsholonyane",
+      "birthdate": "1982-06-09",
+      "position": "Meio",
+      "number": 12,
+      "club": "Kaizer Chiefs",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kagisho-dikgacoi-13",
+      "name": "Kagisho Dikgacoi",
+      "birthdate": "1984-11-24",
+      "position": "Meio",
+      "number": 13,
+      "club": "Fulham",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "matthew-booth-14",
+      "name": "Matthew Booth",
+      "birthdate": "1977-03-14",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Mamelodi Sundowns",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lucas-thwala-15",
+      "name": "Lucas Thwala",
+      "birthdate": "1981-10-19",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Orlando Pirates",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "itumeleng-khune-16",
+      "name": "Itumeleng Khune",
+      "birthdate": "1987-06-20",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "Kaizer Chiefs",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bernard-parker-17",
+      "name": "Bernard Parker",
+      "birthdate": "1986-03-16",
+      "position": "Ataque",
+      "number": 17,
+      "club": "FC Twente",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "siyabonga-nomvethe-18",
+      "name": "Siyabonga Nomvethe",
+      "birthdate": "1977-12-02",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Moroka Swallows",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "surprise-moriri-19",
+      "name": "Surprise Moriri",
+      "birthdate": "1980-03-20",
+      "position": "Meio",
+      "number": 19,
+      "club": "Mamelodi Sundowns",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bongani-khumalo-20",
+      "name": "Bongani Khumalo",
+      "birthdate": "1987-01-06",
+      "position": "Defesa",
+      "number": 20,
+      "club": "SuperSport U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "siyabonga-sangweni-21",
+      "name": "Siyabonga Sangweni",
+      "birthdate": "1981-09-28",
+      "position": "Defesa",
+      "number": 21,
+      "club": "Golden Arrows",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "shu-aib-walters-22",
+      "name": "Shu-Aib Walters",
+      "birthdate": "1981-12-26",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "Maritzburg U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thanduyise-khuboni-23",
+      "name": "Thanduyise Khuboni",
+      "birthdate": "1986-05-23",
+      "position": "Meio",
+      "number": 23,
+      "club": "Golden Arrows",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/germany.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "manuel-neuer-1",
+      "name": "Manuel Neuer",
+      "birthdate": "1986-03-27",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "antonio-rudiger-2",
+      "name": "Antonio Rüdiger",
+      "birthdate": "1993-03-03",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Real Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "david-raum-3",
+      "name": "David Raum",
+      "birthdate": "1998-04-22",
+      "position": "Defesa",
+      "number": 3,
+      "club": "RB Leipzig",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "matthias-ginter-4",
+      "name": "Matthias Ginter",
+      "birthdate": "1994-01-19",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Freiburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thilo-kehrer-5",
+      "name": "Thilo Kehrer",
+      "birthdate": "1996-09-21",
+      "position": "Defesa",
+      "number": 5,
+      "club": "West Ham U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joshua-kimmich-6",
+      "name": "Joshua Kimmich",
+      "birthdate": "1995-02-08",
+      "position": "Meio",
+      "number": 6,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kai-havertz-7",
+      "name": "Kai Havertz",
+      "birthdate": "1999-06-11",
+      "position": "Meio",
+      "number": 7,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "leon-goretzka-8",
+      "name": "Leon Goretzka",
+      "birthdate": "1995-02-06",
+      "position": "Meio",
+      "number": 8,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "niclas-fullkrug-9",
+      "name": "Niclas Füllkrug",
+      "birthdate": "1993-02-09",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Werder Bremen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "serge-gnabry-10",
+      "name": "Serge Gnabry",
+      "birthdate": "1995-07-14",
+      "position": "Meio",
+      "number": 10,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mario-gotze-11",
+      "name": "Mario Götze",
+      "birthdate": "1992-06-03",
+      "position": "Meio",
+      "number": 11,
+      "club": "Eintracht Frankfurt",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kevin-trapp-12",
+      "name": "Kevin Trapp",
+      "birthdate": "1990-07-08",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Eintracht Frankfurt",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thomas-muller-13",
+      "name": "Thomas Müller",
+      "birthdate": "1989-09-13",
+      "position": "Ataque",
+      "number": 13,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jamal-musiala-14",
+      "name": "Jamal Musiala",
+      "birthdate": "2003-02-26",
+      "position": "Meio",
+      "number": 14,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "niklas-sule-15",
+      "name": "Niklas Süle",
+      "birthdate": "1995-09-03",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lukas-klostermann-16",
+      "name": "Lukas Klostermann",
+      "birthdate": "1996-06-03",
+      "position": "Defesa",
+      "number": 16,
+      "club": "RB Leipzig",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "julian-brandt-17",
+      "name": "Julian Brandt",
+      "birthdate": "1996-05-02",
+      "position": "Meio",
+      "number": 17,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jonas-hofmann-18",
+      "name": "Jonas Hofmann",
+      "birthdate": "1992-07-14",
+      "position": "Meio",
+      "number": 18,
+      "club": "B Mönchengladbach",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "leroy-sane-19",
+      "name": "Leroy Sané",
+      "birthdate": "1996-01-11",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "christian-gunter-20",
+      "name": "Christian Günter",
+      "birthdate": "1993-02-28",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Freiburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ilkay-gundogan-21",
+      "name": "İlkay Gündoğan",
+      "birthdate": "1990-10-24",
+      "position": "Meio",
+      "number": 21,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marc-andre-ter-stegen-22",
+      "name": "Marc-André ter Stegen",
+      "birthdate": "1992-04-30",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "Barcelona",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nico-schlotterbeck-23",
+      "name": "Nico Schlotterbeck",
+      "birthdate": "1999-12-01",
+      "position": "Defesa",
+      "number": 23,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "karim-adeyemi-24",
+      "name": "Karim Adeyemi",
+      "birthdate": "2002-01-18",
+      "position": "Ataque",
+      "number": 24,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "armel-bella-kotchap-25",
+      "name": "Armel Bella-Kotchap",
+      "birthdate": "2001-12-11",
+      "position": "Defesa",
+      "number": 25,
+      "club": "Southampton",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "youssoufa-moukoko-26",
+      "name": "Youssoufa Moukoko",
+      "birthdate": "2004-11-20",
+      "position": "Ataque",
+      "number": 26,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

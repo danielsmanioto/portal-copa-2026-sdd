@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/panama.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "jaime-penedo-1",
+      "name": "Jaime Penedo",
+      "birthdate": "1981-09-24",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Dinamo București",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "michael-murillo-2",
+      "name": "Michael Murillo",
+      "birthdate": "1996-02-11",
+      "position": "Defesa",
+      "number": 2,
+      "club": "New York Red Bulls",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "harold-cummings-3",
+      "name": "Harold Cummings",
+      "birthdate": "1982-03-01",
+      "position": "Defesa",
+      "number": 3,
+      "club": "San Jose Earthquakes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "fidel-escobar-4",
+      "name": "Fidel Escobar",
+      "birthdate": "1995-01-09",
+      "position": "Defesa",
+      "number": 4,
+      "club": "New York Red Bulls (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "roman-torres-5",
+      "name": "Román Torres",
+      "birthdate": "1986-03-20",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Seattle Sounders",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gabriel-gomez-6",
+      "name": "Gabriel Gómez",
+      "birthdate": "1984-05-29",
+      "position": "Meio",
+      "number": 6,
+      "club": "Atlético Bucaramanga",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "blas-perez-7",
+      "name": "Blas Pérez",
+      "birthdate": "1981-03-13",
+      "position": "Ataque",
+      "number": 7,
+      "club": "CSD Municipal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "edgar-barcenas-8",
+      "name": "Édgar Bárcenas",
+      "birthdate": "1993-10-23",
+      "position": "Meio",
+      "number": 8,
+      "club": "Cafetaleros de Tapachula (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gabriel-torres-9",
+      "name": "Gabriel Torres",
+      "birthdate": "1988-10-13",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Huachipato",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ismael-diaz-10",
+      "name": "Ismael Díaz",
+      "birthdate": "1997-05-12",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Deportivo La Coruña B",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "armando-cooper-11",
+      "name": "Armando Cooper",
+      "birthdate": "1987-11-26",
+      "position": "Meio",
+      "number": 11,
+      "club": "Universidad de Chile",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jose-calderon-12",
+      "name": "José Calderon",
+      "birthdate": "1985-08-14",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Chorrillo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "adolfo-machado-13",
+      "name": "Adolfo Machado",
+      "birthdate": "1985-02-14",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Houston Dynamo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "valentin-pimentel-14",
+      "name": "Valentin Pimentel",
+      "birthdate": "1991-05-30",
+      "position": "Meio",
+      "number": 14,
+      "club": "Plaza Amador",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "erick-davis-15",
+      "name": "Erick Davis",
+      "birthdate": "1991-03-31",
+      "position": "Defesa",
+      "number": 15,
+      "club": "DAC Dunajská Streda",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdiel-arroyo-16",
+      "name": "Abdiel Arroyo",
+      "birthdate": "1993-12-13",
+      "position": "Ataque",
+      "number": 16,
+      "club": "LD Alajuelense",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luis-ovalle-17",
+      "name": "Luis Ovalle",
+      "birthdate": "1988-09-07",
+      "position": "Defesa",
+      "number": 17,
+      "club": "Olimpia [HON]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luis-tejada-18",
+      "name": "Luis Tejada",
+      "birthdate": "1982-03-28",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Sport Boys",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ricardo-avila-19",
+      "name": "Ricardo Ávila",
+      "birthdate": "1997-01-04",
+      "position": "Meio",
+      "number": 19,
+      "club": "KAA Gent",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "anibal-godoy-20",
+      "name": "Anibal Godoy",
+      "birthdate": "1990-02-10",
+      "position": "Meio",
+      "number": 20,
+      "club": "San Jose Earthquakes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jose-luis-rodriguez-21",
+      "name": "José Luis Rodríguez",
+      "birthdate": "1998-06-19",
+      "position": "Meio",
+      "number": 21,
+      "club": "KAA Gent",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alex-rodriguez-22",
+      "name": "Álex Rodríguez",
+      "birthdate": "1990-08-05",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "San Francisco",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "felipe-baloy-23",
+      "name": "Felipe Baloy",
+      "birthdate": "1981-02-24",
+      "position": "Defesa",
+      "number": 23,
+      "club": "CSD Municipal",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CONCACAF",

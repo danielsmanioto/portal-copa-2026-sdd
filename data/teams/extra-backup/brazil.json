@@ -1,8 +1,8 @@
 {
-  "id": "bra",
+  "id": "brazil",
   "name": "Brazil",
-  "slug": "brasil",
-  "photo": "https://example.com/images/selecoes/brasil.png",
+  "slug": "brazil",
+  "photo": "/assets/img/placeholder-player.png",
   "players": [
     {
       "id": "alisson-becker-1",
@@ -238,7 +238,5 @@
       "club": "Arsenal",
       "photo": "/assets/img/placeholder-player.png"
     }
-  ],
-  "confederation": "CONMEBOL",
-  "coachName": "Dorival Júnior"
+  ]
 }

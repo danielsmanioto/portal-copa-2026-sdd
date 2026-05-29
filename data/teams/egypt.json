@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/egypt.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "essam-el-hadary-1",
+      "name": "Essam El-Hadary",
+      "birthdate": "1973-01-15",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Al-Taawoun",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-gabr-2",
+      "name": "Ali Gabr",
+      "birthdate": "1987-01-10",
+      "position": "Defesa",
+      "number": 2,
+      "club": "WBA (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ahmed-elmohamady-3",
+      "name": "Ahmed Elmohamady",
+      "birthdate": "1987-09-09",
+      "position": "Meio",
+      "number": 3,
+      "club": "Aston Villa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "omar-gaber-4",
+      "name": "Omar Gaber",
+      "birthdate": "1992-01-30",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Los Angeles FC (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sam-morsy-5",
+      "name": "Sam Morsy",
+      "birthdate": "1991-09-10",
+      "position": "Meio",
+      "number": 5,
+      "club": "Wigan Ath",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ahmed-hegazy-6",
+      "name": "Ahmed Hegazy",
+      "birthdate": "1991-01-25",
+      "position": "Defesa",
+      "number": 6,
+      "club": "WBA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ahmed-fathy-7",
+      "name": "Ahmed Fathy",
+      "birthdate": "1984-11-10",
+      "position": "Meio",
+      "number": 7,
+      "club": "Al-Ahly [EGY]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tarek-hamed-8",
+      "name": "Tarek Hamed",
+      "birthdate": "1988-10-24",
+      "position": "Meio",
+      "number": 8,
+      "club": "Zamalek",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marwan-mohsen-9",
+      "name": "Marwan Mohsen",
+      "birthdate": "1989-02-26",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Al-Ahly [EGY]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-salah-10",
+      "name": "Mohamed Salah",
+      "birthdate": "1992-06-15",
+      "position": "Meio",
+      "number": 10,
+      "club": "Liverpool",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mahmoud-kahraba-11",
+      "name": "Mahmoud Kahraba",
+      "birthdate": "1994-04-13",
+      "position": "Meio",
+      "number": 11,
+      "club": "Al-Ittihad [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ayman-ashraf-12",
+      "name": "Ayman Ashraf",
+      "birthdate": "1991-04-09",
+      "position": "Defesa",
+      "number": 12,
+      "club": "Al-Ahly [EGY]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-abdel-shafy-13",
+      "name": "Mohamed Abdel-Shafy",
+      "birthdate": "1985-07-01",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Al-Fateh (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ramadan-sobhi-14",
+      "name": "Ramadan Sobhi",
+      "birthdate": "1997-01-23",
+      "position": "Meio",
+      "number": 14,
+      "club": "Stoke C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mahmoud-hamdy-15",
+      "name": "Mahmoud Hamdy",
+      "birthdate": "1995-06-01",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Zamalek",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sherif-ekramy-16",
+      "name": "Sherif Ekramy",
+      "birthdate": "1983-07-01",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "Al-Ahly [EGY]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-elneny-17",
+      "name": "Mohamed Elneny",
+      "birthdate": "1992-07-11",
+      "position": "Meio",
+      "number": 17,
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "shikabala-18",
+      "name": "Shikabala",
+      "birthdate": "1986-03-05",
+      "position": "Meio",
+      "number": 18,
+      "club": "Al-Raed (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdallah-said-19",
+      "name": "Abdallah Said",
+      "birthdate": "1985-07-13",
+      "position": "Meio",
+      "number": 19,
+      "club": "Kuopion PS",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "saad-samir-20",
+      "name": "Saad Samir",
+      "birthdate": "1989-04-01",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Al-Ahly [EGY]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mahmoud-hassan-21",
+      "name": "Mahmoud Hassan",
+      "birthdate": "1994-10-01",
+      "position": "Meio",
+      "number": 21,
+      "club": "Kasımpaşa (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "amr-warda-22",
+      "name": "Amr Warda",
+      "birthdate": "1993-09-17",
+      "position": "Meio",
+      "number": 22,
+      "club": "Atromitos (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-el-shenawy-23",
+      "name": "Mohamed El-Shenawy",
+      "birthdate": "1988-12-18",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Al-Ahly [EGY]",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

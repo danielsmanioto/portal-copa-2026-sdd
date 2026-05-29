@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/congo-dr.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "ley-matampi-1",
+      "name": "Ley Matampi",
+      "birthdate": "1989-04-18",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Al-Ansar [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "issama-mpeko-2",
+      "name": "Issama Mpeko",
+      "birthdate": "1986-03-03",
+      "position": "Defesa",
+      "number": 2,
+      "club": "TP Mazembe",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "glody-ngonda-3",
+      "name": "Glody Ngonda",
+      "birthdate": "1994-12-31",
+      "position": "Defesa",
+      "number": 3,
+      "club": "AS Vita Club",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bobo-ungenda-4",
+      "name": "Bobó Ungenda",
+      "birthdate": "1989-11-19",
+      "position": "Defesa",
+      "number": 4,
+      "club": "1º de Agosto",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marcel-tisserand-5",
+      "name": "Marcel Tisserand",
+      "birthdate": "1993-01-10",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Wolfsburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "chadrac-akolo-6",
+      "name": "Chadrac Akolo",
+      "birthdate": "1995-04-01",
+      "position": "Meio",
+      "number": 6,
+      "club": "Stuttgart",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "youssouf-mulumbu-7",
+      "name": "Youssouf Mulumbu",
+      "birthdate": "1987-01-25",
+      "position": "Meio",
+      "number": 7,
+      "club": "Kilmarnock (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tresor-mputu-8",
+      "name": "Trésor Mputu",
+      "birthdate": "1985-12-10",
+      "position": "Ataque",
+      "number": 8,
+      "club": "TP Mazembe",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jonathan-bolingi-9",
+      "name": "Jonathan Bolingi",
+      "birthdate": "1994-06-30",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Royal Antwerp",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "paul-jose-m-poku-10",
+      "name": "Paul-Jose M'Poku",
+      "birthdate": "1992-04-19",
+      "position": "Meio",
+      "number": 10,
+      "club": "Standard Liège",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yannick-bolasie-11",
+      "name": "Yannick Bolasie",
+      "birthdate": "1989-05-24",
+      "position": "Meio",
+      "number": 11,
+      "club": "Anderlecht (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "wilfred-moke-12",
+      "name": "Wilfred Moke",
+      "birthdate": "1988-02-12",
+      "position": "Defesa",
+      "number": 12,
+      "club": "Ankaragücü",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "meschack-elia-13",
+      "name": "Meschack Elia",
+      "birthdate": "1997-08-06",
+      "position": "Ataque",
+      "number": 13,
+      "club": "TP Mazembe",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "arthur-masuaku-14",
+      "name": "Arthur Masuaku",
+      "birthdate": "1993-11-07",
+      "position": "Defesa",
+      "number": 14,
+      "club": "West Ham U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "christian-luyindama-15",
+      "name": "Christian Luyindama",
+      "birthdate": "1994-01-08",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Galatasaray (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "anthony-mossi-16",
+      "name": "Anthony Mossi",
+      "birthdate": "1994-05-15",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "Chiasso",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cedric-bakambu-17",
+      "name": "Cédric Bakambu",
+      "birthdate": "1991-04-11",
+      "position": "Ataque",
+      "number": 17,
+      "club": "Beijing Guoan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "merveille-bokadi-18",
+      "name": "Merveille Bokadi",
+      "birthdate": "1992-05-21",
+      "position": "Meio",
+      "number": 18,
+      "club": "Standard Liège",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "britt-assombalonga-19",
+      "name": "Britt Assombalonga",
+      "birthdate": "1992-12-06",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Middlesbrough",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jacques-maghoma-20",
+      "name": "Jacques Maghoma",
+      "birthdate": "1987-10-23",
+      "position": "Meio",
+      "number": 20,
+      "club": "Birmingham C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "djuma-shabani-21",
+      "name": "Djuma Shabani",
+      "birthdate": "1993-03-16",
+      "position": "Defesa",
+      "number": 21,
+      "club": "AS Vita Club",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "chancel-mbemba-22",
+      "name": "Chancel Mbemba",
+      "birthdate": "1994-08-08",
+      "position": "Defesa",
+      "number": 22,
+      "club": "FC Porto",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "parfait-mandanda-23",
+      "name": "Parfait Mandanda",
+      "birthdate": "1989-10-10",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Dinamo București (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/mexico.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "alfredo-talavera-1",
+      "name": "Alfredo Talavera",
+      "birthdate": "1982-09-18",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Juárez",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nestor-araujo-2",
+      "name": "Néstor Araujo",
+      "birthdate": "1991-08-29",
+      "position": "Defesa",
+      "number": 2,
+      "club": "América",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cesar-montes-3",
+      "name": "César Montes",
+      "birthdate": "1997-02-24",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Monterrey",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "edson-alvarez-4",
+      "name": "Edson Álvarez",
+      "birthdate": "1997-10-24",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "johan-vasquez-5",
+      "name": "Johan Vásquez",
+      "birthdate": "1998-10-22",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Cremonese (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gerardo-arteaga-6",
+      "name": "Gerardo Arteaga",
+      "birthdate": "1998-09-07",
+      "position": "Defesa",
+      "number": 6,
+      "club": "KRC Genk",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luis-romo-7",
+      "name": "Luis Romo",
+      "birthdate": "1995-06-05",
+      "position": "Defesa",
+      "number": 7,
+      "club": "Monterrey",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "carlos-rodriguez-8",
+      "name": "Carlos Rodríguez",
+      "birthdate": "1997-01-03",
+      "position": "Meio",
+      "number": 8,
+      "club": "Cruz Azul",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "raul-jimenez-9",
+      "name": "Raúl Jiménez",
+      "birthdate": "1991-05-05",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Wolverhampton W",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ernesto-vega-10",
+      "name": "Ernesto Vega",
+      "birthdate": "1997-11-25",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Guadalajara",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rogelio-funes-mori-11",
+      "name": "Rogelio Funes Mori",
+      "birthdate": "1991-05-03",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Monterrey",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rodolfo-cota-12",
+      "name": "Rodolfo Cota",
+      "birthdate": "1987-07-03",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "León",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "guillermo-ochoa-13",
+      "name": "Guillermo Ochoa",
+      "birthdate": "1985-07-13",
+      "position": "Goleiro",
+      "number": 13,
+      "club": "América",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "erick-gutierrez-14",
+      "name": "Érick Gutiérrez",
+      "birthdate": "1995-06-15",
+      "position": "Meio",
+      "number": 14,
+      "club": "PSV Eindhoven",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hector-moreno-15",
+      "name": "Héctor Moreno",
+      "birthdate": "1988-01-17",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Monterrey",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hector-herrera-16",
+      "name": "Héctor Herrera",
+      "birthdate": "1990-04-19",
+      "position": "Meio",
+      "number": 16,
+      "club": "Houston Dynamo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "orbelin-pineda-17",
+      "name": "Orbelín Pineda",
+      "birthdate": "1996-03-24",
+      "position": "Meio",
+      "number": 17,
+      "club": "AEK (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "andres-guardado-18",
+      "name": "Andrés Guardado",
+      "birthdate": "1986-09-28",
+      "position": "Meio",
+      "number": 18,
+      "club": "Betis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jorge-sanchez-19",
+      "name": "Jorge Sánchez",
+      "birthdate": "1997-12-10",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Ajax",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "henry-martin-20",
+      "name": "Henry Martín",
+      "birthdate": "1992-11-18",
+      "position": "Ataque",
+      "number": 20,
+      "club": "América",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "uriel-antuna-21",
+      "name": "Uriel Antuna",
+      "birthdate": "1997-08-21",
+      "position": "Meio",
+      "number": 21,
+      "club": "Cruz Azul",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hirving-lozano-22",
+      "name": "Hirving Lozano",
+      "birthdate": "1995-07-30",
+      "position": "Meio",
+      "number": 22,
+      "club": "Napoli",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jesus-gallardo-23",
+      "name": "Jesús Gallardo",
+      "birthdate": "1994-08-15",
+      "position": "Defesa",
+      "number": 23,
+      "club": "Monterrey",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luis-chavez-24",
+      "name": "Luis Chávez",
+      "birthdate": "1996-01-15",
+      "position": "Meio",
+      "number": 24,
+      "club": "Pachuca",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "roberto-alvarado-25",
+      "name": "Roberto Alvarado",
+      "birthdate": "1998-09-07",
+      "position": "Meio",
+      "number": 25,
+      "club": "Guadalajara",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kevin-alvarez-26",
+      "name": "Kevin Álvarez",
+      "birthdate": "1999-01-15",
+      "position": "Defesa",
+      "number": 26,
+      "club": "Pachuca",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CONCACAF",

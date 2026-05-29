@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/qatar.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "saad-al-sheeb-1",
+      "name": "Saad Al-Sheeb",
+      "birthdate": "1990-02-19",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ro-ro-2",
+      "name": "Ró-Ró",
+      "birthdate": "1990-08-06",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdelkarim-hassan-3",
+      "name": "Abdelkarim Hassan",
+      "birthdate": "1993-08-28",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohammed-waad-4",
+      "name": "Mohammed Waad",
+      "birthdate": "1999-09-18",
+      "position": "Meio",
+      "number": 4,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tarek-salman-5",
+      "name": "Tarek Salman",
+      "birthdate": "1997-12-05",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdulaziz-hatem-6",
+      "name": "Abdulaziz Hatem",
+      "birthdate": "1990-10-28",
+      "position": "Meio",
+      "number": 6,
+      "club": "Al-Rayyan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ahmed-alaaeldin-7",
+      "name": "Ahmed Alaaeldin",
+      "birthdate": "1993-01-31",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Al-Gharafa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-assadalla-8",
+      "name": "Ali Assadalla",
+      "birthdate": "1993-01-19",
+      "position": "Meio",
+      "number": 8,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohammed-muntari-9",
+      "name": "Mohammed Muntari",
+      "birthdate": "1993-12-20",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Al-Duhail",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hassan-al-haydos-10",
+      "name": "Hassan Al-Haydos",
+      "birthdate": "1990-12-11",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "akram-afif-11",
+      "name": "Akram Afif",
+      "birthdate": "1996-11-18",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "karim-boudiaf-12",
+      "name": "Karim Boudiaf",
+      "birthdate": "1990-09-16",
+      "position": "Meio",
+      "number": 12,
+      "club": "Al-Duhail",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "musab-kheder-13",
+      "name": "Musab Kheder",
+      "birthdate": "1993-09-26",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "homam-ahmed-14",
+      "name": "Homam Ahmed",
+      "birthdate": "1999-08-25",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Al-Gharafa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bassam-al-rawi-15",
+      "name": "Bassam Al-Rawi",
+      "birthdate": "1997-12-16",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Al-Duhail",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "boualem-khoukhi-16",
+      "name": "Boualem Khoukhi",
+      "birthdate": "1990-07-09",
+      "position": "Defesa",
+      "number": 16,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ismaeel-mohammad-17",
+      "name": "Ismaeel Mohammad",
+      "birthdate": "1990-04-05",
+      "position": "Meio",
+      "number": 17,
+      "club": "Al-Duhail",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "khalid-muneer-18",
+      "name": "Khalid Muneer",
+      "birthdate": "1998-02-24",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Al-Wakrah",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "almoez-ali-19",
+      "name": "Almoez Ali",
+      "birthdate": "1996-08-19",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Al-Duhail",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "salem-al-hajri-20",
+      "name": "Salem Al-Hajri",
+      "birthdate": "1996-04-10",
+      "position": "Meio",
+      "number": 20,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yousef-hassan-21",
+      "name": "Yousef Hassan",
+      "birthdate": "1996-05-24",
+      "position": "Goleiro",
+      "number": 21,
+      "club": "Al-Gharafa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "meshaal-barsham-22",
+      "name": "Meshaal Barsham",
+      "birthdate": "1998-02-14",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "assim-madibo-23",
+      "name": "Assim Madibo",
+      "birthdate": "1996-10-22",
+      "position": "Meio",
+      "number": 23,
+      "club": "Al-Duhail",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "naif-al-hadhrami-24",
+      "name": "Naif Al-Hadhrami",
+      "birthdate": "2001-07-18",
+      "position": "Ataque",
+      "number": 24,
+      "club": "Al-Rayyan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jassem-gaber-25",
+      "name": "Jassem Gaber",
+      "birthdate": "2002-02-20",
+      "position": "Defesa",
+      "number": 25,
+      "club": "Al-Arabi [QAT]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mostafa-tarek-26",
+      "name": "Mostafa Tarek",
+      "birthdate": "2001-03-28",
+      "position": "Meio",
+      "number": 26,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "AFC",

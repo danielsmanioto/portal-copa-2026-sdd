@@ -1,0 +1,50 @@
+<svg width="1280" height="768" viewBox="0 0 1280 768" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Preview do Portal Copa 2026">
+  <rect width="1280" height="768" fill="#EEF1F5"/>
+  <rect x="0" y="0" width="1280" height="86" fill="#DDE3EB"/>
+  <rect x="0" y="86" width="1280" height="18" fill="#F3F6FA"/>
+  <rect x="0" y="104" width="1280" height="145" fill="url(#grad)"/>
+  <text x="640" y="165" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Copa do Mundo 2026</text>
+  <text x="640" y="206" text-anchor="middle" fill="#EAF7FF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">Explore as seleções e seus jogadores</text>
+
+  <g>
+    <rect x="102" y="294" width="332" height="356" rx="14" fill="white"/>
+    <rect x="102" y="294" width="332" height="170" rx="14" fill="#F6F8FB"/>
+    <rect x="168" y="330" width="66" height="96" fill="#006847"/>
+    <rect x="234" y="330" width="66" height="96" fill="white"/>
+    <rect x="300" y="330" width="66" height="96" fill="#CE1126"/>
+    <text x="124" y="508" fill="#202124" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Mexico</text>
+    <text x="124" y="545" fill="#5F6368" font-family="Arial, Helvetica, sans-serif" font-size="20">Confederation: CONCACAF</text>
+    <text x="124" y="578" fill="#5F6368" font-family="Arial, Helvetica, sans-serif" font-size="20">Coach: Jaime Lozano</text>
+  </g>
+
+  <g>
+    <rect x="474" y="294" width="332" height="356" rx="14" fill="white"/>
+    <rect x="474" y="294" width="332" height="170" rx="14" fill="#F6F8FB"/>
+    <rect x="538" y="330" width="204" height="96" fill="#007A4D"/>
+    <polygon points="538,330 602,378 538,426" fill="black"/>
+    <polygon points="548,334 595,378 548,422" fill="#FFB612"/>
+    <rect x="538" y="330" width="204" height="24" fill="#DE3831"/>
+    <rect x="538" y="402" width="204" height="24" fill="#001489"/>
+    <text x="496" y="508" fill="#202124" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">South Africa</text>
+    <text x="496" y="545" fill="#5F6368" font-family="Arial, Helvetica, sans-serif" font-size="20">Confederation: CAF</text>
+    <text x="496" y="578" fill="#5F6368" font-family="Arial, Helvetica, sans-serif" font-size="20">Coach: Hugo Broos</text>
+  </g>
+
+  <g>
+    <rect x="846" y="294" width="332" height="356" rx="14" fill="white"/>
+    <rect x="846" y="294" width="332" height="170" rx="14" fill="#F6F8FB"/>
+    <rect x="910" y="330" width="204" height="96" fill="white"/>
+    <circle cx="1012" cy="378" r="34" fill="#CD2E3A"/>
+    <path d="M978 378a34 34 0 1 0 68 0c0 12-10 22-22 22s-22-10-22-22-10-22-22-22-22 10-22 22z" fill="#0047A0"/>
+    <text x="868" y="508" fill="#202124" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Korea Republic</text>
+    <text x="868" y="545" fill="#5F6368" font-family="Arial, Helvetica, sans-serif" font-size="20">Confederation: AFC</text>
+    <text x="868" y="578" fill="#5F6368" font-family="Arial, Helvetica, sans-serif" font-size="20">Coach: Paulo Bento</text>
+  </g>
+
+  <defs>
+    <linearGradient id="grad" x1="0" y1="104" x2="1280" y2="249" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A73E8"/>
+      <stop offset="1" stop-color="#34A853"/>
+    </linearGradient>
+  </defs>
+</svg>

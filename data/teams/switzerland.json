@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/switzerland.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "yann-sommer-1",
+      "name": "Yann Sommer",
+      "birthdate": "1988-12-17",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "B Mönchengladbach",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "edimilson-fernandes-2",
+      "name": "Edimilson Fernandes",
+      "birthdate": "1996-04-15",
+      "position": "Meio",
+      "number": 2,
+      "club": "Mainz",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "silvan-widmer-3",
+      "name": "Silvan Widmer",
+      "birthdate": "1993-03-05",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Mainz",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nico-elvedi-4",
+      "name": "Nico Elvedi",
+      "birthdate": "1996-09-30",
+      "position": "Defesa",
+      "number": 4,
+      "club": "B Mönchengladbach",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "manuel-akanji-5",
+      "name": "Manuel Akanji",
+      "birthdate": "1995-07-19",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "denis-zakaria-6",
+      "name": "Denis Zakaria",
+      "birthdate": "1996-11-20",
+      "position": "Meio",
+      "number": 6,
+      "club": "Chelsea (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "breel-embolo-7",
+      "name": "Breel Embolo",
+      "birthdate": "1997-02-14",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Monaco",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "remo-freuler-8",
+      "name": "Remo Freuler",
+      "birthdate": "1992-04-15",
+      "position": "Meio",
+      "number": 8,
+      "club": "Nottingham F",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "haris-seferovic-9",
+      "name": "Haris Seferović",
+      "birthdate": "1992-02-22",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Galatasaray (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "granit-xhaka-10",
+      "name": "Granit Xhaka",
+      "birthdate": "1992-09-27",
+      "position": "Meio",
+      "number": 10,
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "renato-steffen-11",
+      "name": "Renato Steffen",
+      "birthdate": "1991-11-03",
+      "position": "Meio",
+      "number": 11,
+      "club": "Lugano",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jonas-omlin-12",
+      "name": "Jonas Omlin",
+      "birthdate": "1994-01-10",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Montpellier",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ricardo-rodriguez-13",
+      "name": "Ricardo Rodríguez",
+      "birthdate": "1992-08-25",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Torino",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "michel-aebischer-14",
+      "name": "Michel Aebischer",
+      "birthdate": "1997-01-06",
+      "position": "Meio",
+      "number": 14,
+      "club": "Bologna",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "djibril-sow-15",
+      "name": "Djibril Sow",
+      "birthdate": "1997-02-06",
+      "position": "Meio",
+      "number": 15,
+      "club": "Eintracht Frankfurt",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "christian-fassnacht-16",
+      "name": "Christian Fassnacht",
+      "birthdate": "1993-11-11",
+      "position": "Meio",
+      "number": 16,
+      "club": "Young Boys",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ruben-vargas-17",
+      "name": "Ruben Vargas",
+      "birthdate": "1998-08-05",
+      "position": "Meio",
+      "number": 17,
+      "club": "Augsburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "eray-cumart-18",
+      "name": "Eray Cümart",
+      "birthdate": "1998-02-04",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Valencia",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "noah-okafor-19",
+      "name": "Noah Okafor",
+      "birthdate": "2000-05-24",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Red Bull Salzburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "fabian-frei-20",
+      "name": "Fabian Frei",
+      "birthdate": "1989-01-08",
+      "position": "Meio",
+      "number": 20,
+      "club": "Basel",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gregor-kobel-21",
+      "name": "Gregor Kobel",
+      "birthdate": "1997-12-06",
+      "position": "Goleiro",
+      "number": 21,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "fabian-schar-22",
+      "name": "Fabian Schär",
+      "birthdate": "1991-12-20",
+      "position": "Defesa",
+      "number": 22,
+      "club": "Newcastle U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "xherdan-shaqiri-23",
+      "name": "Xherdan Shaqiri",
+      "birthdate": "1991-10-10",
+      "position": "Meio",
+      "number": 23,
+      "club": "Chicago Fire",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "philipp-kohn-24",
+      "name": "Philipp Köhn",
+      "birthdate": "1998-04-02",
+      "position": "Goleiro",
+      "number": 24,
+      "club": "Red Bull Salzburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "fabian-rieder-25",
+      "name": "Fabian Rieder",
+      "birthdate": "2002-02-16",
+      "position": "Meio",
+      "number": 25,
+      "club": "Young Boys",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ardon-jashari-26",
+      "name": "Ardon Jashari",
+      "birthdate": "2002-07-30",
+      "position": "Meio",
+      "number": 26,
+      "club": "Luzern",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/croatia.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "dominik-livakovic-1",
+      "name": "Dominik Livaković",
+      "birthdate": "1995-01-09",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Dinamo Zagreb",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "josip-stanisic-2",
+      "name": "Josip Stanišić",
+      "birthdate": "2000-04-02",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "borna-barisic-3",
+      "name": "Borna Barišić",
+      "birthdate": "1992-11-10",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Rangers",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ivan-perisic-4",
+      "name": "Ivan Perišić",
+      "birthdate": "1989-02-02",
+      "position": "Ataque",
+      "number": 4,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "martin-erlic-5",
+      "name": "Martin Erlić",
+      "birthdate": "1998-01-24",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Sassuolo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "dejan-lovren-6",
+      "name": "Dejan Lovren",
+      "birthdate": "1989-07-05",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Zenit St Petersburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lovro-majer-7",
+      "name": "Lovro Majer",
+      "birthdate": "1998-01-17",
+      "position": "Meio",
+      "number": 7,
+      "club": "Rennes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mateo-kovacic-8",
+      "name": "Mateo Kovačić",
+      "birthdate": "1994-05-06",
+      "position": "Meio",
+      "number": 8,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "andrej-kramaric-9",
+      "name": "Andrej Kramarić",
+      "birthdate": "1991-06-19",
+      "position": "Ataque",
+      "number": 9,
+      "club": "1899 Hoffenheim",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luka-modric-10",
+      "name": "Luka Modrić",
+      "birthdate": "1985-09-09",
+      "position": "Meio",
+      "number": 10,
+      "club": "Real Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marcelo-brozovic-11",
+      "name": "Marcelo Brozović",
+      "birthdate": "1992-11-16",
+      "position": "Meio",
+      "number": 11,
+      "club": "Internazionale",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ivo-grbic-12",
+      "name": "Ivo Grbić",
+      "birthdate": "1996-01-18",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nikola-vlasic-13",
+      "name": "Nikola Vlašić",
+      "birthdate": "1997-10-04",
+      "position": "Meio",
+      "number": 13,
+      "club": "Torino (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marko-livaja-14",
+      "name": "Marko Livaja",
+      "birthdate": "1993-08-26",
+      "position": "Ataque",
+      "number": 14,
+      "club": "Hajduk Split",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mario-pasalic-15",
+      "name": "Mario Pašalić",
+      "birthdate": "1995-02-09",
+      "position": "Meio",
+      "number": 15,
+      "club": "Atalanta",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bruno-petkovic-16",
+      "name": "Bruno Petković",
+      "birthdate": "1994-09-16",
+      "position": "Ataque",
+      "number": 16,
+      "club": "Dinamo Zagreb",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ante-budimir-17",
+      "name": "Ante Budimir",
+      "birthdate": "1991-07-22",
+      "position": "Ataque",
+      "number": 17,
+      "club": "Osasuna",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mislav-orsic-18",
+      "name": "Mislav Oršić",
+      "birthdate": "1992-12-29",
+      "position": "Meio",
+      "number": 18,
+      "club": "Dinamo Zagreb",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "borna-sosa-19",
+      "name": "Borna Sosa",
+      "birthdate": "1998-01-21",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Stuttgart",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "josko-gvardiol-20",
+      "name": "Joško Gvardiol",
+      "birthdate": "2002-01-23",
+      "position": "Defesa",
+      "number": 20,
+      "club": "RB Leipzig",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "domagoj-vida-21",
+      "name": "Domagoj Vida",
+      "birthdate": "1989-04-29",
+      "position": "Defesa",
+      "number": 21,
+      "club": "AEK",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "josip-juranovic-22",
+      "name": "Josip Juranović",
+      "birthdate": "1995-08-16",
+      "position": "Defesa",
+      "number": 22,
+      "club": "Celtic",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ivica-ivusic-23",
+      "name": "Ivica Ivušić",
+      "birthdate": "1995-02-01",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Osijek",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "josip-sutalo-24",
+      "name": "Josip Šutalo",
+      "birthdate": "2000-02-28",
+      "position": "Defesa",
+      "number": 24,
+      "club": "Dinamo Zagreb",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luka-sucic-25",
+      "name": "Luka Sučić",
+      "birthdate": "2002-09-08",
+      "position": "Meio",
+      "number": 25,
+      "club": "Red Bull Salzburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kristijan-jakic-26",
+      "name": "Kristijan Jakić",
+      "birthdate": "1997-05-14",
+      "position": "Meio",
+      "number": 26,
+      "club": "Eintracht Frankfurt",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

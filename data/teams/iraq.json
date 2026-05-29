@@ -5,13 +5,202 @@
   "photo": "https://example.com/images/selecoes/iraq.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
+      "id": "raad-hammoudi-salman-1",
+      "name": "Raad Hammoudi Salman",
       "birthdate": "2000-01-01",
       "position": "Meio",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "maad-ibrahim-majid-2",
+      "name": "Maad Ibrahim Majid",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 2,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "khalil-mohammed-allawi-3",
+      "name": "Khalil Mohammed Allawi",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 3,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "nadhim-shaker-salim-4",
+      "name": "Nadhim Shaker Salim",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 4,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "samir-shaker-mahmoud-5",
+      "name": "Samir Shaker Mahmoud",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 5,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ali-hussein-shihab-6",
+      "name": "Ali Hussein Shihab",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 6,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "haris-mohammed-hassan-7",
+      "name": "Haris Mohammed Hassan",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 7,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ahmed-radhi-8",
+      "name": "Ahmed Radhi",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 8,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "karim-saddam-minshid-9",
+      "name": "Karim Saddam Minshid",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 9,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "hussein-saeed-10",
+      "name": "Hussein Saeed",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 10,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "abdul-rahim-hamed-aufi-11",
+      "name": "Abdul-Rahim Hamed Aufi",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 11,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jamal-ali-hamza-12",
+      "name": "Jamal Ali Hamza",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 12,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "karim-mohammed-allawi-13",
+      "name": "Karim Mohammed Allawi",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 13,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "basil-gorgis-14",
+      "name": "Basil Gorgis",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 14,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "natiq-hashim-abidoun-15",
+      "name": "Natiq Hashim Abidoun",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 15,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "shaker-mahmoud-hamza-16",
+      "name": "Shaker Mahmoud Hamza",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 16,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "anad-abid-tweresh-17",
+      "name": "Anad Abid Tweresh",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 17,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ismail-mohammed-sharif-18",
+      "name": "Ismail Mohammed Sharif",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 18,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "basim-qasim-hamdan-19",
+      "name": "Basim Qasim Hamdan",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 19,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "abdul-fatah-nasif-jassim-20",
+      "name": "Abdul-Fatah Nasif Jassim",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 20,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ahmad-jassim-mohammed-21",
+      "name": "Ahmad Jassim Mohammed",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 21,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ghanim-oraibi-jassim-22",
+      "name": "Ghanim Oraibi Jassim",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 22,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
     }
   ],
   "confederation": "AFC",

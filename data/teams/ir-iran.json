@@ -5,13 +5,229 @@
   "photo": "https://example.com/images/selecoes/ir-iran.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "alireza-beiranvand-1",
+      "name": "Alireza Beiranvand",
+      "birthdate": "1992-09-21",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Persepolis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sadegh-moharrami-2",
+      "name": "Sadegh Moharrami",
+      "birthdate": "1996-03-01",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Dinamo Zagreb",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ehsan-hajsafi-3",
+      "name": "Ehsan Hajsafi",
+      "birthdate": "1990-02-25",
+      "position": "Defesa",
+      "number": 3,
+      "club": "AEK",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "shojae-khalilzadeh-4",
+      "name": "Shojae Khalilzadeh",
+      "birthdate": "1989-05-14",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Al-Ahli [QAT]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "milad-mohammadi-5",
+      "name": "Milad Mohammadi",
+      "birthdate": "1993-09-29",
+      "position": "Defesa",
+      "number": 5,
+      "club": "AEK",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "saeid-ezatolahi-6",
+      "name": "Saeid Ezatolahi",
+      "birthdate": "1996-10-01",
+      "position": "Meio",
+      "number": 6,
+      "club": "Vejle",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alireza-jahanbakhsh-7",
+      "name": "Alireza Jahanbakhsh",
+      "birthdate": "1993-10-08",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Feyenoord",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "morteza-pouraliganji-8",
+      "name": "Morteza Pouraliganji",
+      "birthdate": "1992-04-19",
+      "position": "Defesa",
+      "number": 8,
+      "club": "Persepolis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mehdi-taremi-9",
+      "name": "Mehdi Taremi",
+      "birthdate": "1992-07-18",
+      "position": "Ataque",
+      "number": 9,
+      "club": "FC Porto",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "karim-ansarifard-10",
+      "name": "Karim Ansarifard",
+      "birthdate": "1990-04-03",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Omonia Nicosia",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "vahid-amiri-11",
+      "name": "Vahid Amiri",
+      "birthdate": "1988-04-02",
+      "position": "Meio",
+      "number": 11,
+      "club": "Persepolis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "payam-niazmand-12",
+      "name": "Payam Niazmand",
+      "birthdate": "1995-04-06",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Sepahan (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hossein-kanaanizadegan-13",
+      "name": "Hossein Kanaanizadegan",
+      "birthdate": "1994-03-23",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Al-Ahli [QAT]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "saman-ghoddos-14",
+      "name": "Saman Ghoddos",
+      "birthdate": "1993-09-06",
+      "position": "Ataque",
+      "number": 14,
+      "club": "Brentford",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rouzbeh-cheshmi-15",
+      "name": "Rouzbeh Cheshmi",
+      "birthdate": "1993-07-24",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Esteghlal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mehdi-torabi-16",
+      "name": "Mehdi Torabi",
+      "birthdate": "1994-09-10",
+      "position": "Meio",
+      "number": 16,
+      "club": "Persepolis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-gholizadeh-17",
+      "name": "Ali Gholizadeh",
+      "birthdate": "1996-03-10",
+      "position": "Meio",
+      "number": 17,
+      "club": "Charleroi",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-karimi-18",
+      "name": "Ali Karimi",
+      "birthdate": "1994-02-11",
+      "position": "Meio",
+      "number": 18,
+      "club": "Kayserispor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "majid-hosseini-19",
+      "name": "Majid Hosseini",
+      "birthdate": "1996-06-20",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Kayserispor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sardar-azmoun-20",
+      "name": "Sardar Azmoun",
+      "birthdate": "1995-01-01",
+      "position": "Ataque",
+      "number": 20,
+      "club": "Bayer Leverkusen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ahmad-nourollahi-21",
+      "name": "Ahmad Nourollahi",
+      "birthdate": "1993-02-01",
+      "position": "Meio",
+      "number": 21,
+      "club": "Shabab Al-Ahli Dubai",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "amir-abedzadeh-22",
+      "name": "Amir Abedzadeh",
+      "birthdate": "1993-04-26",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "Ponferradina",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ramin-rezaeian-23",
+      "name": "Ramin Rezaeian",
+      "birthdate": "1990-03-21",
+      "position": "Defesa",
+      "number": 23,
+      "club": "Sepahan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hossein-hosseini-24",
+      "name": "Hossein Hosseini",
+      "birthdate": "1992-06-30",
+      "position": "Goleiro",
+      "number": 24,
+      "club": "Esteghlal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abolfazl-jalali-25",
+      "name": "Abolfazl Jalali",
+      "birthdate": "1998-06-26",
+      "position": "Defesa",
+      "number": 25,
+      "club": "Esteghlal",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "AFC",

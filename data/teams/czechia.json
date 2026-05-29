@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/czechia.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
+      "id": "petr-cech-1",
+      "name": "Petr Čech",
       "birthdate": "2000-01-01",
       "position": "Meio",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "zdenek-grygera-2",
+      "name": "Zdenek Grygera",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 2,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "pavel-mares-3",
+      "name": "Pavel Mareš",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 3,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "tomas-galasek-4",
+      "name": "Tomáš Galásek",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 4,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "radoslav-kovac-5",
+      "name": "Radoslav Kovac",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 5,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "marek-jankulovski-6",
+      "name": "Marek Jankulovski",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 6,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "libor-sionko-7",
+      "name": "Libor Sionko",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 7,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "karel-poborsky-8",
+      "name": "Karel Poborský",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 8,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jan-koller-9",
+      "name": "Jan Koller",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 9,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "tomas-rosicky-10",
+      "name": "Tomáš Rosický",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 10,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "pavel-nedved-11",
+      "name": "Pavel Nedvěd",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 11,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "vratislav-lokvenc-12",
+      "name": "Vratislav Lokvenc",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 12,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "martin-jiranek-13",
+      "name": "Martin Jiránek",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 13,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "david-jarolim-14",
+      "name": "David Jarolim",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 14,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "milan-baros-15",
+      "name": "Milan Baroš",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 15,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jaromir-blazek-16",
+      "name": "Jaromír Blažek",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 16,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jiri-stajner-17",
+      "name": "Jiri Stajner",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 17,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "marek-heinz-18",
+      "name": "Marek Heinz",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 18,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jan-polak-19",
+      "name": "Jan Polak",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 19,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "jaroslav-plasil-20",
+      "name": "Jaroslav Plašil",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 20,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "tomas-ujfalusi-21",
+      "name": "Tomáš Ujfaluši",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 21,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "david-rozehnal-22",
+      "name": "David Rozehnal",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 22,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "antonin-kinsky-23",
+      "name": "Antonín Kinský",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 23,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
     }
   ],
   "confederation": "UEFA",

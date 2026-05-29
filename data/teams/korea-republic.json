@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/korea-republic.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "kim-seung-gyu-1",
+      "name": "Kim Seung-Gyu",
+      "birthdate": "1990-09-30",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Al-Shabab",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yoon-jong-gyu-2",
+      "name": "Yoon Jong-Gyu",
+      "birthdate": "1998-03-20",
+      "position": "Defesa",
+      "number": 2,
+      "club": "FC Seoul",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kim-jin-su-3",
+      "name": "Kim Jin-Su",
+      "birthdate": "1992-06-13",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Jeonbuk Hyundai Motors (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kim-min-jae-4",
+      "name": "Kim Min-Jae",
+      "birthdate": "1996-11-15",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Napoli",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jung-woo-young-5",
+      "name": "Jung Woo-Young",
+      "birthdate": "1989-12-14",
+      "position": "Meio",
+      "number": 5,
+      "club": "Al-Sadd",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hwang-in-beom-6",
+      "name": "Hwang In-Beom",
+      "birthdate": "1996-09-20",
+      "position": "Meio",
+      "number": 6,
+      "club": "Olympiakos",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "son-heung-min-7",
+      "name": "Son Heung-Min",
+      "birthdate": "1992-07-08",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "paik-seung-ho-8",
+      "name": "Paik Seung-Ho",
+      "birthdate": "1997-03-17",
+      "position": "Meio",
+      "number": 8,
+      "club": "Jeonbuk Hyundai Motors",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cho-gue-sung-9",
+      "name": "Cho Gue-Sung",
+      "birthdate": "1998-01-25",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Jeonbuk Hyundai Motors",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lee-jae-song-10",
+      "name": "Lee Jae-Song",
+      "birthdate": "1992-08-10",
+      "position": "Meio",
+      "number": 10,
+      "club": "Mainz",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hwang-hee-chan-11",
+      "name": "Hwang Hee-Chan",
+      "birthdate": "1996-01-26",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Wolverhampton W",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "song-bum-keun-12",
+      "name": "Song Bum-Keun",
+      "birthdate": "1997-10-15",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Jeonbuk Hyundai Motors",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "son-jun-ho-13",
+      "name": "Son Jun-Ho",
+      "birthdate": "1992-05-12",
+      "position": "Meio",
+      "number": 13,
+      "club": "Shandong Taishan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hong-chul-14",
+      "name": "Hong Chul",
+      "birthdate": "1990-09-17",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Daegu",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kim-moon-hwan-15",
+      "name": "Kim Moon-Hwan",
+      "birthdate": "1995-08-01",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Jeonbuk Hyundai Motors",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hwang-ui-jo-16",
+      "name": "Hwang Ui-Jo",
+      "birthdate": "1992-08-28",
+      "position": "Ataque",
+      "number": 16,
+      "club": "Olympiakos (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "na-sang-ho-17",
+      "name": "Na Sang-Ho",
+      "birthdate": "1996-08-12",
+      "position": "Ataque",
+      "number": 17,
+      "club": "FC Seoul",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lee-kang-in-18",
+      "name": "Lee Kang-In",
+      "birthdate": "2001-02-19",
+      "position": "Meio",
+      "number": 18,
+      "club": "Mallorca",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kim-young-gwon-19",
+      "name": "Kim Young-Gwon",
+      "birthdate": "1990-02-27",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Ulsan Hyundai",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kwon-kyung-won-20",
+      "name": "Kwon Kyung-Won",
+      "birthdate": "1992-01-31",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Gamba Osaka",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cho-hyun-woo-21",
+      "name": "Cho Hyun-Woo",
+      "birthdate": "1991-09-25",
+      "position": "Goleiro",
+      "number": 21,
+      "club": "Ulsan Hyundai",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kwon-chang-hoon-22",
+      "name": "Kwon Chang-Hoon",
+      "birthdate": "1994-06-30",
+      "position": "Meio",
+      "number": 22,
+      "club": "Gimcheon Sangmu (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kim-tae-hwan-23",
+      "name": "Kim Tae-Hwan",
+      "birthdate": "1989-07-24",
+      "position": "Defesa",
+      "number": 23,
+      "club": "Ulsan Hyundai",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cho-yu-min-24",
+      "name": "Cho Yu-Min",
+      "birthdate": "1996-11-17",
+      "position": "Defesa",
+      "number": 24,
+      "club": "Daejeon Hana Citizen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jeong-woo-yeong-25",
+      "name": "Jeong Woo-Yeong",
+      "birthdate": "1999-09-20",
+      "position": "Meio",
+      "number": 25,
+      "club": "Freiburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "song-min-kyu-26",
+      "name": "Song Min-Kyu",
+      "birthdate": "1999-09-12",
+      "position": "Ataque",
+      "number": 26,
+      "club": "Jeonbuk Hyundai Motors",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "AFC",

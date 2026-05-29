@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/senegal.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "seny-dieng-1",
+      "name": "Seny Dieng",
+      "birthdate": "1994-11-23",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "QPR",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "formose-mendy-2",
+      "name": "Formose Mendy",
+      "birthdate": "2001-01-02",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Amiens",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kalidou-koulibaly-3",
+      "name": "Kalidou Koulibaly",
+      "birthdate": "1991-06-20",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "pape-abou-cisse-4",
+      "name": "Pape Abou Cissé",
+      "birthdate": "1995-09-14",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Olympiakos",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "idrissa-gueye-5",
+      "name": "Idrissa Gueye",
+      "birthdate": "1989-09-26",
+      "position": "Meio",
+      "number": 5,
+      "club": "Everton",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nampalys-mendy-6",
+      "name": "Nampalys Mendy",
+      "birthdate": "1992-06-23",
+      "position": "Meio",
+      "number": 6,
+      "club": "Leicester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nicolas-jackson-7",
+      "name": "Nicolas Jackson",
+      "birthdate": "2001-06-20",
+      "position": "Meio",
+      "number": 7,
+      "club": "Villarreal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cheikhou-kouyate-8",
+      "name": "Cheikhou Kouyaté",
+      "birthdate": "1989-12-21",
+      "position": "Meio",
+      "number": 8,
+      "club": "Nottingham F",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "boulaye-dia-9",
+      "name": "Boulaye Dia",
+      "birthdate": "1996-11-16",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Salernitana (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "moussa-n-diaye-10",
+      "name": "Moussa N'Diaye",
+      "birthdate": "2002-06-18",
+      "position": "Defesa",
+      "number": 10,
+      "club": "Anderlecht",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "pathe-ciss-11",
+      "name": "Pathé Ciss",
+      "birthdate": "1994-03-16",
+      "position": "Meio",
+      "number": 11,
+      "club": "Rayo Vallecano",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "fode-ballo-toure-12",
+      "name": "Fodé Ballo-Touré",
+      "birthdate": "1997-01-03",
+      "position": "Defesa",
+      "number": 12,
+      "club": "Milan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "iliman-ndiaye-13",
+      "name": "Iliman Ndiaye",
+      "birthdate": "2000-03-06",
+      "position": "Meio",
+      "number": 13,
+      "club": "Sheffield U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ismail-jakobs-14",
+      "name": "Ismail Jakobs",
+      "birthdate": "1999-08-17",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Monaco",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "krepin-diatta-15",
+      "name": "Krépin Diatta",
+      "birthdate": "1999-02-25",
+      "position": "Meio",
+      "number": 15,
+      "club": "Monaco",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "edouard-mendy-16",
+      "name": "Édouard Mendy",
+      "birthdate": "1992-03-01",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "pape-matar-sarr-17",
+      "name": "Pape Matar Sarr",
+      "birthdate": "2002-09-14",
+      "position": "Meio",
+      "number": 17,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ismaila-sarr-18",
+      "name": "Ismaïla Sarr",
+      "birthdate": "1998-02-25",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Watford",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "famara-diedhiou-19",
+      "name": "Famara Diédhiou",
+      "birthdate": "1992-12-15",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Alanyaspor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bamba-dieng-20",
+      "name": "Bamba Dieng",
+      "birthdate": "2000-03-23",
+      "position": "Ataque",
+      "number": 20,
+      "club": "Marseille",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "youssouf-sabaly-21",
+      "name": "Youssouf Sabaly",
+      "birthdate": "1993-03-05",
+      "position": "Defesa",
+      "number": 21,
+      "club": "Betis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdou-diallo-22",
+      "name": "Abdou Diallo",
+      "birthdate": "1996-05-04",
+      "position": "Defesa",
+      "number": 22,
+      "club": "RB Leipzig (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alfred-gomis-23",
+      "name": "Alfred Gomis",
+      "birthdate": "1993-09-05",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Rennes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "moustapha-name-24",
+      "name": "Moustapha Name",
+      "birthdate": "1995-05-05",
+      "position": "Meio",
+      "number": 24,
+      "club": "Paris FC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mamadou-loum-25",
+      "name": "Mamadou Loum",
+      "birthdate": "1996-12-30",
+      "position": "Meio",
+      "number": 25,
+      "club": "Reading (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "pape-gueye-26",
+      "name": "Pape Gueye",
+      "birthdate": "1999-01-24",
+      "position": "Meio",
+      "number": 26,
+      "club": "Marseille",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/algeria.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "cedric-si-mohamed-1",
+      "name": "Cédric Si Mohamed",
+      "birthdate": "1985-01-09",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "CS Constantine",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "madjid-bougherra-2",
+      "name": "Madjid Bougherra",
+      "birthdate": "1982-10-07",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Lekhwiya",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "faouzi-ghoulam-3",
+      "name": "Faouzi Ghoulam",
+      "birthdate": "1991-02-01",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Napoli",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "essaid-belkalem-4",
+      "name": "Essaïd Belkalem",
+      "birthdate": "1989-01-01",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Watford (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rafik-halliche-5",
+      "name": "Rafik Halliche",
+      "birthdate": "1986-09-02",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Marítimo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "djamel-mesbah-6",
+      "name": "Djamel Mesbah",
+      "birthdate": "1984-10-09",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Livorno (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hassan-yebda-7",
+      "name": "Hassan Yebda",
+      "birthdate": "1984-05-14",
+      "position": "Meio",
+      "number": 7,
+      "club": "Udinese (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mehdi-lacen-8",
+      "name": "Mehdi Lacen",
+      "birthdate": "1984-03-15",
+      "position": "Meio",
+      "number": 8,
+      "club": "Getafe",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nabil-ghilas-9",
+      "name": "Nabil Ghilas",
+      "birthdate": "1990-04-20",
+      "position": "Ataque",
+      "number": 9,
+      "club": "FC Porto",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sofiane-feghouli-10",
+      "name": "Sofiane Feghouli",
+      "birthdate": "1989-12-26",
+      "position": "Meio",
+      "number": 10,
+      "club": "Valencia",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yacine-brahimi-11",
+      "name": "Yacine Brahimi",
+      "birthdate": "1990-02-08",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Granada",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "carl-medjani-12",
+      "name": "Carl Medjani",
+      "birthdate": "1985-05-15",
+      "position": "Defesa",
+      "number": 12,
+      "club": "Valenciennes (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "islam-slimani-13",
+      "name": "Islam Slimani",
+      "birthdate": "1988-06-18",
+      "position": "Ataque",
+      "number": 13,
+      "club": "Sporting CP",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nabil-bentaleb-14",
+      "name": "Nabil Bentaleb",
+      "birthdate": "1994-11-24",
+      "position": "Meio",
+      "number": 14,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "el-arbi-soudani-15",
+      "name": "El Arbi Soudani",
+      "birthdate": "1987-11-25",
+      "position": "Ataque",
+      "number": 15,
+      "club": "Dinamo Zagreb",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-zemmamouche-16",
+      "name": "Mohamed Zemmamouche",
+      "birthdate": "1985-01-02",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "USM Alger",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "liassine-cadamuro-17",
+      "name": "Liassine Cadamuro",
+      "birthdate": "1988-03-05",
+      "position": "Defesa",
+      "number": 17,
+      "club": "Mallorca (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdelmoumene-djabou-18",
+      "name": "Abdelmoumene Djabou",
+      "birthdate": "1987-01-31",
+      "position": "Meio",
+      "number": 18,
+      "club": "Club Africain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "saphir-taider-19",
+      "name": "Saphir Taïder",
+      "birthdate": "1992-02-29",
+      "position": "Meio",
+      "number": 19,
+      "club": "Internazionale",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aissa-mandi-20",
+      "name": "Aïssa Mandi",
+      "birthdate": "1991-10-22",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Reims",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "riyad-mahrez-21",
+      "name": "Riyad Mahrez",
+      "birthdate": "1991-02-21",
+      "position": "Meio",
+      "number": 21,
+      "club": "Leicester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mehdi-mostefa-sbaa-22",
+      "name": "Mehdi Mostefa Sbaa",
+      "birthdate": "1983-08-30",
+      "position": "Meio",
+      "number": 22,
+      "club": "Ajaccio",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rais-m-bolhi-23",
+      "name": "Raïs M'Bolhi",
+      "birthdate": "1986-04-25",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "CSKA Sofia",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

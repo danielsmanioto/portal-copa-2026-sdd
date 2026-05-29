@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/sweden.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "robin-olsen-1",
+      "name": "Robin Olsen",
+      "birthdate": "1990-01-08",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "FC København",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mikael-lustig-2",
+      "name": "Mikael Lustig",
+      "birthdate": "1986-12-13",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Celtic",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "victor-lindelof-3",
+      "name": "Victor Lindelöf",
+      "birthdate": "1994-07-17",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "andreas-granqvist-4",
+      "name": "Andreas Granqvist",
+      "birthdate": "1985-04-16",
+      "position": "Defesa",
+      "number": 4,
+      "club": "FC Krasnodar",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "martin-olsson-5",
+      "name": "Martin Olsson",
+      "birthdate": "1988-05-17",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Swansea C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ludwig-augustinsson-6",
+      "name": "Ludwig Augustinsson",
+      "birthdate": "1994-04-21",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Werder Bremen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sebastian-larsson-7",
+      "name": "Sebastian Larsson",
+      "birthdate": "1985-06-06",
+      "position": "Meio",
+      "number": 7,
+      "club": "Hull C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "albin-ekdal-8",
+      "name": "Albin Ekdal",
+      "birthdate": "1989-07-28",
+      "position": "Meio",
+      "number": 8,
+      "club": "Hamburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marcus-berg-9",
+      "name": "Marcus Berg",
+      "birthdate": "1986-08-17",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Al-Ain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "emil-forsberg-10",
+      "name": "Emil Forsberg",
+      "birthdate": "1991-10-23",
+      "position": "Meio",
+      "number": 10,
+      "club": "RB Leipzig",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "john-guidetti-11",
+      "name": "John Guidetti",
+      "birthdate": "1992-04-15",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Alavés (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "karl-johan-johnsson-12",
+      "name": "Karl-Johan Johnsson",
+      "birthdate": "1990-01-28",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Guingamp",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gustav-svensson-13",
+      "name": "Gustav Svensson",
+      "birthdate": "1987-02-07",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Seattle Sounders",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "filip-helander-14",
+      "name": "Filip Helander",
+      "birthdate": "1993-04-22",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Bologna",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "oscar-hiljemark-15",
+      "name": "Oscar Hiljemark",
+      "birthdate": "1992-06-28",
+      "position": "Meio",
+      "number": 15,
+      "club": "Genoa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "emil-krafth-16",
+      "name": "Emil Krafth",
+      "birthdate": "1994-08-02",
+      "position": "Defesa",
+      "number": 16,
+      "club": "Bologna",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "viktor-claesson-17",
+      "name": "Viktor Claesson",
+      "birthdate": "1992-01-02",
+      "position": "Meio",
+      "number": 17,
+      "club": "FC Krasnodar",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "pontus-jansson-18",
+      "name": "Pontus Jansson",
+      "birthdate": "1991-02-13",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Leeds U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marcus-rohden-19",
+      "name": "Marcus Rohdén",
+      "birthdate": "1991-05-11",
+      "position": "Meio",
+      "number": 19,
+      "club": "Crotone",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ola-toivonen-20",
+      "name": "Ola Toivonen",
+      "birthdate": "1986-07-03",
+      "position": "Ataque",
+      "number": 20,
+      "club": "Toulouse",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jimmy-durmaz-21",
+      "name": "Jimmy Durmaz",
+      "birthdate": "1989-03-22",
+      "position": "Meio",
+      "number": 21,
+      "club": "Toulouse",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "isaac-kiese-thelin-22",
+      "name": "Isaac Kiese Thelin",
+      "birthdate": "1992-06-24",
+      "position": "Ataque",
+      "number": 22,
+      "club": "Waasland-Beveren (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kristoffer-nordfeldt-23",
+      "name": "Kristoffer Nordfeldt",
+      "birthdate": "1989-06-23",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Swansea C",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

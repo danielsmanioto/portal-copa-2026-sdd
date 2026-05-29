@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/japan.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "eiji-kawashima-1",
+      "name": "Eiji Kawashima",
+      "birthdate": "1983-03-20",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Strasbourg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "miki-yamane-2",
+      "name": "Miki Yamane",
+      "birthdate": "1993-12-22",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Kawasaki Frontale",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "shogo-taniguchi-3",
+      "name": "Shogo Taniguchi",
+      "birthdate": "1991-07-15",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Kawasaki Frontale",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ko-itakura-4",
+      "name": "Ko Itakura",
+      "birthdate": "1997-01-27",
+      "position": "Defesa",
+      "number": 4,
+      "club": "B Mönchengladbach",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yuto-nagatomo-5",
+      "name": "Yuto Nagatomo",
+      "birthdate": "1986-09-12",
+      "position": "Defesa",
+      "number": 5,
+      "club": "FC Tokyo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "wataru-endo-6",
+      "name": "Wataru Endo",
+      "birthdate": "1993-02-09",
+      "position": "Meio",
+      "number": 6,
+      "club": "Stuttgart",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gaku-shibasaki-7",
+      "name": "Gaku Shibasaki",
+      "birthdate": "1992-05-28",
+      "position": "Meio",
+      "number": 7,
+      "club": "Leganés",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ritsu-doan-8",
+      "name": "Ritsu Doan",
+      "birthdate": "1998-06-16",
+      "position": "Meio",
+      "number": 8,
+      "club": "Freiburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kaoru-mitoma-9",
+      "name": "Kaoru Mitoma",
+      "birthdate": "1997-05-20",
+      "position": "Meio",
+      "number": 9,
+      "club": "Brighton & HA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "takumi-minamino-10",
+      "name": "Takumi Minamino",
+      "birthdate": "1995-01-16",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Monaco",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "takefusa-kubo-11",
+      "name": "Takefusa Kubo",
+      "birthdate": "2001-06-04",
+      "position": "Meio",
+      "number": 11,
+      "club": "Real Sociedad",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "shuichi-gonda-12",
+      "name": "Shuichi Gonda",
+      "birthdate": "1989-03-03",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Shimizu S-Pulse",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hidemasa-morita-13",
+      "name": "Hidemasa Morita",
+      "birthdate": "1995-05-10",
+      "position": "Meio",
+      "number": 13,
+      "club": "Sporting CP",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "junya-ito-14",
+      "name": "Junya Ito",
+      "birthdate": "1993-03-09",
+      "position": "Ataque",
+      "number": 14,
+      "club": "Reims",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "daichi-kamada-15",
+      "name": "Daichi Kamada",
+      "birthdate": "1996-08-05",
+      "position": "Meio",
+      "number": 15,
+      "club": "Eintracht Frankfurt",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "takehiro-tomiyasu-16",
+      "name": "Takehiro Tomiyasu",
+      "birthdate": "1998-11-05",
+      "position": "Defesa",
+      "number": 16,
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ao-tanaka-17",
+      "name": "Ao Tanaka",
+      "birthdate": "1998-09-10",
+      "position": "Meio",
+      "number": 17,
+      "club": "Fortuna Düsseldorf",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "takuma-asano-18",
+      "name": "Takuma Asano",
+      "birthdate": "1994-11-10",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Bochum",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hiroki-sakai-19",
+      "name": "Hiroki Sakai",
+      "birthdate": "1990-04-12",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Urawa Red Diamonds",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "shuto-machino-20",
+      "name": "Shuto Machino",
+      "birthdate": "1999-09-30",
+      "position": "Ataque",
+      "number": 20,
+      "club": "Shonan Bellmare",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ayase-ueda-21",
+      "name": "Ayase Ueda",
+      "birthdate": "1998-08-28",
+      "position": "Ataque",
+      "number": 21,
+      "club": "Cercle Brugge",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "maya-yoshida-22",
+      "name": "Maya Yoshida",
+      "birthdate": "1988-08-24",
+      "position": "Defesa",
+      "number": 22,
+      "club": "Schalke",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "daniel-schmidt-23",
+      "name": "Daniel Schmidt",
+      "birthdate": "1992-02-03",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Sint-Truiden",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yuki-soma-24",
+      "name": "Yuki Soma",
+      "birthdate": "1997-02-25",
+      "position": "Meio",
+      "number": 24,
+      "club": "Nagoya Grampus",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "daizen-maeda-25",
+      "name": "Daizen Maeda",
+      "birthdate": "1997-10-20",
+      "position": "Ataque",
+      "number": 25,
+      "club": "Celtic",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hiroki-ito-26",
+      "name": "Hiroki Ito",
+      "birthdate": "1999-05-12",
+      "position": "Defesa",
+      "number": 26,
+      "club": "Stuttgart",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "AFC",

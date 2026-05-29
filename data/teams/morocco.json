@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/morocco.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "yassine-bounou-1",
+      "name": "Yassine Bounou",
+      "birthdate": "1991-04-05",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Sevilla",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "achraf-hakimi-2",
+      "name": "Achraf Hakimi",
+      "birthdate": "1998-11-04",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Paris St-Germain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "noussair-mazraoui-3",
+      "name": "Noussair Mazraoui",
+      "birthdate": "1997-11-14",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Bayern Munich",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sofyan-amrabat-4",
+      "name": "Sofyan Amrabat",
+      "birthdate": "1996-08-21",
+      "position": "Meio",
+      "number": 4,
+      "club": "Fiorentina",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nayef-aguerd-5",
+      "name": "Nayef Aguerd",
+      "birthdate": "1996-03-30",
+      "position": "Defesa",
+      "number": 5,
+      "club": "West Ham U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "romain-saiss-6",
+      "name": "Romain Saïss",
+      "birthdate": "1990-03-26",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Beşiktaş",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hakim-ziyech-7",
+      "name": "Hakim Ziyech",
+      "birthdate": "1993-03-19",
+      "position": "Meio",
+      "number": 7,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "azzedine-ounahi-8",
+      "name": "Azzedine Ounahi",
+      "birthdate": "2000-04-19",
+      "position": "Meio",
+      "number": 8,
+      "club": "Angers",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abderrazak-hamdallah-9",
+      "name": "Abderrazak Hamdallah",
+      "birthdate": "1990-12-17",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Al-Ittihad [KSA]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "anass-zaroury-10",
+      "name": "Anass Zaroury",
+      "birthdate": "2000-11-07",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Burnley",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abdelhamid-sabiri-11",
+      "name": "Abdelhamid Sabiri",
+      "birthdate": "1996-11-28",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Sampdoria",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "munir-12",
+      "name": "Munir",
+      "birthdate": "1989-05-10",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Al-Wehda",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ilias-chair-13",
+      "name": "Ilias Chair",
+      "birthdate": "1997-10-30",
+      "position": "Meio",
+      "number": 13,
+      "club": "QPR",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "zakaria-aboukhlal-14",
+      "name": "Zakaria Aboukhlal",
+      "birthdate": "2000-02-18",
+      "position": "Ataque",
+      "number": 14,
+      "club": "Toulouse",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "selim-amallah-15",
+      "name": "Selim Amallah",
+      "birthdate": "1996-11-15",
+      "position": "Meio",
+      "number": 15,
+      "club": "Standard Liège",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "abde-ezzalzouli-16",
+      "name": "Abde Ezzalzouli",
+      "birthdate": "2001-12-17",
+      "position": "Ataque",
+      "number": 16,
+      "club": "Osasuna (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sofiane-boufal-17",
+      "name": "Sofiane Boufal",
+      "birthdate": "1993-09-17",
+      "position": "Meio",
+      "number": 17,
+      "club": "Angers",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jawad-el-yamiq-18",
+      "name": "Jawad El Yamiq",
+      "birthdate": "1992-02-29",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Valladolid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yousseff-en-nesyri-19",
+      "name": "Yousseff En-Nesyri",
+      "birthdate": "1997-06-01",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Sevilla",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "achraf-dari-20",
+      "name": "Achraf Dari",
+      "birthdate": "1999-05-06",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Brest",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "walid-cheddira-21",
+      "name": "Walid Cheddira",
+      "birthdate": "1998-01-22",
+      "position": "Ataque",
+      "number": 21,
+      "club": "Bari",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ahmed-reda-tagnaouti-22",
+      "name": "Ahmed Reda Tagnaouti",
+      "birthdate": "1996-04-05",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "Wydad Casablanca",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bilal-el-khannouss-23",
+      "name": "Bilal El Khannouss",
+      "birthdate": "2004-05-10",
+      "position": "Meio",
+      "number": 23,
+      "club": "KRC Genk",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "badr-benoun-24",
+      "name": "Badr Benoun",
+      "birthdate": "1993-09-30",
+      "position": "Defesa",
+      "number": 24,
+      "club": "Qatar SC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yahia-attiyat-allah-25",
+      "name": "Yahia Attiyat Allah",
+      "birthdate": "1995-03-02",
+      "position": "Defesa",
+      "number": 25,
+      "club": "Wydad Casablanca",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yahya-jabrane-26",
+      "name": "Yahya Jabrane",
+      "birthdate": "1991-06-18",
+      "position": "Meio",
+      "number": 26,
+      "club": "Wydad Casablanca",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

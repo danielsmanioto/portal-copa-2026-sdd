@@ -1,8 +1,8 @@
 {
-  "id": "fra",
+  "id": "france",
   "name": "France",
-  "slug": "franca",
-  "photo": "https://example.com/images/selecoes/franca.png",
+  "slug": "france",
+  "photo": "/assets/img/placeholder-player.png",
   "players": [
     {
       "id": "hugo-lloris-1",
@@ -238,7 +238,5 @@
       "club": "B Mönchengladbach",
       "photo": "/assets/img/placeholder-player.png"
     }
-  ],
-  "confederation": "UEFA",
-  "coachName": "Didier Deschamps"
+  ]
 }

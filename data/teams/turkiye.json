@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/turkiye.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
+      "id": "rustu-recber-1",
+      "name": "Rüştü Reçber",
       "birthdate": "2000-01-01",
       "position": "Meio",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "emre-asik-2",
+      "name": "Emre Aşik",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 2,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "bulent-korkmaz-3",
+      "name": "Bülent Korkmaz",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 3,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "fatih-akyel-4",
+      "name": "Fatih Akyel",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 4,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ozalan-alpay-5",
+      "name": "Ozalan Alpay",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 5,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "arif-erdem-6",
+      "name": "Arif Erdem",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 6,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "okan-buruk-7",
+      "name": "Okan Buruk",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 7,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "tugay-kerimoglu-8",
+      "name": "Tugay Kerimoğlu",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 8,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "hakan-sukur-9",
+      "name": "Hakan Şükür",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 9,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "yildiray-basturk-10",
+      "name": "Yildiray Bastürk",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 10,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "hasan-sas-11",
+      "name": "Hasan Şaş",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 11,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "omer-catkic-12",
+      "name": "Ömer Çatkiç",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 12,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "muzzy-izzet-13",
+      "name": "Muzzy Izzet",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 13,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "tayfur-havutcu-14",
+      "name": "Tayfur Havutçu",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 14,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "nihat-kahveci-15",
+      "name": "Nihat Kahveci",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 15,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "umit-ozat-16",
+      "name": "Ümit Özat",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 16,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ilhan-mansiz-17",
+      "name": "Ilhan Mansiz",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 17,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "ergun-penbe-18",
+      "name": "Ergün Penbe",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 18,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "abdullah-ercan-19",
+      "name": "Abdullah Ercan",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 19,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "hakan-unsal-20",
+      "name": "Hakan Ünsal",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 20,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "emre-belozoglu-21",
+      "name": "Emre Belözoğlu",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 21,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "umit-davala-22",
+      "name": "Ümit Davala",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 22,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
+    },
+    {
+      "id": "zafer-ozgultekin-23",
+      "name": "Zafer Özgültekin",
+      "birthdate": "2000-01-01",
+      "position": "Meio",
+      "number": 23,
+      "photo": "/assets/img/placeholder-player.png",
+      "club": "Unknown"
     }
   ],
   "confederation": "UEFA",

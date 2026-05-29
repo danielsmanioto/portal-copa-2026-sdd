@@ -22,6 +22,70 @@ class SelectionPage {
     }
   }
 
+  resolveTeamFlag(team) {
+    const flagCodeBySlug = {
+      'mexico': 'mx',
+      'south-africa': 'za',
+      'korea-republic': 'kr',
+      'czechia': 'cz',
+      'canada': 'ca',
+      'bosnia-herzegovina': 'ba',
+      'qatar': 'qa',
+      'switzerland': 'ch',
+      'brasil': 'br',
+      'morocco': 'ma',
+      'haiti': 'ht',
+      'scotland': 'sc',
+      'united-states': 'us',
+      'paraguay': 'py',
+      'australia': 'au',
+      'turkiye': 'tr',
+      'germany': 'de',
+      'curacao': 'cw',
+      'cote-d-ivoire': 'ci',
+      'ecuador': 'ec',
+      'netherlands': 'nl',
+      'japan': 'jp',
+      'sweden': 'se',
+      'tunisia': 'tn',
+      'belgium': 'be',
+      'egypt': 'eg',
+      'ir-iran': 'ir',
+      'new-zealand': 'nz',
+      'espanha': 'es',
+      'cabo-verde': 'cv',
+      'saudi-arabia': 'sa',
+      'uruguay': 'uy',
+      'franca': 'fr',
+      'senegal': 'sn',
+      'iraq': 'iq',
+      'norway': 'no',
+      'argentina': 'ar',
+      'algeria': 'dz',
+      'austria': 'at',
+      'jordan': 'jo',
+      'portugal': 'pt',
+      'congo-dr': 'cd',
+      'uzbekistan': 'uz',
+      'colombia': 'co',
+      'england': 'gb-eng',
+      'croatia': 'hr',
+      'ghana': 'gh',
+      'panama': 'pa'
+    };
+
+    const flagCode = team && team.slug ? flagCodeBySlug[team.slug] : null;
+    if (flagCode) {
+      return `https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${flagCode}.svg`;
+    }
+
+    if (team && team.photo && !team.photo.includes('example.com')) {
+      return team.photo;
+    }
+
+    return '/assets/img/placeholder-player.png';
+  }
+
   async init() {
     if (!this.container || !this.slug) return this.showError('Missing configuration');
 
@@ -95,14 +159,14 @@ class SelectionPage {
     badge.className = 'selection-badge';
 
     const badgeImage = document.createElement('img');
-    badgeImage.src = team.photo || '/assets/img/placeholder-player.png';
-    badgeImage.alt = `Escudo da seleção da ${team.name || 'equipe'}`;
+    badgeImage.src = this.resolveTeamFlag(team);
+    badgeImage.alt = `Bandeira da seleção da ${team.name || 'equipe'}`;
     badgeImage.loading = 'eager';
     badgeImage.decoding = 'async';
     badgeImage.fetchPriority = 'high';
     badgeImage.onerror = () => {
       badgeImage.src = '/assets/img/placeholder-player.png';
-      badgeImage.alt = `Escudo da seleção da ${team.name || 'equipe'} (placeholder)`;
+      badgeImage.alt = `Bandeira da seleção da ${team.name || 'equipe'} (placeholder)`;
     };
 
     const titleWrapper = document.createElement('div');

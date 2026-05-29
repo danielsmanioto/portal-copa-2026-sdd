@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/uruguay.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "fernando-muslera-1",
+      "name": "Fernando Muslera",
+      "birthdate": "1986-06-16",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Galatasaray",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jose-gimenez-2",
+      "name": "José Giménez",
+      "birthdate": "1995-01-20",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "diego-godin-3",
+      "name": "Diego Godín",
+      "birthdate": "1986-02-16",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Vélez Sarsfield",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ronald-araujo-4",
+      "name": "Ronald Araújo",
+      "birthdate": "1999-03-07",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Barcelona",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "matias-vecino-5",
+      "name": "Matías Vecino",
+      "birthdate": "1991-08-24",
+      "position": "Meio",
+      "number": 5,
+      "club": "Lazio",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rodrigo-bentancur-6",
+      "name": "Rodrigo Bentancur",
+      "birthdate": "1997-06-25",
+      "position": "Meio",
+      "number": 6,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nicolas-de-la-cruz-7",
+      "name": "Nicolás De La Cruz",
+      "birthdate": "1997-06-01",
+      "position": "Meio",
+      "number": 7,
+      "club": "River Plate",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "facundo-pellistri-8",
+      "name": "Facundo Pellistri",
+      "birthdate": "2001-12-20",
+      "position": "Meio",
+      "number": 8,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luis-suarez-9",
+      "name": "Luis Suárez",
+      "birthdate": "1987-01-24",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Nacional [URU]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "giorgian-de-arrascaeta-10",
+      "name": "Giorgian De Arrascaeta",
+      "birthdate": "1994-06-01",
+      "position": "Meio",
+      "number": 10,
+      "club": "Flamengo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "darwin-nunez-11",
+      "name": "Darwin Núñez",
+      "birthdate": "1999-06-24",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Liverpool",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sebastian-sosa-12",
+      "name": "Sebastián Sosa",
+      "birthdate": "1986-08-19",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Independiente",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "guillermo-varela-13",
+      "name": "Guillermo Varela",
+      "birthdate": "1993-03-24",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Flamengo (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lucas-torreira-14",
+      "name": "Lucas Torreira",
+      "birthdate": "1996-02-11",
+      "position": "Meio",
+      "number": 14,
+      "club": "Galatasaray",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "federico-valverde-15",
+      "name": "Federico Valverde",
+      "birthdate": "1998-07-22",
+      "position": "Meio",
+      "number": 15,
+      "club": "Real Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mathias-olivera-16",
+      "name": "Mathías Olivera",
+      "birthdate": "1997-10-31",
+      "position": "Defesa",
+      "number": 16,
+      "club": "Napoli",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "matias-vina-17",
+      "name": "Matías Viña",
+      "birthdate": "1997-11-09",
+      "position": "Defesa",
+      "number": 17,
+      "club": "Roma",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "maximiliano-gomez-18",
+      "name": "Maximiliano Gómez",
+      "birthdate": "1996-08-14",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Trabzonspor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sebastian-coates-19",
+      "name": "Sebastián Coates",
+      "birthdate": "1990-10-07",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Sporting CP",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "facundo-torres-20",
+      "name": "Facundo Torres",
+      "birthdate": "2000-04-13",
+      "position": "Ataque",
+      "number": 20,
+      "club": "Orlando C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "edinson-cavani-21",
+      "name": "Edinson Cavani",
+      "birthdate": "1987-02-14",
+      "position": "Ataque",
+      "number": 21,
+      "club": "Valencia",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "martin-caceres-22",
+      "name": "Martín Cáceres",
+      "birthdate": "1987-04-07",
+      "position": "Defesa",
+      "number": 22,
+      "club": "LA Galaxy",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sergio-rochet-23",
+      "name": "Sergio Rochet",
+      "birthdate": "1993-03-23",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Nacional [URU]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "agustin-canobbio-24",
+      "name": "Agustín Canobbio",
+      "birthdate": "1998-10-01",
+      "position": "Ataque",
+      "number": 24,
+      "club": "Athletico Paranaense",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "manuel-ugarte-25",
+      "name": "Manuel Ugarte",
+      "birthdate": "2001-04-11",
+      "position": "Meio",
+      "number": 25,
+      "club": "Sporting CP",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jose-luis-rodriguez-26",
+      "name": "José Luis Rodríguez",
+      "birthdate": "1997-03-14",
+      "position": "Defesa",
+      "number": 26,
+      "club": "Nacional [URU]",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CONMEBOL",

@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/tunisia.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "aymen-mathlouthi-1",
+      "name": "Aymen Mathlouthi",
+      "birthdate": "1984-09-14",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Étoile du Sahel",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bilel-ifa-2",
+      "name": "Bilel Ifa",
+      "birthdate": "1990-03-09",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Kuwait SC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "montassar-talbi-3",
+      "name": "Montassar Talbi",
+      "birthdate": "1998-05-26",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Lorient",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yassine-meriah-4",
+      "name": "Yassine Meriah",
+      "birthdate": "1993-07-02",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Espérance",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nader-ghandri-5",
+      "name": "Nader Ghandri",
+      "birthdate": "1995-02-18",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Club Africain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "dylan-bronn-6",
+      "name": "Dylan Bronn",
+      "birthdate": "1995-06-19",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Salernitana",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "youssef-msakni-7",
+      "name": "Youssef Msakni",
+      "birthdate": "1990-10-28",
+      "position": "Meio",
+      "number": 7,
+      "club": "Al-Arabi [QAT]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "hannibal-mejbri-8",
+      "name": "Hannibal Mejbri",
+      "birthdate": "2003-01-21",
+      "position": "Meio",
+      "number": 8,
+      "club": "Birmingham C (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "issam-jebali-9",
+      "name": "Issam Jebali",
+      "birthdate": "1991-12-25",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Odense",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "wahbi-khazri-10",
+      "name": "Wahbi Khazri",
+      "birthdate": "1991-02-08",
+      "position": "Meio",
+      "number": 10,
+      "club": "Montpellier",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "taha-yassine-khenissi-11",
+      "name": "Taha Yassine Khenissi",
+      "birthdate": "1992-01-06",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Kuwait SC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-maaloul-12",
+      "name": "Ali Maâloul",
+      "birthdate": "1990-01-01",
+      "position": "Defesa",
+      "number": 12,
+      "club": "Al-Ahly [EGY]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ferjani-sassi-13",
+      "name": "Ferjani Sassi",
+      "birthdate": "1992-03-18",
+      "position": "Meio",
+      "number": 13,
+      "club": "Al-Duhail",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aissa-laidouni-14",
+      "name": "Aïssa Laïdouni",
+      "birthdate": "1996-12-13",
+      "position": "Meio",
+      "number": 14,
+      "club": "Ferencváros",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-ali-ben-romdhane-15",
+      "name": "Mohamed Ali Ben Romdhane",
+      "birthdate": "1999-09-06",
+      "position": "Meio",
+      "number": 15,
+      "club": "Espérance",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aymen-dahmen-16",
+      "name": "Aymen Dahmen",
+      "birthdate": "1997-01-28",
+      "position": "Goleiro",
+      "number": 16,
+      "club": "CS Sfaxien",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ellyes-skhiri-17",
+      "name": "Ellyes Skhiri",
+      "birthdate": "1995-05-10",
+      "position": "Meio",
+      "number": 17,
+      "club": "Köln",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ghailene-chaalali-18",
+      "name": "Ghailene Chaalali",
+      "birthdate": "1994-02-28",
+      "position": "Meio",
+      "number": 18,
+      "club": "Espérance",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "seifeddine-jaziri-19",
+      "name": "Seifeddine Jaziri",
+      "birthdate": "1993-02-12",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Zamalek",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mohamed-drager-20",
+      "name": "Mohamed Dräger",
+      "birthdate": "1996-06-25",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Luzern (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "wajdi-kechrida-21",
+      "name": "Wajdi Kechrida",
+      "birthdate": "1995-11-05",
+      "position": "Defesa",
+      "number": 21,
+      "club": "Atromitos",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bechir-ben-said-22",
+      "name": "Bechir Ben Saïd",
+      "birthdate": "1994-11-29",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "US Monastir",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "naim-sliti-23",
+      "name": "Naïm Sliti",
+      "birthdate": "1992-07-27",
+      "position": "Meio",
+      "number": 23,
+      "club": "Al-Ettifaq",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ali-abdi-24",
+      "name": "Ali Abdi",
+      "birthdate": "1993-12-20",
+      "position": "Defesa",
+      "number": 24,
+      "club": "Caen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "anis-slimane-25",
+      "name": "Anis Slimane",
+      "birthdate": "2001-03-16",
+      "position": "Meio",
+      "number": 25,
+      "club": "Brøndby",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mouez-hassen-26",
+      "name": "Mouez Hassen",
+      "birthdate": "1995-03-05",
+      "position": "Goleiro",
+      "number": 26,
+      "club": "Club Africain",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CAF",

@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/argentina.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "franco-armani-1",
+      "name": "Franco Armani",
+      "birthdate": "1986-10-16",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "River Plate",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "juan-foyth-2",
+      "name": "Juan Foyth",
+      "birthdate": "1998-01-12",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Villarreal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nicolas-tagliafico-3",
+      "name": "Nicolás Tagliafico",
+      "birthdate": "1992-08-31",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Lyon",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gonzalo-montiel-4",
+      "name": "Gonzalo Montiel",
+      "birthdate": "1997-01-01",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Sevilla",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "leandro-paredes-5",
+      "name": "Leandro Paredes",
+      "birthdate": "1994-06-29",
+      "position": "Meio",
+      "number": 5,
+      "club": "Juventus (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "german-pezzella-6",
+      "name": "Germán Pezzella",
+      "birthdate": "1991-06-27",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Betis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rodrigo-de-paul-7",
+      "name": "Rodrigo De Paul",
+      "birthdate": "1994-05-24",
+      "position": "Meio",
+      "number": 7,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marcos-acuna-8",
+      "name": "Marcos Acuña",
+      "birthdate": "1991-10-28",
+      "position": "Defesa",
+      "number": 8,
+      "club": "Sevilla",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "julian-alvarez-9",
+      "name": "Julián Álvarez",
+      "birthdate": "2000-01-31",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lionel-messi-10",
+      "name": "Lionel Messi",
+      "birthdate": "1987-06-24",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Paris St-Germain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "angel-di-maria-11",
+      "name": "Ángel Di Maria",
+      "birthdate": "1988-02-14",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Juventus",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "geronimo-rulli-12",
+      "name": "Gerónimo Rulli",
+      "birthdate": "1992-05-20",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Villarreal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cristian-romero-13",
+      "name": "Cristian Romero",
+      "birthdate": "1998-04-27",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "exequiel-palacios-14",
+      "name": "Exequiel Palacios",
+      "birthdate": "1998-10-05",
+      "position": "Meio",
+      "number": 14,
+      "club": "Bayer Leverkusen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "angel-correa-15",
+      "name": "Ángel Correa",
+      "birthdate": "1995-03-09",
+      "position": "Ataque",
+      "number": 15,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thiago-almada-16",
+      "name": "Thiago Almada",
+      "birthdate": "2001-04-26",
+      "position": "Meio",
+      "number": 16,
+      "club": "Atlanta U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alejandro-gomez-17",
+      "name": "Alejandro Gómez",
+      "birthdate": "1988-02-15",
+      "position": "Meio",
+      "number": 17,
+      "club": "Sevilla",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "guido-rodriguez-18",
+      "name": "Guido Rodríguez",
+      "birthdate": "1994-04-12",
+      "position": "Meio",
+      "number": 18,
+      "club": "Betis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nicolas-otamendi-19",
+      "name": "Nicolás Otamendi",
+      "birthdate": "1988-02-12",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Benfica",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alexis-mac-allister-20",
+      "name": "Alexis Mac Allister",
+      "birthdate": "1998-12-24",
+      "position": "Meio",
+      "number": 20,
+      "club": "Brighton & HA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "paulo-dybala-21",
+      "name": "Paulo Dybala",
+      "birthdate": "1993-11-15",
+      "position": "Ataque",
+      "number": 21,
+      "club": "Roma",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lautaro-martinez-22",
+      "name": "Lautaro Martínez",
+      "birthdate": "1997-08-22",
+      "position": "Ataque",
+      "number": 22,
+      "club": "Internazionale",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "emiliano-martinez-23",
+      "name": "Emiliano Martínez",
+      "birthdate": "1992-09-02",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Aston Villa",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "enzo-fernandez-24",
+      "name": "Enzo Fernández",
+      "birthdate": "2001-01-17",
+      "position": "Meio",
+      "number": 24,
+      "club": "Benfica",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lisandro-martinez-25",
+      "name": "Lisandro Martínez",
+      "birthdate": "1998-01-18",
+      "position": "Defesa",
+      "number": 25,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nahuel-molina-26",
+      "name": "Nahuel Molina",
+      "birthdate": "1997-12-02",
+      "position": "Defesa",
+      "number": 26,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CONMEBOL",

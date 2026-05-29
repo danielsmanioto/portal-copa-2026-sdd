@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/england.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "jordan-pickford-1",
+      "name": "Jordan Pickford",
+      "birthdate": "1994-03-07",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Everton",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kyle-walker-2",
+      "name": "Kyle Walker",
+      "birthdate": "1990-05-28",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luke-shaw-3",
+      "name": "Luke Shaw",
+      "birthdate": "1995-07-12",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "declan-rice-4",
+      "name": "Declan Rice",
+      "birthdate": "1999-01-14",
+      "position": "Meio",
+      "number": 4,
+      "club": "West Ham U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "john-stones-5",
+      "name": "John Stones",
+      "birthdate": "1994-05-28",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "harry-maguire-6",
+      "name": "Harry Maguire",
+      "birthdate": "1993-03-05",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jack-grealish-7",
+      "name": "Jack Grealish",
+      "birthdate": "1995-09-10",
+      "position": "Meio",
+      "number": 7,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jordan-henderson-8",
+      "name": "Jordan Henderson",
+      "birthdate": "1990-06-17",
+      "position": "Meio",
+      "number": 8,
+      "club": "Liverpool",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "harry-kane-9",
+      "name": "Harry Kane",
+      "birthdate": "1993-07-28",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "raheem-sterling-10",
+      "name": "Raheem Sterling",
+      "birthdate": "1994-12-08",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marcus-rashford-11",
+      "name": "Marcus Rashford",
+      "birthdate": "1997-10-31",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kieran-trippier-12",
+      "name": "Kieran Trippier",
+      "birthdate": "1990-09-19",
+      "position": "Defesa",
+      "number": 12,
+      "club": "Newcastle U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nick-pope-13",
+      "name": "Nick Pope",
+      "birthdate": "1992-04-19",
+      "position": "Goleiro",
+      "number": 13,
+      "club": "Newcastle U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kalvin-phillips-14",
+      "name": "Kalvin Phillips",
+      "birthdate": "1995-12-02",
+      "position": "Meio",
+      "number": 14,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "eric-dier-15",
+      "name": "Eric Dier",
+      "birthdate": "1994-01-15",
+      "position": "Defesa",
+      "number": 15,
+      "club": "Tottenham H",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "conor-coady-16",
+      "name": "Conor Coady",
+      "birthdate": "1993-02-25",
+      "position": "Defesa",
+      "number": 16,
+      "club": "Everton (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bukayo-saka-17",
+      "name": "Bukayo Saka",
+      "birthdate": "2001-09-05",
+      "position": "Meio",
+      "number": 17,
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "trent-alexander-arnold-18",
+      "name": "Trent Alexander-Arnold",
+      "birthdate": "1998-10-07",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Liverpool",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mason-mount-19",
+      "name": "Mason Mount",
+      "birthdate": "1999-01-10",
+      "position": "Meio",
+      "number": 19,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "phil-foden-20",
+      "name": "Phil Foden",
+      "birthdate": "2000-05-28",
+      "position": "Meio",
+      "number": 20,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ben-white-21",
+      "name": "Ben White",
+      "birthdate": "1997-11-08",
+      "position": "Defesa",
+      "number": 21,
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jude-bellingham-22",
+      "name": "Jude Bellingham",
+      "birthdate": "2003-06-29",
+      "position": "Meio",
+      "number": 22,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aaron-ramsdale-23",
+      "name": "Aaron Ramsdale",
+      "birthdate": "1998-05-14",
+      "position": "Goleiro",
+      "number": 23,
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "callum-wilson-24",
+      "name": "Callum Wilson",
+      "birthdate": "1992-02-27",
+      "position": "Ataque",
+      "number": 24,
+      "club": "Newcastle U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "james-maddison-25",
+      "name": "James Maddison",
+      "birthdate": "1996-11-23",
+      "position": "Meio",
+      "number": 25,
+      "club": "Leicester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "conor-gallagher-26",
+      "name": "Conor Gallagher",
+      "birthdate": "2000-02-06",
+      "position": "Meio",
+      "number": 26,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

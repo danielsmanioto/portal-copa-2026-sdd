@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/ecuador.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "hernan-galindez-1",
+      "name": "Hernán Galindez",
+      "birthdate": "1987-03-30",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Aucas",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "felix-torres-2",
+      "name": "Félix Torres",
+      "birthdate": "1997-01-11",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Santos Laguna",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "piero-hincapie-3",
+      "name": "Piero Hincapié",
+      "birthdate": "2002-01-09",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Bayer Leverkusen",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "robert-arboleda-4",
+      "name": "Robert Arboleda",
+      "birthdate": "1991-10-22",
+      "position": "Defesa",
+      "number": 4,
+      "club": "São Paulo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jose-cifuentes-5",
+      "name": "José Cifuentes",
+      "birthdate": "1999-03-12",
+      "position": "Meio",
+      "number": 5,
+      "club": "Los Angeles FC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "william-pacho-6",
+      "name": "William Pacho",
+      "birthdate": "2001-10-16",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Royal Antwerp",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "pervis-estupinan-7",
+      "name": "Pervis Estupiñán",
+      "birthdate": "1998-01-21",
+      "position": "Defesa",
+      "number": 7,
+      "club": "Brighton & HA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "carlos-gruezo-8",
+      "name": "Carlos Gruezo",
+      "birthdate": "1995-04-19",
+      "position": "Meio",
+      "number": 8,
+      "club": "Augsburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ayrton-preciado-9",
+      "name": "Ayrton Preciado",
+      "birthdate": "1994-07-17",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Santos Laguna",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "romario-ibarra-10",
+      "name": "Romario Ibarra",
+      "birthdate": "1994-09-24",
+      "position": "Meio",
+      "number": 10,
+      "club": "Pachuca",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "michael-estrada-11",
+      "name": "Michael Estrada",
+      "birthdate": "1996-04-07",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Cruz Azul (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "moises-ramirez-12",
+      "name": "Moisés Ramírez",
+      "birthdate": "2000-09-09",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Independiente del Valle",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "enner-valencia-13",
+      "name": "Enner Valencia",
+      "birthdate": "1989-11-04",
+      "position": "Ataque",
+      "number": 13,
+      "club": "Fenerbahçe",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "xavier-arreaga-14",
+      "name": "Xavier Arreaga",
+      "birthdate": "1994-09-28",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Seattle Sounders",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "angel-mena-15",
+      "name": "Ángel Mena",
+      "birthdate": "1988-01-21",
+      "position": "Meio",
+      "number": 15,
+      "club": "León",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jeremy-sarmiento-16",
+      "name": "Jeremy Sarmiento",
+      "birthdate": "2002-06-16",
+      "position": "Meio",
+      "number": 16,
+      "club": "Brighton & HA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "angelo-preciado-17",
+      "name": "Angelo Preciado",
+      "birthdate": "1998-02-18",
+      "position": "Defesa",
+      "number": 17,
+      "club": "KRC Genk",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "diego-palacios-18",
+      "name": "Diego Palacios",
+      "birthdate": "1999-07-12",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Los Angeles FC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "gonzalo-plata-19",
+      "name": "Gonzalo Plata",
+      "birthdate": "2000-11-01",
+      "position": "Meio",
+      "number": 19,
+      "club": "Valladolid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sebas-mendez-20",
+      "name": "Sebas Méndez",
+      "birthdate": "1997-04-26",
+      "position": "Meio",
+      "number": 20,
+      "club": "Los Angeles FC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alan-franco-21",
+      "name": "Alan Franco",
+      "birthdate": "1998-08-21",
+      "position": "Meio",
+      "number": 21,
+      "club": "Talleres (Córdoba) (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "alexander-dominguez-22",
+      "name": "Alexander Domínguez",
+      "birthdate": "1987-06-05",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "LQU Quito",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "moises-caicedo-23",
+      "name": "Moisés Caicedo",
+      "birthdate": "2001-11-02",
+      "position": "Meio",
+      "number": 23,
+      "club": "Brighton & HA",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "djorkaeff-reasco-24",
+      "name": "Djorkaeff Reasco",
+      "birthdate": "1999-01-18",
+      "position": "Ataque",
+      "number": 24,
+      "club": "Newell's Old Boys",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jackson-porozo-25",
+      "name": "Jackson Porozo",
+      "birthdate": "2000-08-04",
+      "position": "Defesa",
+      "number": 25,
+      "club": "Troyes",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kevin-rodriguez-26",
+      "name": "Kevin Rodríguez",
+      "birthdate": "2000-03-04",
+      "position": "Ataque",
+      "number": 26,
+      "club": "Imbabura",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CONMEBOL",

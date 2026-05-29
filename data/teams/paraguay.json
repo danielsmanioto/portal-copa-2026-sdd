@@ -5,13 +5,211 @@
   "photo": "https://example.com/images/selecoes/paraguay.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "justo-villar-1",
+      "name": "Justo Villar",
+      "birthdate": "1977-06-30",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Valladolid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "dario-veron-2",
+      "name": "Darío Verón",
+      "birthdate": "1979-07-16",
+      "position": "Defesa",
+      "number": 2,
+      "club": "UNAM",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "claudio-morel-rodriguez-3",
+      "name": "Claudio Morel Rodríguez",
+      "birthdate": "1978-02-02",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Boca Juniors",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "denis-caniza-4",
+      "name": "Denis Caniza",
+      "birthdate": "1974-08-29",
+      "position": "Defesa",
+      "number": 4,
+      "club": "León",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "julio-cesar-caceres-5",
+      "name": "Júlio César Cáceres",
+      "birthdate": "1979-10-05",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Atlético Mineiro",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "carlos-bonet-6",
+      "name": "Carlos Bonet",
+      "birthdate": "1977-10-02",
+      "position": "Defesa",
+      "number": 6,
+      "club": "Olimpia [PAR]",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "oscar-cardozo-7",
+      "name": "Óscar Cardozo",
+      "birthdate": "1983-05-20",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Benfica",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "edgar-barreto-8",
+      "name": "Edgar Barreto",
+      "birthdate": "1984-07-15",
+      "position": "Meio",
+      "number": 8,
+      "club": "Atalanta",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "roque-santa-cruz-9",
+      "name": "Roque Santa Cruz",
+      "birthdate": "1981-08-16",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "edgar-benitez-10",
+      "name": "Edgar Benítez",
+      "birthdate": "1987-11-08",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Pachuca",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jonathan-santana-11",
+      "name": "Jonathan Santana",
+      "birthdate": "1981-10-19",
+      "position": "Meio",
+      "number": 11,
+      "club": "Wolfsburg",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "diego-barreto-12",
+      "name": "Diego Barreto",
+      "birthdate": "1981-07-16",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Cerro Porteño",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "enrique-vera-13",
+      "name": "Enrique Vera",
+      "birthdate": "1979-03-10",
+      "position": "Meio",
+      "number": 13,
+      "club": "América",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "paulo-da-silva-14",
+      "name": "Paulo da Silva",
+      "birthdate": "1980-02-01",
+      "position": "Defesa",
+      "number": 14,
+      "club": "Sunderland",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "victor-caceres-15",
+      "name": "Víctor Cáceres",
+      "birthdate": "1985-03-25",
+      "position": "Meio",
+      "number": 15,
+      "club": "Libertad",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cristian-riveros-16",
+      "name": "Cristian Riveros",
+      "birthdate": "1982-10-16",
+      "position": "Meio",
+      "number": 16,
+      "club": "Cruz Azul",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aureliano-torres-17",
+      "name": "Aureliano Torres",
+      "birthdate": "1982-06-16",
+      "position": "Defesa",
+      "number": 17,
+      "club": "San Lorenzo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nelson-haedo-valdez-18",
+      "name": "Nelson Haedo Valdez",
+      "birthdate": "1983-11-28",
+      "position": "Ataque",
+      "number": 18,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "lucas-barrios-19",
+      "name": "Lucas Barrios",
+      "birthdate": "1984-11-13",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nestor-ortigoza-20",
+      "name": "Néstor Ortigoza",
+      "birthdate": "1984-10-07",
+      "position": "Meio",
+      "number": 20,
+      "club": "Argentinos Juniors",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "antolin-alcaraz-21",
+      "name": "Antolín Alcaraz",
+      "birthdate": "1982-07-30",
+      "position": "Defesa",
+      "number": 21,
+      "club": "Club Brugge",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aldo-bobadilla-22",
+      "name": "Aldo Bobadilla",
+      "birthdate": "1976-04-20",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "Independiente Medellín",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "roberto-gamarra-23",
+      "name": "Roberto Gamarra",
+      "birthdate": "1981-05-11",
+      "position": "Ataque",
+      "number": 23,
+      "club": "Libertad",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CONMEBOL",

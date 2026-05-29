@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/australia.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "mat-ryan-1",
+      "name": "Mat Ryan",
+      "birthdate": "1992-04-08",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "FC København",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "milos-degenek-2",
+      "name": "Miloš Degenek",
+      "birthdate": "1994-04-28",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Columbus Crew",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nathaniel-atkinson-3",
+      "name": "Nathaniel Atkinson",
+      "birthdate": "1999-06-13",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Hearts",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kye-rowles-4",
+      "name": "Kye Rowles",
+      "birthdate": "1998-05-19",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Hearts",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "fran-karacic-5",
+      "name": "Fran Karačić",
+      "birthdate": "1996-05-12",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Brescia",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "marco-tilio-6",
+      "name": "Marco Tilio",
+      "birthdate": "2001-08-23",
+      "position": "Ataque",
+      "number": 6,
+      "club": "Melbourne C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "matthew-leckie-7",
+      "name": "Matthew Leckie",
+      "birthdate": "1991-02-04",
+      "position": "Meio",
+      "number": 7,
+      "club": "Melbourne C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bailey-wright-8",
+      "name": "Bailey Wright",
+      "birthdate": "1992-07-28",
+      "position": "Defesa",
+      "number": 8,
+      "club": "Sunderland",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jamie-maclaren-9",
+      "name": "Jamie Maclaren",
+      "birthdate": "1993-07-29",
+      "position": "Ataque",
+      "number": 9,
+      "club": "Melbourne C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ajdin-hrustic-10",
+      "name": "Ajdin Hrustić",
+      "birthdate": "1996-07-05",
+      "position": "Meio",
+      "number": 10,
+      "club": "Verona",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "awer-mabil-11",
+      "name": "Awer Mabil",
+      "birthdate": "1995-09-15",
+      "position": "Meio",
+      "number": 11,
+      "club": "Cádiz",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "andrew-redmayne-12",
+      "name": "Andrew Redmayne",
+      "birthdate": "1989-01-13",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Sydney FC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aaron-mooy-13",
+      "name": "Aaron Mooy",
+      "birthdate": "1990-09-15",
+      "position": "Meio",
+      "number": 13,
+      "club": "Celtic",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "riley-mcgree-14",
+      "name": "Riley McGree",
+      "birthdate": "1998-11-02",
+      "position": "Meio",
+      "number": 14,
+      "club": "Middlesbrough",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "mitchell-duke-15",
+      "name": "Mitchell Duke",
+      "birthdate": "1991-01-18",
+      "position": "Ataque",
+      "number": 15,
+      "club": "Fagiano Okayama",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aziz-behich-16",
+      "name": "Aziz Behich",
+      "birthdate": "1990-12-16",
+      "position": "Defesa",
+      "number": 16,
+      "club": "Dundee U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cameron-devlin-17",
+      "name": "Cameron Devlin",
+      "birthdate": "1998-06-07",
+      "position": "Meio",
+      "number": 17,
+      "club": "Hearts",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "danny-vukovic-18",
+      "name": "Danny Vukovic",
+      "birthdate": "1985-03-27",
+      "position": "Goleiro",
+      "number": 18,
+      "club": "Central Coast Mariners",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "harry-souttar-19",
+      "name": "Harry Souttar",
+      "birthdate": "1998-10-22",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Stoke C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "thomas-deng-20",
+      "name": "Thomas Deng",
+      "birthdate": "1997-03-20",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Urawa Red Diamonds",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "garang-kuol-21",
+      "name": "Garang Kuol",
+      "birthdate": "2004-09-15",
+      "position": "Ataque",
+      "number": 21,
+      "club": "Central Coast Mariners",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jackson-irvine-22",
+      "name": "Jackson Irvine",
+      "birthdate": "1993-03-07",
+      "position": "Meio",
+      "number": 22,
+      "club": "St Pauli",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "craig-goodwin-23",
+      "name": "Craig Goodwin",
+      "birthdate": "1991-12-16",
+      "position": "Meio",
+      "number": 23,
+      "club": "Adelaide U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joel-king-24",
+      "name": "Joel King",
+      "birthdate": "2000-10-30",
+      "position": "Defesa",
+      "number": 24,
+      "club": "Odense",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jason-cummings-25",
+      "name": "Jason Cummings",
+      "birthdate": "1995-08-01",
+      "position": "Ataque",
+      "number": 25,
+      "club": "Central Coast Mariners",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "keanu-baccus-26",
+      "name": "Keanu Baccus",
+      "birthdate": "1998-06-07",
+      "position": "Meio",
+      "number": 26,
+      "club": "St Mirren",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "AFC",

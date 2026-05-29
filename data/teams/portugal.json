@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/portugal.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "rui-patricio-1",
+      "name": "Rui Patrício",
+      "birthdate": "1988-02-15",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Roma",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "diogo-dalot-2",
+      "name": "Diogo Dalot",
+      "birthdate": "1999-03-18",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "pepe-3",
+      "name": "Pepe",
+      "birthdate": "1983-02-26",
+      "position": "Defesa",
+      "number": 3,
+      "club": "FC Porto",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ruben-dias-4",
+      "name": "Rúben Dias",
+      "birthdate": "1997-05-14",
+      "position": "Defesa",
+      "number": 4,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "raphael-guerreiro-5",
+      "name": "Raphaël Guerreiro",
+      "birthdate": "1993-12-22",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joao-palhinha-6",
+      "name": "João Palhinha",
+      "birthdate": "1995-07-09",
+      "position": "Meio",
+      "number": 6,
+      "club": "Fulham",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cristiano-ronaldo-7",
+      "name": "Cristiano Ronaldo",
+      "birthdate": "1985-02-05",
+      "position": "Ataque",
+      "number": 7,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bruno-fernandes-8",
+      "name": "Bruno Fernandes",
+      "birthdate": "1994-09-08",
+      "position": "Meio",
+      "number": 8,
+      "club": "Manchester U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "andre-silva-9",
+      "name": "André Silva",
+      "birthdate": "1995-11-06",
+      "position": "Ataque",
+      "number": 9,
+      "club": "RB Leipzig",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "bernardo-silva-10",
+      "name": "Bernardo Silva",
+      "birthdate": "1994-08-10",
+      "position": "Meio",
+      "number": 10,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joao-felix-11",
+      "name": "João Félix",
+      "birthdate": "1999-11-10",
+      "position": "Ataque",
+      "number": 11,
+      "club": "Atlético Madrid",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jose-sa-12",
+      "name": "José Sá",
+      "birthdate": "1993-01-17",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Wolverhampton W",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "danilo-pereira-13",
+      "name": "Danilo Pereira",
+      "birthdate": "1991-09-09",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Paris St-Germain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "william-carvalho-14",
+      "name": "William Carvalho",
+      "birthdate": "1992-04-07",
+      "position": "Meio",
+      "number": 14,
+      "club": "Betis",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "rafael-leao-15",
+      "name": "Rafael Leão",
+      "birthdate": "1999-06-10",
+      "position": "Ataque",
+      "number": 15,
+      "club": "Milan",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "vitinha-16",
+      "name": "Vitinha",
+      "birthdate": "2000-02-13",
+      "position": "Meio",
+      "number": 16,
+      "club": "Paris St-Germain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joao-mario-17",
+      "name": "João Mário",
+      "birthdate": "1993-01-19",
+      "position": "Meio",
+      "number": 17,
+      "club": "Benfica",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ruben-neves-18",
+      "name": "Rubén Neves",
+      "birthdate": "1997-03-13",
+      "position": "Meio",
+      "number": 18,
+      "club": "Wolverhampton W",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "nuno-mendes-19",
+      "name": "Nuno Mendes",
+      "birthdate": "2002-06-19",
+      "position": "Defesa",
+      "number": 19,
+      "club": "Paris St-Germain",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joao-cancelo-20",
+      "name": "João Cancelo",
+      "birthdate": "1994-05-27",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Manchester C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ricardo-horta-21",
+      "name": "Ricardo Horta",
+      "birthdate": "1994-09-15",
+      "position": "Meio",
+      "number": 21,
+      "club": "Sporting Braga",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "diego-costa-22",
+      "name": "Diego Costa",
+      "birthdate": "1999-09-19",
+      "position": "Goleiro",
+      "number": 22,
+      "club": "FC Porto",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "matheus-nunes-23",
+      "name": "Matheus Nunes",
+      "birthdate": "1998-08-27",
+      "position": "Meio",
+      "number": 23,
+      "club": "Wolverhampton W",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "antonio-silva-24",
+      "name": "Antonio Silva",
+      "birthdate": "2003-10-30",
+      "position": "Defesa",
+      "number": 24,
+      "club": "Benfica",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "otavio-25",
+      "name": "Otávio",
+      "birthdate": "1995-02-09",
+      "position": "Meio",
+      "number": 25,
+      "club": "FC Porto",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "goncalo-ramos-26",
+      "name": "Gonçalo Ramos",
+      "birthdate": "2001-06-20",
+      "position": "Ataque",
+      "number": 26,
+      "club": "Benfica",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "UEFA",

@@ -5,13 +5,238 @@
   "photo": "https://example.com/images/selecoes/united-states.png",
   "players": [
     {
-      "id": "player_a_definir",
-      "name": "A definir",
-      "birthdate": "2000-01-01",
-      "position": "Meio",
+      "id": "matt-turner-1",
+      "name": "Matt Turner",
+      "birthdate": "1994-06-24",
+      "position": "Goleiro",
       "number": 1,
-      "photo": "https://example.com/images/placeholder-player.png",
-      "club": "A confirmar"
+      "club": "Arsenal",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sergino-dest-2",
+      "name": "Sergiño Dest",
+      "birthdate": "2000-11-03",
+      "position": "Defesa",
+      "number": 2,
+      "club": "Milan (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "walker-zimmerman-3",
+      "name": "Walker Zimmerman",
+      "birthdate": "1993-05-19",
+      "position": "Defesa",
+      "number": 3,
+      "club": "Nashville SC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tyler-adams-4",
+      "name": "Tyler Adams",
+      "birthdate": "1999-02-14",
+      "position": "Meio",
+      "number": 4,
+      "club": "Leeds U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "antonee-robinson-5",
+      "name": "Antonee Robinson",
+      "birthdate": "1997-08-08",
+      "position": "Defesa",
+      "number": 5,
+      "club": "Fulham",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "yunus-musah-6",
+      "name": "Yunus Musah",
+      "birthdate": "2002-11-29",
+      "position": "Meio",
+      "number": 6,
+      "club": "Valencia",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "giovanni-reyna-7",
+      "name": "Giovanni Reyna",
+      "birthdate": "2002-11-13",
+      "position": "Meio",
+      "number": 7,
+      "club": "Borussia Dortmund",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "weston-mckennie-8",
+      "name": "Weston McKennie",
+      "birthdate": "1998-08-28",
+      "position": "Meio",
+      "number": 8,
+      "club": "Juventus",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jesus-ferreira-9",
+      "name": "Jesús Ferreira",
+      "birthdate": "2000-12-24",
+      "position": "Ataque",
+      "number": 9,
+      "club": "FC Dallas",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "christian-pulisic-10",
+      "name": "Christian Pulisic",
+      "birthdate": "1998-09-18",
+      "position": "Ataque",
+      "number": 10,
+      "club": "Chelsea",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "brenden-aaronson-11",
+      "name": "Brenden Aaronson",
+      "birthdate": "2000-10-22",
+      "position": "Meio",
+      "number": 11,
+      "club": "Leeds U",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "ethan-horvath-12",
+      "name": "Ethan Horvath",
+      "birthdate": "1995-06-09",
+      "position": "Goleiro",
+      "number": 12,
+      "club": "Luton T (On Loan)",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "tim-ream-13",
+      "name": "Tim Ream",
+      "birthdate": "1987-10-05",
+      "position": "Defesa",
+      "number": 13,
+      "club": "Fulham",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "luca-de-la-torre-14",
+      "name": "Luca De La Torre",
+      "birthdate": "1998-05-23",
+      "position": "Meio",
+      "number": 14,
+      "club": "Celta Vigo",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "aaron-long-15",
+      "name": "Aaron Long",
+      "birthdate": "1992-10-12",
+      "position": "Defesa",
+      "number": 15,
+      "club": "New York Red Bulls",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "jordan-morris-16",
+      "name": "Jordan Morris",
+      "birthdate": "1994-10-26",
+      "position": "Ataque",
+      "number": 16,
+      "club": "Seattle Sounders",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cristian-roldan-17",
+      "name": "Cristian Roldan",
+      "birthdate": "1995-06-03",
+      "position": "Meio",
+      "number": 17,
+      "club": "Seattle Sounders",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "shaq-moore-18",
+      "name": "Shaq Moore",
+      "birthdate": "1996-11-02",
+      "position": "Defesa",
+      "number": 18,
+      "club": "Nashville SC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "haji-wright-19",
+      "name": "Haji Wright",
+      "birthdate": "1998-03-27",
+      "position": "Ataque",
+      "number": 19,
+      "club": "Antalyaspor",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "cameron-carter-vickers-20",
+      "name": "Cameron Carter-Vickers",
+      "birthdate": "1997-12-31",
+      "position": "Defesa",
+      "number": 20,
+      "club": "Celtic",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "timothy-weah-21",
+      "name": "Timothy Weah",
+      "birthdate": "2000-02-22",
+      "position": "Ataque",
+      "number": 21,
+      "club": "Lille",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "deandre-yedlin-22",
+      "name": "DeAndre Yedlin",
+      "birthdate": "1993-07-09",
+      "position": "Defesa",
+      "number": 22,
+      "club": "Inter Miami",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "kellyn-acosta-23",
+      "name": "Kellyn Acosta",
+      "birthdate": "1995-07-24",
+      "position": "Meio",
+      "number": 23,
+      "club": "Los Angeles FC",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "josh-sargent-24",
+      "name": "Josh Sargent",
+      "birthdate": "2000-02-20",
+      "position": "Ataque",
+      "number": 24,
+      "club": "Norwich C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "sean-johnson-25",
+      "name": "Sean Johnson",
+      "birthdate": "1989-05-31",
+      "position": "Goleiro",
+      "number": 25,
+      "club": "New York C",
+      "photo": "/assets/img/placeholder-player.png"
+    },
+    {
+      "id": "joe-scally-26",
+      "name": "Joe Scally",
+      "birthdate": "2002-12-31",
+      "position": "Defesa",
+      "number": 26,
+      "club": "B Mönchengladbach",
+      "photo": "/assets/img/placeholder-player.png"
     }
   ],
   "confederation": "CONCACAF",
