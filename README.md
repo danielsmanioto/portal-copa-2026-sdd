@@ -26,6 +26,16 @@ _Imagem de preview da página inicial, baseada no layout atual do projeto._
 
 Se você abrir o `index.html` direto no navegador, o portal pode ficar em branco porque os dados são carregados com `fetch()` e isso exige um servidor local. Use um dos passos abaixo.
 
+### Ver funcionando na tela
+
+Depois de subir o servidor, abra estas páginas no navegador:
+
+- [Página inicial](http://localhost:8080/)
+- [Tabela da Copa](http://localhost:8080/tabela.html)
+- [Acesso](http://localhost:8080/acesso.html)
+- [Login](http://localhost:8080/login.html)
+- [Cadastro](http://localhost:8080/cadastro.html)
+
 ### Passo a passo rápido
 
 1. Abra um terminal na pasta do projeto.
@@ -39,12 +49,6 @@ Se você abrir o `index.html` direto no navegador, o portal pode ficar em branco
 python3 -m http.server 8080
 ```
 
-Abra depois:
-
-```text
-http://localhost:8080
-```
-
 ### Opção 2: Node.js
 
 Se quiser matar qualquer processo preso na porta 8080 e subir o servidor automaticamente:
@@ -55,7 +59,15 @@ npm run serve
 
 Esse comando encerra processos na porta 8080 e sobe `python3 -m http.server 8080` na raiz do projeto.
 
-### Opção 3: Live Server no VS Code
+### Opção 3: Script pronto
+
+Se preferir, use o script da raiz do projeto:
+
+```bash
+sh run.sh
+```
+
+### Opção 4: Live Server no VS Code
 
 1. Instale a extensão Live Server.
 2. Clique com o botão direito em `index.html`.

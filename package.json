@@ -13,9 +13,15 @@
     "worldcup:merge": "node scripts/merge-data.js",
     "worldcup:generate": "node scripts/generate-worldcup-json.js",
     "selecao:generate": "node scripts/generate-selecao-pages.js",
-    "serve": "sh -c 'pids=$(lsof -ti tcp:8080 || true); if [ -n \"$pids\" ]; then kill -9 $pids; fi; python3 -m http.server 8080'"
+    "serve": "sh -c 'pids=$(lsof -ti tcp:8080 || true); if [ -n \"$pids\" ]; then kill -9 $pids; fi; python3 -m http.server 8080'",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed --project=chromium",
+    "test:e2e:ui": "playwright test --ui"
   },
   "bin": {
     "worldcup-json": "./scripts/generate-worldcup-json.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
   }
 }
