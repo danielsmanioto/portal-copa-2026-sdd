@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de novo cadastro do portal Copa 2026.">
+  <title>Novo Cadastro - Copa do Mundo 2026</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+
+  <header>
+    <h1>Copa do Mundo 2026</h1>
+    <p>Criar nova conta</p>
+    <nav class="top-nav" aria-label="Navegação principal">
+      <a href="/index.html">Seleções</a>
+      <a href="/tabela.html">Tabela da Copa</a>
+      <a href="/acesso.html">Acesso</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="container" tabindex="-1">
+    <section class="auth-wrapper" aria-labelledby="cadastro-title">
+      <h2 id="cadastro-title">Novo cadastro</h2>
+
+      <form class="auth-form" action="#" method="post">
+        <label for="nome">Nome completo</label>
+        <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="voce@email.com" required>
+
+        <label for="senha">Senha</label>
+        <input id="senha" name="senha" type="password" placeholder="••••••••" required>
+
+        <label for="confirmar-senha">Confirmar senha</label>
+        <input id="confirmar-senha" name="confirmar-senha" type="password" placeholder="••••••••" required>
+
+        <button type="submit">Criar conta</button>
+      </form>
+
+      <div class="auth-actions">
+        <a href="/login.html">Já tem conta? Fazer login</a>
+        <a href="/acesso.html">← Voltar para acesso</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Copa do Mundo.</p>
+  </footer>
+</body>
+</html>
